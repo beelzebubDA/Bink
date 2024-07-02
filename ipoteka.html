@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ипотека</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- <link rel="stylesheet" href="css/kreditniekarti.css"> -->
+    <link rel="stylesheet" href="css/kredit.css">
+    <link rel="stylesheet" href="css/ipoteka.css">
+</head>
+
+<body>
+    <div class="wrapper kredit ipoteka">
+        <!-- header -->
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a class="header__logo-link" href="index.html">
+                            <span class="header__logo-title block-text">
+                                <span class="big-letter">B</span>ink.ru
+                            </span>
+                            <span class="header_logo-desc">
+                                <span class="block-text">Все банковские</span>
+                                и страховые услуги
+                            </span>
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item dropdown">
+                                <a class="menu__list-link dropbtn" href="straxovanie.html">Страхование</a>
+                                <ul class="products__item-list dropdown-content">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование туристов</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">ОСАГО</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">КАСКО</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Грин Карта на автомобиль</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование ипотеки</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование недвижимости</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование мигрантов</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страховые ассистансы</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Карты</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Кредиты</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Ипотека</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Вклады</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Блог</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Сервисы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__btns">
+                        <div class="header__menu-btn">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        <div class="header__search">
+                            <form action="" class="header__search-form">
+                                <input class="header__search-input" disabled placeholder="Поиск">
+                                <span class="header__search-btn">
+                                    <img class="header__search-img" src="images/header-search-icon.png" alt="icon">
+                                </span>
+                            </form>
+                        </div>
+                        <div id="myOverlay" class="overlay">
+                            <div class="overlay-content">
+                                <form action="">
+                                    <input type="text" placeholder="Что будем искать?" name="search">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="my-div">
+                <section class="products mobilehide">
+                    <div class="container">
+                        <div class="products__inner">
+                            <div class="feed-title">
+                                Продукты Bink.ru
+                            </div>
+                            <div class="products__items">
+                                <div class="products__itemsbox">
+                                    <div class="products__item">
+                                        <a href="#" class="products__item-title">
+                                            Страхование
+                                        </a>
+                                        <ul class="products__item-list show">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Страхование туристов</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">ОСАГО</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">КАСКО</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Грин Карта на автомобиль</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Страхование ипотеки</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Страхование недвижимости</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Страхование мигрантов</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Страховые ассистансы</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Страхование путешественников по
+                                                    России</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="products__item">
+                                        <a href="#" class="products__item-title">Карты</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Кредитные карты</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Дебетовые карты</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="products__item tabletshow">
+                                        <a href="#" class="products__item-title">Кредиты</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Подбор кредита</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Кредиты под залог</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Потребительские кредиты</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Автокредиты</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Микрозаймы</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="products__itemsbox">
+                                    <div class="products__item tablethide">
+                                        <a href="#" class="products__item-title">Кредиты</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Подбор кредита</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Кредиты под залог</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Потребительские кредиты</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Автокредиты</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Микрозаймы</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="products__item">
+                                        <a href="#" class="products__item-title">Ипотека</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Новостройка</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Вторичка</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Рефинансирование</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="products__item">
+                                        <a href="#" class="products__item-title">Вклады</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Вклады - 1</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Вклады - 2</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="products__item tabletshow">
+                                        <a href="#" class="products__item-title">Блог</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Сравнения</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Аналитика</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Истории</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Советы</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Новости партнеров</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="products__item tabletshow">
+                                        <a href="#" class="products__item-title">Сервисы</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Вопрос-ответ</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Проверка КБМ</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Перевод с карты на карту</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="products__itemsbox tablethide">
+                                    <div class="products__item">
+                                        <a href="#" class="products__item-title">Блог</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Сравнения</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Аналитика</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Истории</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Советы</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Новости партнеров</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="products__item">
+                                        <a href="#" class="products__item-title">Сервисы</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Вопрос-ответ</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Проверка КБМ</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Перевод с карты на карту</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="products__itemsbox">
+                                    <div class="products__item">
+                                        <a href="#" class="products__item-title">Финансовые показатели и рейтинги
+                                            Банков</a>
+                                        <ul class="products__item-list">
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Курсы обмена валют</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Рейтинги банков</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Клиентский рейтинг</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Отзывы о банках</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Финансовые показатели</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="products__item">
+                                        <ul class="products__item-list">
+                                            <a href="#" class="products__item-title">Финансовые показатели и рейтинги
+                                                страховых
+                                                компаний</a>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Рейтинги страховых компаний</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Клиентский рейтинг страховых</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Отзывы о страховых компаниях</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Финансовые показатели</a>
+                                            </li>
+                                            <li class="products__list-item">
+                                                <a class="products__list-link" href="#">Рейтинг ассистансов</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="products mobileshow">
+                    <div class="container">
+                        <div class="products__inner">
+                            <div class="feed-title">
+                                Продукты Bink.ru
+                            </div>
+                            <div class="products__items">
+                                <div class="products__item">
+                                    <a href="#" class="products__item-title">
+                                        Страхование
+                                        <span class="chevrondnone">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                    </a>
+                                    <ul class="products__item-list show">
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Страхование туристов</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">ОСАГО</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">КАСКО</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Грин Карта на автомобиль</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Страхование ипотеки</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Страхование недвижимости</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Страхование мигрантов</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Страховые ассистансы</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Страхование путешественников по
+                                                России</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="products__item">
+                                    <a href="#" class="products__item-title">Карты
+                                        <span class="chevrondnone">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                    </a>
+                                    <ul class="products__item-list">
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Кредитные карты</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Дебетовые карты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="products__item">
+                                    <a href="#" class="products__item-title">
+                                        Кредиты
+                                        <span class="chevrondnone">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                    </a>
+                                    <ul class="products__item-list">
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Подбор кредита</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Кредиты под залог</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Потребительские кредиты</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Автокредиты</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Микрозаймы</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="products__item">
+                                    <a href="#" class="products__item-title">
+                                        <span class="chevrondnone">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                        Ипотека
+                                    </a>
+                                    <ul class="products__item-list">
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Новостройка</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Вторичка</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Рефинансирование</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="products__item">
+                                    <a href="#" class="products__item-title">
+                                        <span class="chevrondnone">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                        Вклады
+                                    </a>
+                                    <ul class="products__item-list">
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Вклады - 1</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Вклады - 2</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="products__item">
+                                    <a href="#" class="products__item-title">
+                                        Блог
+                                        <span class="chevrondnone">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                    </a>
+                                    <ul class="products__item-list">
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Сравнения</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Аналитика</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Истории</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Советы</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Новости партнеров</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="products__item">
+                                    <a href="#" class="products__item-title">
+                                        Сервисы
+                                        <span class="chevrondnone">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                    </a>
+                                    <ul class="products__item-list">
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Вопрос-ответ</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Проверка КБМ</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Перевод с карты на карту</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="products__item">
+                                    <a href="#" class="products__item-title">
+                                        Финансовые показатели и рейтинги Банков
+                                        <span class="chevrondnone">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                    </a>
+                                    <ul class="products__item-list">
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Курсы обмена валют</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Рейтинги банков</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Клиентский рейтинг</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Отзывы о банках</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Финансовые показатели</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="products__item">
+                                    <ul class="products__item-list">
+                                        <a href="#" class="products__item-title">
+                                            Финансовые показатели и рейтинги страховых
+                                            компаний
+                                            <span class="chevrondnone">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </span>
+                                        </a>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Рейтинги страховых компаний</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Клиентский рейтинг страховых</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Отзывы о страховых компаниях</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Финансовые показатели</a>
+                                        </li>
+                                        <li class="products__list-item">
+                                            <a class="products__list-link" href="#">Рейтинг ассистансов</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <!-- Consumer -->
+        <section class="consumer_loan">
+            <div class="container">
+                <div class="consumer_text">
+                    <h4 class="ipoteka_title">Ипотечный калькулятор <a href="#">в Москве</a></h4>
+                    <p class="ipoteka_text">Подбор ипотеки онлайн по самым лучшим условиям <br> от банков в 2021 году.
+                    </p>
+                </div>
+                <div class="consumer_action">
+                    <form>
+                        <div class="row align-items-end justify-content-between">
+                            <div class="col-md-2">
+                                <div class="ipoteka_form_block">
+                                    <label class="kredit_select_label">Цель ипотеки</label>
+                                    <select class="form-select kredit_form_select" aria-label="Default select example">
+                                        <option selected>Любой</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 kredit_order1 col-12">
+                                <div class="ipoteka_form_block">
+                                    <div class="ipoteka_input">
+                                        <label for="formGroupExampleInput">Стоимость объекта</label>
+                                        <input type="text" class="form-control range" id="formGroupExampleInput"
+                                            placeholder="Любой">
+                                        <input type="range" value="30" min="0" max="100" id="range">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 kredit_order2 col-12">
+                                <div class="ipoteka_form_block">
+                                    <div class="ipoteka_input">
+                                        <label for="formGroupExampleInput">Первоначальный взнос</label>
+                                        <input type="text" class="form-control range" id="formGroupExampleInput"
+                                            placeholder="300 000">
+                                        <input type="range" value="30" min="0" max="100" id="range">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-12">
+                                <div class="ipoteka_form_block">
+                                    <label class="kredit_select_label">Срок кредитования</label>
+                                    <select class="form-select kredit_form_select" aria-label="Default select example">
+                                        <option selected>Любой</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 kredit_order4 col-12">
+                                <div class="ipoteka_form_block">
+                                    <button type="button" class="consumer_collapse_btn">Свернуть <i
+                                            class="fas fa-chevron-up"></i></button>
+                                    <button type="button" class="consumer_more_btn">Свернуть <i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-md-2 kredit_order3 col-12">
+                                <div class="ipoteka_form_block">
+                                    <button type="button" class="consumer_show_btn">Показать (289)</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- additional_parametr -->
+        <section class="additional_parametr">
+            <div class="container">
+                <div class="additional_parametr_title">Дополнительны параметры кредитования</div>
+                <form>
+                    <div class="form-row form_block">
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Ипотечная программа</label>
+                            <select id="inputState">
+                                <option value="1" selected>Выберите</option>
+                                <option value="2">...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Подтверждение дохода заемщика</label>
+                            <select id="inputState">
+                                <option selected>Неважно</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Категория заемщика</label>
+                            <select id="inputState">
+                                <option selected>Стандартные</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Стаж на последнем месте работы</label>
+                            <select id="inputState">
+                                <option selected>Выберите</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <div class="">
+                                <label for="formGroupExampleInput">Возраст заемщика</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput">
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="top_bank_text">Топ банков по размеру активов</p>
+                    <div class="top_bank_block">
+                        <ul class="list-unstyled">
+                            <li><a class="active" href="#">ТОП 100</a></li>
+                            <li><a href="#">ТОП 50</a></li>
+                            <li><a href="#">ТОП 10</a></li>
+                            <li><a href="#">Все банки</a></li>
+                        </ul>
+                        <div class="clear_filter">
+                            <a href="#">Сбросить фильтры</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Kredit SOrt -->
+        <section class="kredit_sort">
+            <div class="container">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-vigodniy-tab" data-toggle="pill" href="#pills-vigodniy"
+                            role="tab" aria-controls="pills-vigodniy" aria-selected="true">Все предложения</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-nalichi-tab" data-toggle="pill" href="#pills-nalichi" role="tab"
+                            aria-controls="pills-nalichi" aria-selected="false">Без подтверждения дохода</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-poruchitel-tab" data-toggle="pill" href="#pills-poruchitel"
+                            role="tab" aria-controls="pills-poruchitel" aria-selected="false">Рефинансирование</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-refinans-tab" data-toggle="pill" href="#pills-refinans" role="tab"
+                            aria-controls="pills-refinans" aria-selected="false">Первичка</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-spravok-tab" data-toggle="pill" href="#pills-spravok" role="tab"
+                            aria-controls="pills-spravok" aria-selected="false">Вторичка</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-pasport-tab" data-toggle="pill" href="#pills-pasport" role="tab"
+                            aria-controls="pills-pasport" aria-selected="false">Без первичного взноса</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-zalog-tab" data-toggle="pill" href="#pills-zalog" role="tab"
+                            aria-controls="pills-zalog" aria-selected="false">Военная ипотека</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-doma-tab" data-toggle="pill" href="#pills-doma" role="tab"
+                            aria-controls="pills-doma" aria-selected="false">На строительство дома</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-uchastok-tab" data-toggle="pill" href="#pills-uchastok" role="tab"
+                            aria-controls="pills-uchastok" aria-selected="false">Земельный участок</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-semeyniy-tab" data-toggle="pill" href="#pills-semeyniy" role="tab"
+                            aria-controls="pills-semeyniy" aria-selected="false">Семейная с господдержкой</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-pogasheniya-tab" data-toggle="pill" href="#pills-pogasheniya"
+                            role="tab" aria-controls="pills-pogasheniya" aria-selected="false">Досрочное погашение</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-online-tab" data-toggle="pill" href="#pills-online" role="tab"
+                            aria-controls="pills-online" aria-selected="false">Онлайн заявка</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-vigodniy" role="tabpanel"
+                        aria-labelledby="pills-vigodniy-tab">
+                        <ul class="list-unstyled kredit_sort_list">
+                            <li>Сортировать:</li>
+                            <li><a href="#">по ставке</a></li>
+                            <li><a href="#">по сумме</a></li>
+                        </ul>
+                        <div class="ipoteka_list_items">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Банк</a></li>
+                                <li><a href="#">Ставка</a></li>
+                                <li><a href="#">Сумма</a></li>
+                                <li><a href="#">Требования</a></li>
+                                <li><a class="active" href="#">По популярности</a></li>
+                            </ul>
+                        </div>
+                        <div class="most_offers_item">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-md-2">
+                                    <div class="px-0 px-md-2">
+                                        <div class="offers_item_img">
+                                            <img src="images/most_offers2.png" alt="">
+                                        </div>
+                                        <span class="ipoteka_nakopitel">Хороший накопительный
+                                            счёт</span>
+                                        <a href="#" class="ipoteka_more_kr">Ещё 5 <img
+                                                src="images/most_offers_arrow2.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="offers_stavka">
+                                        <span class="stavka3">до 5,90%</span>
+                                        <p class="offers_para my-sm-3">«Обыкновенное чудо!!»</p>
+                                        <a href="#" class="partner_razdel">Только на Bink.ru</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="offers_stavka">
+                                        <span class="stavka2">10 000 ₽ - 100 000 000 ₽</span>
+                                        <p class="mt-2">На срок 1080 дней</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="px-0 px-md-3">
+                                        <p class="offers_vozrast">Возраст от 21 года
+                                            Стаж от 4 месяцев
+                                            4 документа</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 more_btns_col">
+                                    <div>
+                                        <div class="most_offers_btns">
+                                            <span class="lits_span">Лиц. № 3121</span>
+                                        </div>
+                                        <a href="#" class="open_vk">Открыть вклад</a>
+                                        <a href="#" class="most_offers_link">Подробнее <img
+                                                src="images/most_offers_arrow2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="most_offers_item">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-md-2">
+                                    <div class="px-0 px-md-2">
+                                        <div class="offers_item_img">
+                                            <img src="images/most_offers2.png" alt="">
+                                        </div>
+                                        <span class="ipoteka_nakopitel">Хороший накопительный
+                                            счёт</span>
+                                        <a href="#" class="ipoteka_more_kr">Ещё 5 <img
+                                                src="images/most_offers_arrow2.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="offers_stavka">
+                                        <span class="stavka3">до 5,90%</span>
+                                        <p class="offers_para my-sm-3">«Обыкновенное чудо!!»</p>
+                                        <a href="#" class="partner_razdel">Только на Bink.ru</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="offers_stavka">
+                                        <span class="stavka2">10 000 ₽ - 100 000 000 ₽</span>
+                                        <p class="mt-2">На срок 1080 дней</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="px-0 px-md-3">
+                                        <p class="offers_vozrast">Возраст от 21 года
+                                            Стаж от 4 месяцев
+                                            4 документа</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 more_btns_col">
+                                    <div>
+                                        <div class="most_offers_btns">
+                                            <span class="lits_span">Лиц. № 3121</span>
+                                        </div>
+                                        <a href="#" class="open_vk">Открыть вклад</a>
+                                        <a href="#" class="most_offers_link">Подробнее <img
+                                                src="images/most_offers_arrow2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="offers_more_items">
+                            <a href="#">Показать ещё</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-nalichi" role="tabpanel" aria-labelledby="pills-nalichi-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-poruchitel" role="tabpanel"
+                        aria-labelledby="pills-poruchitel-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-refinans" role="tabpanel" aria-labelledby="pills-refinans-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-spravok" role="tabpanel" aria-labelledby="pills-spravok-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-pasport" role="tabpanel" aria-labelledby="pills-pasport-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-zalog" role="tabpanel" aria-labelledby="pills-zalog-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-doma" role="tabpanel" aria-labelledby="pills-doma-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-uchastok" role="tabpanel" aria-labelledby="pills-uchastok-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-semeyniy" role="tabpanel" aria-labelledby="pills-semeyniy-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-pogasheniya" role="tabpanel"
+                        aria-labelledby="pills-pogasheniya-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="pills-online" role="tabpanel" aria-labelledby="pills-online-tab">
+                        ...</div>
+                </div>
+                <div class="breadcrumbs mt-5">
+                    <ul>
+                        <li><a href="#">Bink.ru</a></li>
+                        <li><a href="#">Кредиты</a></li>
+                        <li>Микрозаймы</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- social-networks -->
+        <section class="social-networks">
+            <div class="container">
+                <div class="social-netwoks__inner">
+                    <div class="header__logo">
+                        <a class="header__logo-link" href="#">
+                            <span class="header__logo-title block-text">
+                                <span class="big-letter">B</span>ink.ru
+                            </span>
+                            <span class="header_logo-desc">
+                                Все банковские и страховые услуги
+                            </span>
+                        </a>
+                    </div>
+                    <ul class="social-networks__list">
+                        <li class="social-networks__list-item">
+                            <a href="#" class="social-networks__list-link">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                        </li>
+                        <li class="social-networks__list-item">
+                            <a href="#" class="social-networks__list-link">
+                                <i class="fab fa-odnoklassniki"></i>
+                            </a>
+                        </li>
+                        <li class="social-networks__list-item">
+                            <a href="#" class="social-networks__list-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-networks__list-item">
+                            <a href="#" class="social-networks__list-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- products -->
+        <section class="products mobilehide">
+            <div class="container">
+                <div class="products__inner">
+                    <div class="feed-title">
+                        Продукты Bink.ru
+                    </div>
+                    <div class="products__items">
+                        <div class="products__itemsbox">
+                            <div class="products__item">
+                                <a href="#" class="products__item-title">
+                                    Страхование
+                                </a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование туристов</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">ОСАГО</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">КАСКО</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Грин Карта на автомобиль</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование ипотеки</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование недвижимости</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование мигрантов</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страховые ассистансы</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Страхование путешественников по
+                                            России</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="products__item">
+                                <a href="#" class="products__item-title">Карты</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Кредитные карты</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Дебетовые карты</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="products__item tabletshow">
+                                <a href="#" class="products__item-title">Кредиты</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Подбор кредита</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Кредиты под залог</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Потребительские кредиты</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Автокредиты</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Микрозаймы</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="products__itemsbox">
+                            <div class="products__item tablethide">
+                                <a href="#" class="products__item-title">Кредиты</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Подбор кредита</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Кредиты под залог</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Потребительские кредиты</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Автокредиты</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Микрозаймы</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="products__item">
+                                <a href="#" class="products__item-title">Ипотека</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Новостройка</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Вторичка</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Рефинансирование</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="products__item">
+                                <a href="#" class="products__item-title">Вклады</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Вклады - 1</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Вклады - 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="products__item tabletshow">
+                                <a href="#" class="products__item-title">Блог</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Сравнения</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Аналитика</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Истории</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Советы</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Новости партнеров</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="products__item tabletshow">
+                                <a href="#" class="products__item-title">Сервисы</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Вопрос-ответ</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Проверка КБМ</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Перевод с карты на карту</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="products__itemsbox tablethide">
+                            <div class="products__item">
+                                <a href="#" class="products__item-title">Блог</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Сравнения</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Аналитика</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Истории</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Советы</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Новости партнеров</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="products__item">
+                                <a href="#" class="products__item-title">Сервисы</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Вопрос-ответ</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Проверка КБМ</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Перевод с карты на карту</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="products__itemsbox">
+                            <div class="products__item">
+                                <a href="#" class="products__item-title">Финансовые показатели и рейтинги Банков</a>
+                                <ul class="products__item-list">
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Курсы обмена валют</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Рейтинги банков</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Клиентский рейтинг</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Отзывы о банках</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Финансовые показатели</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="products__item">
+                                <ul class="products__item-list">
+                                    <a href="#" class="products__item-title">Финансовые показатели и рейтинги страховых
+                                        компаний</a>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Рейтинги страховых компаний</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Клиентский рейтинг страховых</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Отзывы о страховых компаниях</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Финансовые показатели</a>
+                                    </li>
+                                    <li class="products__list-item">
+                                        <a class="products__list-link" href="#">Рейтинг ассистансов</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- products-mobile -->
+        <section class="products mobileshow">
+            <div class="container">
+                <div class="products__inner">
+                    <div class="feed-title">
+                        Продукты Bink.ru
+                    </div>
+                    <div class="products__items">
+                        <div class="products__item">
+                            <a href="#" class="products__item-title">
+                                Страхование
+                                <span class="chevrondnone">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <ul class="products__item-list show">
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Страхование туристов</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">ОСАГО</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">КАСКО</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Грин Карта на автомобиль</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Страхование ипотеки</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Страхование недвижимости</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Страхование мигрантов</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Страховые ассистансы</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Страхование путешественников по России</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="products__item">
+                            <a href="#" class="products__item-title">Карты
+                                <span class="chevrondnone">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <ul class="products__item-list">
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Кредитные карты</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Дебетовые карты</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="products__item">
+                            <a href="#" class="products__item-title">
+                                Кредиты
+                                <span class="chevrondnone">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <ul class="products__item-list">
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Подбор кредита</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Кредиты под залог</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Потребительские кредиты</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Автокредиты</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Микрозаймы</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="products__item">
+                            <a href="#" class="products__item-title">
+                                <span class="chevrondnone">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                                Ипотека
+                            </a>
+                            <ul class="products__item-list">
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Новостройка</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Вторичка</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Рефинансирование</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="products__item">
+                            <a href="#" class="products__item-title">
+                                <span class="chevrondnone">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                                Вклады
+                            </a>
+                            <ul class="products__item-list">
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Вклады - 1</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Вклады - 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="products__item">
+                            <a href="#" class="products__item-title">
+                                Блог
+                                <span class="chevrondnone">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <ul class="products__item-list">
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Сравнения</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Аналитика</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Истории</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Советы</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Новости партнеров</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="products__item">
+                            <a href="#" class="products__item-title">
+                                Сервисы
+                                <span class="chevrondnone">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <ul class="products__item-list">
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Вопрос-ответ</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Проверка КБМ</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Перевод с карты на карту</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="products__item">
+                            <a href="#" class="products__item-title">
+                                Финансовые показатели и рейтинги Банков
+                                <span class="chevrondnone">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <ul class="products__item-list">
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Курсы обмена валют</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Рейтинги банков</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Клиентский рейтинг</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Отзывы о банках</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Финансовые показатели</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="products__item">
+                            <ul class="products__item-list">
+                                <a href="#" class="products__item-title">
+                                    Финансовые показатели и рейтинги страховых
+                                    компаний
+                                    <span class="chevrondnone">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </span>
+                                </a>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Рейтинги страховых компаний</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Клиентский рейтинг страховых</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Отзывы о страховых компаниях</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Финансовые показатели</a>
+                                </li>
+                                <li class="products__list-item">
+                                    <a class="products__list-link" href="#">Рейтинг ассистансов</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="footer insurance straxovanie2">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <ul class="footer__info-list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__info-link">О проекте</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__info-link">Контакты</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__info-link">Партнерская компания</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__info-link">Для агентов</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__info-link">Политика конфиденциальности</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__info-link">Энциклопедия</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__info-link">Карта сайта</a>
+                            </li>
+                        </ul>
+                        <div class="footer__info-middle">
+                            © 2009–2020, ООО «Bink.ru». При использовании материалов гиперссылка на bink.ru обязательна.
+                            <span class="block-text">ИНН 7710718303, ОГРН 1087746642774. 109544, г. Москва, бульвар
+                                Энтузиастов, дом 2, 26 этаж.</span>
+                        </div>
+                        <div class="footer__info-bottom">
+                            <span class="block-text">Мы используем файлы cookie для того, чтобы предоставить
+                                пользователям больше возможностей</span>
+                            при посещении сайта bink.ru.
+                            <a href="#">Подробнее об условиях использования</a>
+                        </div>
+                    </div>
+                    <div class="footer__contact">
+                        <div class="footer__contact-top">
+                            <span class="block-text footer__contact-title">Служба заботы о клиентах</span>
+                            <span class="block-text footer__contact-num">8 800 707 39 02</span>
+                            <span class="block-text footer__contact-hours">Ежедневно с 9:00 до 21:00 по МСК</span>
+                        </div>
+                        <div class="footer__contact-socials">
+                            <span class="block-text footer__contact-title">Ответим на ваши вопросы</span>
+                            <ul class="footer__socials-list">
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">
+                                        <img src="images/footer-telegram.png" alt="image">
+                                    </a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">
+                                        <img src="images/footer-sms.png" alt="image">
+                                    </a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a class="footer__list-link" href="#">
+                                        <img src="images/footer-tel.png" alt="image">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__contact-bg">
+                            <img src="images/footer-contact-bg.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="libs/jquery/jquery-3.6.0.js"></script>
+    <script src="libs/bootstrap/js/popper.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

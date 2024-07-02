@@ -1,0 +1,647 @@
+.consumer_action__withimgs::after {
+    display: none;
+}
+.consumer_action__withimgs::before {
+    display: none;
+}
+.form-row.form_block {
+    gap: 30px;
+    align-items: center;
+}
+.most_offers_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show-most_offers_btn {
+    display: block;
+    text-align: center;
+    margin: 10px 0 60px 0;
+    padding: 15px 40px;
+    width: max-content;
+    border-radius: 35px;
+    border: 1px solid #33cc66;
+    color: #33cc66;
+    font-size: 16px;
+    color: rgb(51, 204, 102);
+    font-weight: bold;
+}
+.show-most_offers_btn:hover {
+    color: white;
+    background-color: rgb(51, 204, 102);
+}
+.kredit_sort.kredit_sort-another {
+    background-color: white;
+    padding: 60px 0 75px 0;
+}
+.kredit_sort-title {
+    font-size: 26px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.quest-answers__items{
+
+}
+.quest-answers__item{
+
+}
+.offers {
+    background: rgb(252,251,251);
+    background: -moz-linear-gradient(0deg, rgba(252,251,251,1) 60%, rgba(255,255,255,1) 40%);
+    background: -webkit-linear-gradient(0deg, rgba(252,251,251,1) 60%, rgba(255,255,255,1) 40%);
+    background: linear-gradient(0deg, rgba(252,251,251,1) 60%, rgba(255,255,255,1) 40%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfbfb",endColorstr="#ffffff",GradientType=1);
+    padding-bottom: 75px;
+}
+.quest-answers__title{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 42px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.quest-answers-block {
+    padding: 60px 45px;
+    background-color: #fcfbfb;
+}
+.quest-answers__item__btn{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.quest-answers__texts{
+    padding: 10px 0 34px 45px;
+}
+.quest-answers__p-info{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+.quest-answers__list-title{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+}
+.quest-answers__lists{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 24px;
+}
+.quest-answers__list-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quest-answers__list-item__span{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    font-weight: bold;
+    color: #666666;
+}
+.quest-answers__list-item__span span{
+    font-weight: 400;
+}
+.quest-answers-link{
+        font-size: 18px;
+        color: rgb(51, 204, 102);
+        font-weight: bold;
+}
+.quest-answers-link:last-child{
+    margin-top: 30px;
+}
+.quest-answers-link span {
+    border-bottom: 1px solid rgb(51, 204, 102);
+}
+.quest-answers-link:first-child {
+    padding-bottom: 30px;
+}
+.quest-answers__detail {
+    padding: 70px 45px 60px 45px;
+}
+.quest-answers__detail {
+    font-family: 'PT Sans', sans-serif;
+}
+.quest-answers__details-item{
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.quest-answers__details-item:not(:first-child){
+    margin-top: 55px;
+}
+.quest-answers__subtitle{
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+.quest-answers__text{
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        line-height: 24px;
+
+}
+.quest-answers__detail-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.quest-answers__detail-li{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.quest-answers__offers-items {
+    padding: 60px 45px 70px 45px;
+    background-color: #fcfbfb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 9px 54px 37px rgba(34, 60, 80, 0.05);
+    -moz-box-shadow: 0px 9px 54px 37px rgba(34, 60, 80, 0.05);
+    box-shadow: 0px 9px 54px 37px rgba(34, 60, 80, 0.05);
+    margin-bottom: 75px;
+}
+.quest-answers__offers-item:not(:first-child) {
+    padding-top: 35px;
+    border-top: 1px solid #efefef;
+}
+.quest-answers__offers-item:not(:last-child) {
+    padding-bottom: 35px;
+}
+.quest-answers__banks-links{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 22px 100px;
+    margin: 35px 0 25px 0;
+}
+.quest-answers__banks-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 22px;
+}
+.quest-answers__bank-link{
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(102, 102, 102);
+}
+.quest-answers__banks-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(25, 155, 197);
+}
+.quest-answers__banks-btn span {
+    border-bottom: 1px solid rgb(25, 155, 197);
+}
+.breadcrumbs {
+    padding: 60px 55px 0 55px;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 0 !important;
+}
+.weightbold {
+    font-weight: 600;
+}
+.not-actived {
+    display: none;
+}
+.max-content {
+    width: max-content;
+    max-width: 100%;
+}
+
+/* reviews */
+.reviews {
+    background-color: #fcfbfb;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 25px;
+}
+.reviews-block{
+    padding: 0 45px;
+
+}
+.reviews-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.reviews-top__subtitle{
+    font-size: 28px;
+    line-height: 40px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+.reviews-top__all-rev__link{
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(51, 204, 102);
+
+}
+.reviews-top__all-rev__link span{
+    border-bottom: 1px solid rgb(51, 204, 102);
+}
+.reviews-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reviews-main__item{
+    padding: 24px 38px 34px 38px;
+    background-color: white;
+    border: 1px solid #ededed;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 9px 20px 20px rgba(34, 60, 80, 0.02);
+    -moz-box-shadow: 0px 9px 20px 20px rgba(34, 60, 80, 0.02);
+    box-shadow: 0px 9px 20px 20px rgba(34, 60, 80, 0.02);
+
+}
+.reviews-main__top{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 14px;
+
+}
+.reviews-main__top-left{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+.reviews-main__top-left__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+}
+.reviews-main__top-left__info-about__name{
+    font-size: 17px;
+    font-weight: bold;
+}
+.reviews-main__top-left__info-about__place-time{
+    font-size: 14px;
+    color: #666666;
+}
+.reviews-main__top-left__feedback-to-whom{
+    font-size: 12px;
+    color: #999999;
+}
+.reviews-main__top-right__feedback-stars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.reviews-main__top-right__feedback-star{
+
+}
+.reviews-main__top-right__feedback-star.star svg g{
+    fill: #ffd92c;
+}
+.reviews-main__bottom{
+    padding-top: 14px;
+    border-top: 1px solid #ededed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reviews-main__bottom-text{
+    
+}
+.reviews-main__bottom-text___p{
+        font-size: 15px;
+        color: rgb(102, 102, 102);
+        line-height: 21px;
+}
+.reviews-main__bottom-text__show-more{
+    color: #199bc5;
+    border-bottom: 1px solid #199bc5;
+}
+.reviews-main__bottom-text__show-more:hover{
+    color: #199bc5;
+}
+.reviews-main__bottom-rating{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.reviews-main__bottom-rating-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+}
+.reviews-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0 0 0;
+}
+.reviews-bottom__show-more-btn{
+    padding: 16px 60px;
+    font-size: 16px;
+    color: rgb(51, 204, 102);
+    font-weight: bold;
+    border: 1px solid rgb(51, 204, 102);
+    border-radius: 35px;
+}
+.reviews-bottom__show-more-btn:hover {
+    color: white;
+    background-color: rgb(51, 204, 102);
+}
+.breadcrumbs {
+    font-family: 'PT Sans', sans-serif;
+}
+.kredit .consumer_text h4::after {
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.kredit .breadcrumbs {
+    font-family: 'PT Sans', sans-serif !important;
+}
+.kredit .breadcrumbs ul li {
+    font-size: 14px;
+    color: #666666;
+}
+.kredit.breadcrumbs ul li a {
+    color: #000000;
+}
+
+@media (max-width: 1140px) {
+    .form-group.form-group03.col-md-3 {
+        flex: 0 0 31%;
+        max-width: 31%;
+    }
+    .form-row.form_block {
+        gap: 15px;
+    }
+    .kredit .consumer_text h4::after {
+        top: 115px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+@media (max-width: 990px) {
+    .kredit .consumer_text h4::after {
+        left: 0;
+        right: 0;
+        top: 100px;
+        margin: auto;
+    }
+}
+@media (max-width: 820px) {
+    .form-group.form-group03.col-md-3 {
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+}
+@media (max-width: 800px) {
+    .kredit .consumer_text p br {
+        display: none;
+    }
+    .quest-answers__title {
+        font-size: 36px;
+    }
+    .quest-answers__banks-item.col-md-2 {
+        flex: 0 0 35.666667%;
+        max-width: 35.666667%;
+    }
+    .col-md-3.offers_order_1 .most_offers_btns {
+        flex-direction: row;
+    }
+    .quest-answers__list-item svg {
+        overflow: visible;
+    }
+}
+@media (max-width: 780px) {
+    .most_offers_item .col-md-4 {
+        flex: 0 0 22.333333%;
+        max-width: 22.333333%;
+    }
+}
+@media (max-width: 767px) {
+    .form-group.form-group03.col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .kredit .form_block .form-group {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 755px) {
+    .most_offers_item .col-md-4 {
+        flex: 0 0 2.333333%;
+        max-width: 2.333333%;
+    }
+}
+@media (max-width: 600px) {
+    .kredit .consumer_text h4::after {
+        top: 100px;
+    }
+}
+@media (max-width: 530px) {
+    .kredit .consumer_text h4::after {
+        top: 140px;
+    }
+}
+@media (max-width:520px) {
+    .consumer_action__withimgs .form-group.col-md-2 {
+        margin-bottom: 10px;
+    }
+    .consumer_action__withimgs .form-group.col-md-3.kredit_order1.col-7 {
+        margin-bottom: 10px;
+    }
+    .kredit .consumer_show_btn {
+        margin-bottom: 0px;
+    }
+    .kredit_sort.kredit_sort-another {
+        background-color: white;
+        padding: 40px 0 40px 0;
+    }
+    .quest-answers-block {
+        padding: 45px 30px;
+    }
+    .quest-answers__title {
+        font-size: 29px;
+        line-height: 34px;
+    }
+    .quest-answers__detail {
+        padding: 60px 30px;
+    }
+    .quest-answers__details-item:not(:first-child) {
+        margin-top: 40px;
+    }
+    .quest-answers__offers-items {
+        padding: 60px 30px;
+    }
+    .quest-answers__banks-links {
+        gap: 22px 25px;
+    }
+    .quest-answers__offers-item:not(:last-child) {
+        padding-bottom: 25px;
+    }
+    .quest-answers__offers-item:not(:first-child) {
+        padding-top: 20px;
+    }
+    .quest-answers__banks-item.col-md-2 {
+        flex: 0 0 45.666667%;
+        max-width: 45.666667%;
+    }
+    .offers {
+        padding-bottom: 0;
+    }
+    .reviews-block {
+        padding: 0 35px;
+    }
+    .reviews-top__subtitle {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .reviews-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .reviews-main__item {
+        padding: 24px 30px 28px 24px;
+    }
+    .breadcrumbs {
+        padding: 45px 30px 0 30px;
+    }
+    .breadcrumbs ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .kredit .consumer_text h4 {
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .kredit .consumer_text p {
+        font-size: 16px;
+    }
+    .kredit .consumer_text h4::after {
+        top: 70px;
+    }
+}
+@media (max-width: 476px) {
+    .kredit .consumer_text h4::after {
+        top: 92px;
+    }
+}
+@media (max-width: 450px) {
+    .kredit .consumer_text h4::after {
+        top: 70px;
+    }
+    .kredit .kredit_form_text {
+        font-size: 15px;
+    }
+    .kredit_select_label {
+        font-size: 15px;
+    }
+    .quest-answers__texts {
+        padding: 10px 0 30px 0px;
+    }
+}
+@media (max-width: 380px) {
+    .kredit .kredit_form_currency {
+        margin-bottom: 0;
+    }
+    .kredit .consumer_text h4::after {
+        top: 70px;
+    }
+    .show-most_offers_btn {
+        margin: 10px 0 35px 0;
+        font-size: 13px;
+    }
+    .quest-answers__subtitle {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .quest-answers__offers-items {
+        padding: 50px 20px;
+    }
+    .quest-answers__banks-item.col-md-2 {
+        flex: 0 0 85.666667%;
+        max-width: 85.666667%;
+    }
+    .quest-answers__title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .quest-answers__offers-item:not(:first-child) {
+        padding-top: 15px;
+    }
+    .quest-answers__offers-item:not(:last-child) {
+        padding-bottom: 15px;
+    }
+    .quest-answers__offers-items {
+        margin-bottom: 0;
+    }
+    .reviews-block {
+        padding: 0 20px;
+    }
+    .reviews-top__subtitle {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .reviews-main__item {
+        padding: 20px 20px 25px 20px;
+    }
+    .reviews-main__top {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .reviews-main__top-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .breadcrumbs {
+        padding: 35px 20px 0 20px;
+    }
+    .kredit .breadcrumbs ul li {
+        font-size: 14px;
+    }
+    .quest-answers-link {
+        font-size: 16px;
+    }
+    .quest-answers__item__btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 322px) {
+    .kredit .consumer_text h4::after {
+        top: 95px;
+    }
+}

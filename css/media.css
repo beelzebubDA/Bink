@@ -1,0 +1,4839 @@
+/* Media Query */
+
+@media (max-width: 1400px) {
+
+    #myOverlay .overlay .closebtn {
+        top: 35px;
+        right: 250px;
+    }
+
+    .overlay-content {
+        top: 40px;
+    }
+
+    .overlay-content form {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlay button {
+        right: 60px;
+    }
+
+    .overlay .closebtn {
+        top: 55%;
+        right: -55px;
+        min-height: 75%;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .menu__list-item:last-child {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1125px) {
+
+    .header__inner {
+        padding: 0 30px;
+    }
+
+    .menu__list {
+        justify-content: space-between;
+    }
+
+    .menu__list-link {
+        padding: 50px 23px;
+    }
+
+    .menu__list-item:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .header__logo {
+        flex: 0 0 15%;
+    }
+
+    .header__search-input {
+        padding: 5px 0;
+    }
+
+    .header__search-input::placeholder {
+        padding-left: 25px;
+        font-size: 16px;
+    }
+
+    .main-section__slider-item {
+        background-position: 100% 40%;
+        padding: 50px 15px 145px 40px;
+    }
+
+    .main-section .owl-carousel .owl-dots {
+        left: 40px;
+    }
+
+    .main-section__inner {
+        padding: 35px 20px;
+    }
+
+    .main-section__slider {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-section__pick-up {
+        flex: 0 0 100%;
+        flex-direction: row;
+    }
+
+    .pick-up__item {
+        flex: 0 0 49%;
+    }
+
+    .best-deals .best-deals__all {
+        transform: translateY(25px);
+    }
+
+    .all-categories__inner,
+    .useful-articles__inner,
+    .wrapper.glavnaya .best-deals__inner {
+        padding: 0 10px;
+    }
+
+    .quick-selection__inner {
+        padding: 0px 10px 30px 10px;
+    }
+
+    .best-deals,
+    .useful-articles__inner {
+        padding-top: 70px;
+    }
+
+    .financial-supermarket__inner {
+        padding: 130px 10px 75px 10px;
+    }
+
+    .social-netwoks__inner {
+        padding: 15px 20px;
+    }
+
+    .products__inner {
+        padding: 55px 20px 30px 20px;
+    }
+
+    .footer__inner {
+        padding: 20px 20px 50px 20px;
+    }
+
+}
+
+@media (max-width: 1060px) {
+
+    .menu__list-item:nth-last-child(-n+3) {
+        display: none;
+    }
+
+    .menu {
+        flex: 0 0 50%;
+    }
+
+    .all-categories__items {
+        justify-content: flex-start;
+    }
+
+    .categories-item {
+        flex: 0 0 30%;
+        margin-right: 22px;
+    }
+
+    .quick-selection {
+        margin-top: 230px;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+    .header__logo {
+        flex: 0 0 16%;
+    }
+
+    .main-section__slider-item {
+        background-position: 140% 45%;
+    }
+
+    .quick-selection__form-item:nth-child(1),
+    .quick-selection__form-item:nth-child(2) {
+        flex: 0 0 20%;
+    }
+
+    .quick-selection .tab__body-item.fourth4 .quick-selection__form .quick-selection__form-item:nth-child(2) {
+        flex: 0 0 35%;
+    }
+
+}
+
+@media (max-width: 870px) {
+
+    .header__inner {
+        padding: 0 30px;
+    }
+
+    .header__logo {
+        flex: 0 0 20%;
+    }
+
+    .menu {
+        flex: 0 0 45%;
+    }
+
+    .main-section__slider-item {
+        background-position: 165% 45%;
+    }
+
+    .main-section .owl-carousel .owl-dots {
+        bottom: 70px;
+    }
+
+    .menu__list-item:nth-last-child(-n+4) {
+        display: none;
+    }
+
+    .tab__body-item.fifth5 .quick-selection__form-item .form-text {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    .main-section__slider-item {
+        background-position: 170% 45%;
+        background-size: 70% 62%;
+    }
+
+    .categories-item__text {
+        font-size: 16px;
+    }
+
+    .quick-selection__form-item,
+    .quick-selection__form-item:nth-child(1),
+    .quick-selection__form-item:nth-child(2) {
+        flex: 0 0 48%;
+    }
+
+    .quick-selection__form-item:nth-child(1),
+    .quick-selection__form-item:nth-child(2) {
+        margin-bottom: 25px;
+    }
+
+    .quick-selection__form-item:nth-child(3) {
+        display: flex;
+        align-items: center;
+    }
+
+    .quick-selection__form-item:nth-child(3) p {
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+
+    .quick-selection__form-item:last-child {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .quick-selection .quick-selection__form-item label,
+    .quick-selection .quick-selection__form-item input,
+    .quick-selection .quick-selection__form-item select {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .quick-selection .tab__body-item .quick-selection__form select {
+        padding-bottom: 9px;
+        background-color: #fff;
+    }
+
+    .tab__body-item.second2 .quick-selection__form-item .form-text {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .quick-selection .tab__body-item.fifth5 .quick-selection__form .quick-selection__form-item:nth-child(2) {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        overflow: hidden;
+    }
+
+    .overlay input[type=text] {
+        padding: 15px;
+        width: 75%;
+    }
+
+    .overlay button {
+        right: 105px;
+    }
+
+    .overlay .closebtn {
+        min-height: 80%;
+        font-size: 35px;
+        right: 5px;
+    }
+
+    .best-deals .tab__head {
+        margin-bottom: 0;
+    }
+
+    .best-deals .tab__head-list {
+        flex-wrap: wrap;
+    }
+
+    .best-deals .tab__head-list li {
+        margin-bottom: 25px;
+    }
+
+    .best-deals .tab__body-cards {
+        display: none;
+    }
+
+    .best-deals__inner {
+        background-image: none;
+    }
+
+    .best-deals .tab__body-cards.mobile {
+        display: block;
+    }
+
+    .tab__body-cards.mobile .tab__body-card {
+        background-size: 125% 100%;
+    }
+
+    .tab__body-cards.mobile .tab__body-card {
+        margin-right: 0;
+    }
+
+    .best-deals .owl-carousel .owl-item img {
+        width: auto;
+    }
+
+    .tab__body-cards.mobile .owl-dots {
+        display: block;
+        text-align: center;
+    }
+
+    .tab__body-cards.mobile .owl-nav button.owl-prev,
+    .tab__body-cards.mobile .owl-nav button.owl-next {
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        font-size: 20px;
+    }
+
+    .tab__body-cards.mobile .owl-nav button.owl-prev {
+        left: -20px;
+    }
+
+    .tab__body-cards.mobile .owl-nav button.owl-next {
+        right: -20px;
+    }
+
+    .best-deals .tab__body-cards.mobile button.owl-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #e0e0de;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .best-deals .tab__body-cards.mobile button.owl-dot.active {
+        background-color: #f3ce26;
+        ;
+    }
+
+    .best-deals .best-deals__inner {
+        padding: 0 55px;
+    }
+
+    .articles-mainmini {
+        display: none;
+    }
+
+    .articles-feed {
+        flex: 0 0 45%;
+    }
+
+    .articles-main .articles__all {
+        display: block;
+        max-width: 270px;
+    }
+
+    .articles-main__text {
+        max-height: 75px;
+        overflow: hidden;
+    }
+
+    .products__itemsbox.tablethide {
+        display: none;
+    }
+
+    .products__items .products__itemsbox {
+        flex: 0 0 30%;
+    }
+
+    .products .products__item .products__item-title {
+        line-height: 1.5;
+    }
+
+    .products__item.tablethide {
+        display: none;
+    }
+
+    .products__item.tabletshow {
+        display: block;
+    }
+
+    .footer__info {
+        flex: 0 0 65%;
+    }
+
+    .footer__contact {
+        flex: 0 0 30%;
+    }
+
+    .footer__info-bottom {
+        width: 130%;
+    }
+
+    .insurance-selects__inner {
+        padding: 20px 10px;
+    }
+
+    .insurance-online__inner-top,
+    .insurance-online__inner-item {
+        justify-content: space-between;
+    }
+
+    .insurance-online__inner {
+        padding: 0 10px;
+    }
+
+    .insurance-online__inner-item {
+        margin-right: 0;
+        flex: 0 0 23%;
+    }
+
+    .insurance-online__item {
+        flex: 0 0 49%;
+    }
+
+    .insurance-online__item:nth-child(3),
+    .insurance-online__item:nth-child(6),
+    .insurance-online__item:nth-child(9) {
+        flex: 0 0 100%;
+    }
+
+    .insurance-online__item:nth-child(3) .block-text:first-child,
+    .insurance-online__item:nth-child(6) .block-text:first-child {
+        display: inline;
+    }
+
+    .insurance-online__item:nth-child(4) .insurance-online__item-desc .block-text,
+    .insurance-online__item:nth-child(5) .insurance-online__item-desc .block-text,
+    .insurance-online__item:nth-child(7) .insurance-online__item-desc .block-text,
+    .insurance-online__item:nth-child(8) .insurance-online__item-desc .block-text {
+        padding-right: 85px;
+    }
+
+    .rf-online__inner {
+        padding: 0px 10px;
+    }
+
+    .rf-online__top {
+        padding: 0;
+    }
+
+    .insurance-online__show-all .insurance-online__items-btn {
+        display: block;
+    }
+
+    .rf-online__top-info {
+        padding: 50px 30px;
+    }
+
+    .rf-online .owl-carousel .owl-nav.disabled {
+        display: none;
+    }
+
+    .compares-prices__article:last-child {
+        display: none;
+    }
+
+    .compares-prices__article {
+        text-align: center;
+        flex: 0 0 100%;
+    }
+
+    .service-benefits__inner {
+        padding: 100px 10px 20px 10px;
+    }
+
+    .service-benefits__item {
+        flex: 0 0 100%;
+    }
+
+    .online-insurance .online-insurance__inner {
+        padding: 60px 10px 20px 10px;
+    }
+
+    .insurance-online__items {
+        height: 759px;
+        overflow: hidden;
+    }
+
+    .financial-performance .all-categories__items.financial {
+        display: none;
+    }
+
+    .financial-performance .all-categories__items.financial.mobile {
+        display: block;
+    }
+
+    .financial-performance .tab__head-list li {
+        display: flex;
+    }
+
+    .financial-performance__inner {
+        height: auto;
+        padding: 60px 55px 70px 55px;
+    }
+
+    .financial-performance .tab__head-list {
+        margin-bottom: 45px;
+    }
+
+    .financial-performance__inner-rotate {
+        transform: translateY(0);
+    }
+
+    .categories-item.financial {
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .categories-item__text .block-text {
+        display: inline;
+    }
+
+    .categories-item.financial img {
+        width: auto;
+    }
+
+    .categories-item.financial {
+        padding: 15px 20px;
+        background-position: -45px -60px;
+        justify-content: flex-start;
+    }
+
+    .categories-item__img {
+        margin-right: 15px;
+    }
+
+    .categories-item__arrow {
+        margin-left: auto;
+    }
+
+    .wrapper.glavnaya .mobile .yellow-arrow {
+        padding: 6px 10px;
+        color: #000;
+    }
+
+    .wrapper.glavnaya .best-deals .mobile .yellow-arrow {
+        padding: 17px 14px;
+        color: #000;
+    }
+
+    .financial-performance__inner .owl-dots {
+        text-align: center;
+    }
+
+    .financial-performance__inner .owl-carousel button.owl-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #e0e0de;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .financial-performance__inner .owl-carousel button.owl-dot.active {
+        background-color: #f3ce26;
+        ;
+    }
+
+    .financial-performance__inner .owl-nav button.owl-next,
+    .financial-performance__inner .owl-nav button.owl-prev {
+        top: 35%;
+        transform: translateY(-35%);
+        position: absolute;
+    }
+
+    .financial-performance__inner .owl-nav button.owl-prev {
+        left: -17px;
+    }
+
+    .financial-performance__inner .owl-nav button.owl-next {
+        right: -17px;
+    }
+
+    .all-categories__inner {
+        height: auto;
+    }
+
+    .quick-selection {
+        margin-top: 80px;
+    }
+
+    .overlay-content {
+        max-width: 710px;
+    }
+
+    .travel-abroad .page-title,
+    .travel-abroad .section-subtitle {
+        padding-left: 75px;
+        padding-right: 75px
+    }
+
+    .travel-abroad .page-title .block-text,
+    .travel-abroad .section-subtitle .block-text {
+        display: inline;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 {
+        padding: 0 10px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-block {
+        padding: 40px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem {
+        flex: 0 0 48%;
+    }
+
+    .form-groupitem:nth-child(1) {
+        order: 1;
+    }
+
+    .form-groupitem:nth-child(2) {
+        order: 3;
+    }
+
+    .form-groupitem:nth-child(3) {
+        order: 4;
+    }
+
+    .form-groupitem:nth-child(4) {
+        order: 2;
+    }
+
+    .rf-online.straxovanie2 .owl-item.active {
+        border-left: 1px solid #f2f2f2;
+        border-right: 1px solid #f2f2f2;
+    }
+
+    .service-benefits.straxovanie2 {
+        background-image: url(../images/service-benefitsst2-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .service-benefits.straxovanie2 .service-benefits__inner {
+        padding: 0 10px;
+    }
+
+    .service-benefits.straxovanie2 .service-benefits__inner>div:last-child {
+        display: none;
+    }
+
+    .service-benefits.straxovanie2 .service-benefits__item {
+        flex: 0 0 48%;
+    }
+
+    .questions-answers__inner {
+        padding: 0 10px;
+    }
+
+    .best-deals.straxovanie2 .best-deals__inner {
+        padding: 0 10px;
+    }
+
+    .best-deals.straxovanie2 .tab__body-cards {
+        flex-wrap: wrap;
+    }
+
+    .best-deals.straxovanie2 .tab__body-card {
+        flex: 0 0 49%;
+    }
+
+    .best-deals.straxovanie2 .tab__body-card:nth-last-child(-n+1),
+    .best-deals.straxovanie2 .tab__body-card:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .products.tablethide.straxovanie2 {
+        display: none;
+    }
+
+    .products.tabletshow.straxovanie2 {
+        display: block;
+    }
+
+    .social-networks.straxovanie2 .social-netwoks__inner {
+        padding: 15px 20px;
+    }
+
+    /*
+
+
+        straxovanie3.html
+
+
+    */
+
+
+
+    .travel-abroad .page-title,
+    .travel-abroad .section-subtitle {
+        padding-left: 75px;
+        padding-right: 75px
+    }
+
+    .travel-abroad .page-title .block-text,
+    .travel-abroad .section-subtitle .block-text {
+        display: inline;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-block {
+        padding: 40px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem {
+        flex: 0 0 48%;
+    }
+
+    .form-groupitem:nth-child(1) {
+        order: 1;
+    }
+
+    .form-groupitem:nth-child(2) {
+        order: 3;
+    }
+
+    .form-groupitem:nth-child(3) {
+        order: 4;
+    }
+
+    .form-groupitem:nth-child(4) {
+        order: 2;
+    }
+
+    .calculating-tourist__inner {
+        flex-wrap: wrap;
+    }
+
+    .calculating-tourist__promocodes {
+        flex: 0 0 100%;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .calculating-tourist__promocodes-item {
+        display: none;
+    }
+
+    .calculating-tourist__promocodes-item:first-child {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .calculating-tourist__promocodes-item .promocodesbtn {
+        margin-bottom: 10px;
+    }
+
+    .calculating-tourist__promocodes-item:first-child .block-addoptions {
+        flex: 0 0 100%;
+    }
+
+    .calculating-tourist__promocodes-item .addoptions {
+        display: inline;
+    }
+
+    .calculating-tourist__buy {
+        flex-wrap: wrap;
+        padding: 20px 40px 30px 40px;
+    }
+
+    .calculating-tourist__buyitems,
+    .calculating-tourist__buy-left {
+        flex: 0 0 100%;
+    }
+
+    .calculating-tourist__buy-left {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+        flex-wrap: wrap;
+    }
+
+    .calculating-tourist__buy-left>div {
+        margin-right: 20px;
+    }
+
+    .calculating-tourist__buyleft-logo {
+        margin-bottom: 0;
+    }
+
+    .calculating-tourist__buyright-logo,
+    .calculating-tourist__buyright-assistance {
+        flex: 0 0 30%;
+    }
+
+    .calculating-tourist__buy-rightitem {
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+        straxovanie5.html
+
+
+    */
+
+    .travel-abroad .page-title,
+    .travel-abroad .section-subtitle {
+        padding-left: 75px;
+        padding-right: 75px
+    }
+
+    .travel-abroad .page-title .block-text,
+    .travel-abroad .section-subtitle .block-text {
+        display: inline;
+    }
+
+    .wrapper.straxovanie5 .travel-abroad__form-translate.straxovanie2 {
+        padding: 0 10px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-block {
+        padding: 35px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem {
+        flex: 0 0 48%;
+    }
+
+    .form-groupitem:nth-child(1) {
+        order: 1;
+    }
+
+    .form-groupitem:nth-child(2) {
+        order: 3;
+    }
+
+    .form-groupitem:nth-child(3) {
+        order: 4;
+    }
+
+    .form-groupitem:nth-child(4) {
+        order: 2;
+    }
+
+    .insurancefor__inner {
+        flex-wrap: wrap;
+    }
+
+    .insurancefor__inner>div,
+    .accordion-serviceadvantages__inner>div,
+    .sportstate-display__bottom>div {
+        flex: 0 0 100%;
+        border-right: none;
+    }
+
+    .accordion-serviceadvantages__inner {
+        padding: 0 10px;
+    }
+
+    .accordion-serviceadvantages__inner>div,
+    .sportstate-display__bottom>div {
+        margin-bottom: 30px;
+    }
+
+    .accordion-serviceadvantages__inner>div:last-child,
+    .sportstate-display__bottom>div:last-child {
+        margin-bottom: 0;
+    }
+
+    .accordion-serviceadvantages__right {
+        border-radius: 16px;
+    }
+
+    .insurance-risksrequirements__inner {
+        padding: 0 10px;
+    }
+
+    .wrapper.straxovanie5 .section-title {
+        line-height: 1;
+    }
+
+    .sportstate-display__inner {
+        padding: 50px 10px 100px 10px;
+    }
+
+    .rf-online.straxovanie2 .owl-item.active {
+        border-left: 1px solid #f2f2f2;
+        border-right: 1px solid #f2f2f2;
+    }
+
+    .service-benefits.straxovanie2 {
+        background-image: url(../images/service-benefitsst2-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .service-benefits.straxovanie2 .service-benefits__inner>div:last-child {
+        display: none;
+    }
+
+    .service-benefits.straxovanie2 .service-benefits__item {
+        flex: 0 0 48%;
+    }
+
+    .wrapper.straxovanie5 .best-deals__inner {
+        padding: 0 10px;
+    }
+
+    .best-deals.straxovanie2 .tab__body-cards {
+        flex-wrap: wrap;
+    }
+
+    .best-deals.straxovanie2 .tab__body-card {
+        flex: 0 0 49%;
+    }
+
+    .best-deals.straxovanie2 .tab__body-card:nth-last-child(-n+1),
+    .best-deals.straxovanie2 .tab__body-card:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .products.tablethide.straxovanie2 {
+        display: none;
+    }
+
+    .products.tabletshow.straxovanie2 {
+        display: block;
+    }
+
+    .wrapper.straxovanie5 .social-netwoks__inner {
+        padding: 15px 10px !important;
+    }
+
+    .wrapper.straxovanie5 .footer.straxovanie2 .footer__inner {
+        padding: 20px;
+    }
+
+
+
+
+
+
+
+
+
+    /*
+
+
+        vkladi.html
+
+
+    */
+
+    .header__inner {
+        padding: 0 10px;
+    }
+
+    .main-sectionvkladi .section-subtitle {
+        padding: 0 5px;
+    }
+
+    .vkladi-form__inner-top {
+        padding: 30px;
+    }
+
+    .vkladi-form .form-group.rublselect {
+        max-width: 100%;
+    }
+
+    .vkladi-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .vkladi-form .form-group:last-child {
+        margin-bottom: 0;
+    }
+
+    .vkladi-tabs__inner {
+        padding: 210px 10px 30px 10px;
+    }
+
+    .vkladi-form .forcollapse {
+        padding: 30px;
+    }
+
+    .vkladi-form .form-check {
+        margin-right: 20px;
+    }
+
+    .vkladi-tabs .nav-tabs {
+        justify-content: flex-start;
+    }
+
+    .vkladi-tabs .nav-tabs .nav-item {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .vkladi-tabs .tab-content .btns .btn {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item {
+        flex: 0 0 30%;
+        margin-bottom: 20px;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info {
+        padding: 20px;
+    }
+
+    .vkladi-tabs .collapse .tableblock {
+        padding: 25px 0 0 0;
+    }
+
+    .vkladi-tabs .collapse .section-title {
+        margin-bottom: 10px;
+    }
+
+    .vkladi-tabs .tableblock td {
+        padding: 20px 8px;
+    }
+
+    .vkladi-tabs .tabledesc,
+    .vkladi-tabs .tabletext {
+        padding-left: 8px;
+    }
+
+    .vkladi-tabs .showmore {
+        padding: 25px 0 15px 0;
+    }
+
+    .social-netwoks__inner {
+        padding: 15px 10px;
+    }
+
+    .products__inner {
+        padding: 30px 10px;
+    }
+
+    .footer__inner {
+        padding: 20px 10px;
+    }
+
+
+
+
+
+
+
+
+    /*
+
+
+
+        vkladialfabank.html
+
+
+
+    */
+
+    .header__inner {
+        padding: 0 10px;
+    }
+
+    .mainsection-alfabank__inner {
+        padding: 20px 10px 0 10px;
+    }
+
+    .mainsection-alfabank__backtocalculation {
+        margin-bottom: 30px;
+    }
+
+    .mainsection-alfabank__titleleft {
+        margin-right: 0;
+    }
+
+    .mainsection-alfabank__titles {
+        flex-wrap: wrap;
+    }
+
+    .mainsection-alfabank__titles>div {
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+
+    div.mainsection-alfabank__titleright {
+        margin-bottom: 0;
+    }
+
+    .mainsection-alfabank__titles {
+        margin-bottom: 25px;
+    }
+
+    .mainsection-alfabank__listitems {
+        flex: 0 0 100%;
+    }
+
+    .mainsection-alfabank__listitems>ul {
+        flex: 0 0 48%;
+    }
+
+    .mainsection-alfabank__listitems>div {
+        flex: 0 0 100%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+    .mainsection-alfabank__listitems>div .btn,
+    .mainsection-alfabank__listitems>div a {
+        flex: 0 0 32%;
+    }
+
+    .mainsection-alfabank__listbtns .btn {
+        margin-right: 0;
+    }
+
+    .mainsection-alfabank__img {
+        display: none;
+    }
+
+    .alfabank-payment__inner {
+        padding: 55px 10px;
+    }
+
+    .alfabank-payment__left {
+        padding: 25px;
+    }
+
+    .alfabank-payment__left,
+    .alfabank-payment__right {
+        flex: 0 0 100%;
+    }
+
+    .alfabank-payment__rightitemtitle {
+        justify-content: center;
+    }
+
+    .alfabank-payment__rightitem {
+        text-align: center;
+    }
+
+    .deposit-info__inner,
+    .otherdepositsalfabank__inner {
+        padding: 45px 10px;
+    }
+
+    .otherdepositsalfabank .vkladi-tabs__info {
+        padding: 20px;
+    }
+
+    .otherdepositsalfabank .vkladi-tabs__info-item {
+        flex: 0 0 30%;
+        margin-bottom: 20px;
+    }
+
+    .deposit-info .nav-tabs {
+        margin-bottom: 25px;
+    }
+
+    .deposit-info table {
+        margin-bottom: 20px;
+    }
+
+    .branchesalfabank__inner {
+        padding: 0 10px;
+    }
+
+    .branchesalfabank {
+        padding: 45px 0 400px 0;
+    }
+
+    .alfabankinfo__inner {
+        padding: 45px 10px 30px 10px;
+    }
+
+    .alfabankinfo__itemleft {
+        flex: 0 0 20%;
+    }
+
+    .alfabankinfo__itemright {
+        flex: 0 0 78%;
+    }
+
+    .social-netwoks__inner {
+        padding: 15px 10px;
+    }
+
+    .products.mobileshow .products__inner,
+    .products__inner {
+        padding: 30px 10px;
+    }
+
+    .footer__inner {
+        padding: 20px 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+        
+
+
+        blog.html
+
+
+
+
+    */
+
+    .wrapper.blog .blog-main__inner {
+        padding: 120px 10px 120px 10px;
+    }
+
+    .wrapper.blog .best-deals,
+    .wrapper.blog .useful-articles__inner {
+        padding: 15px 10px 0 10px;
+    }
+
+    .wrapper.blog .tab__body-articles {
+        flex-wrap: wrap !important;
+    }
+
+    .wrapper.blog .tab__body-articles .tab__body-articlesleft {
+        padding: 0;
+        flex: 0 0 100%;
+        border-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .wrapper.blog .tab__body-articles-right {
+        padding-left: 0;
+        padding-top: 20px
+    }
+
+    .wrapper.blog .best-deals.straxovanie2 .best-deals__inner {
+        padding: 20px 10px;
+    }
+
+    .wrapper.blog .best-deals.straxovanie2 .tab__body-card {
+        flex: 0 0 49%;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+    /*
+
+
+
+        statyabloga.html
+
+
+
+    */
+
+    .wrapper.statyabloga .page-title {
+        padding: 0 20px;
+    }
+
+
+
+
+
+
+
+
+    /*
+
+
+
+    kreditniekarti.html
+
+
+
+    */
+
+    .wrapper.kreditniekarti .main-form {
+        padding: 40px 0;
+        background-repeat: repeat;
+    }
+
+    .wrapper.kreditniekarti .main-form__middle-inner {
+        padding: 50px 10px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom-inner {
+        padding: 40px 10px 30px 10px;
+    }
+
+    .wrapper.kreditniekarti .main-form .nav-item {
+        margin-bottom: 20px;
+    }
+
+    .wrapper.kreditniekarti .main-form .nav-tabs {
+        margin-bottom: 0;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-toptitle .title,
+    .wrapper.kreditniekarti .main-form__bottom .itemtitlebold {
+        font-size: 17px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-middleleft,
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-middleright {
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-middleright {
+        margin-bottom: 0;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-bottomleft {
+        flex: 0 0 30%;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-bottomright {
+        flex: 0 0 70%;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .itemtitledesc {
+        line-height: 1.3;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__left-img span {
+        line-height: 1;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .nav-tabs {
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-bottom .collapse .nav-link {
+        font-size: 15px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .nav-item {
+        margin-bottom: 15px;
+    }
+
+    .wrapper.kreditniekarti .footer__inner {
+        padding: 20px 10px 40px 10px;
+    }
+
+    .wrapper.glavnaya .financial-supermarket__inner {
+        padding: 55px 10px;
+    }
+
+    .wrapper.straxovanie .compares-prices__inner {
+        padding: 55px 10px 15px 10px;
+        background-color: #fafafa;
+    }
+
+    .wrapper.straxovanie5 .insurancefor__inner {
+        padding: 8px 10px;
+    }
+
+    .wrapper.straxovanie5 .products.chasto .products__item {
+        flex: 0 0 30%;
+    }
+
+    .wrapper.straxovanie2 .products.chasto .products__item {
+        flex: 0 0 30%;
+    }
+
+    .wrapper.straxovanie2 .products.chasto .products__inner{
+        padding: 30px 10px;
+    }
+
+    .wrapper.straxovanie2 .social-networks.straxovanie2 .social-netwoks__inner{
+        padding: 15px 10px;
+    }
+
+    .wrapper.straxovanie2 .best-deals {
+        margin-bottom: 150px;
+    }
+
+}
+
+@media (max-width: 730px) {
+
+    .header__inner {
+        padding: 0 15px;
+    }
+
+    .header__search-input {
+        max-width: 110px;
+    }
+
+    .pick-up__item {
+        padding: 20px;
+    }
+
+    .pick-up__item img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .pick-up__title {
+        font-size: 18px;
+    }
+
+    .overlay button {
+        right: 143px;
+    }
+
+    .overlay .closebtn {
+        right: 65px;
+    }
+
+    .all-categories__items {
+        justify-content: space-between;
+    }
+
+    .categories-item {
+        flex: 0 0 49%;
+        margin-right: 0;
+    }
+
+    .quick-selection {
+        margin-top: 70px;
+    }
+
+    .financial-performance .financial-mobile .tab__head-list li {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 675px) {
+
+    .menu__list-item:nth-last-child(-n+5) {
+        display: none;
+    }
+
+    .menu {
+        flex: 0 0 35%;
+    }
+
+    .header__logo {
+        flex: 0 0 23%;
+    }
+
+    .overlay .closebtn {
+        right: 60px;
+    }
+
+    .overlay button {
+        right: 135px;
+    }
+
+}
+
+@media (max-width: 625px) {
+
+    .overlay .closebtn {
+        right: 45px;
+    }
+
+    .overlay button {
+        right: 116px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .header__search-input {
+        max-width: 90px;
+    }
+
+    .header__search-input::placeholder {
+        padding-left: 12px;
+    }
+
+    .owl-nav,
+    .main-section__slider-item .arr-right,
+    .main-section__slider-item .arr-left {
+        display: none;
+    }
+
+    .main-section__slider-item {
+        padding: 35px 15px 70px 40px
+    }
+
+    .main-section .owl-carousel .owl-dots {
+        bottom: 35px;
+    }
+
+    .main-section__slider-item {
+        background-position: 180% 45%;
+        background-size: 64% 60%
+    }
+
+    .pick-up__title {
+        font-size: 16px;
+    }
+
+    .overlay .closebtn {
+        right: 35px;
+        padding: 0 15px;
+    }
+
+    .overlay button {
+        right: 96px;
+    }
+
+}
+
+@media (max-width: 545px) {
+
+    .menu__list-item:nth-last-child(-n+6) {
+        display: none;
+    }
+
+    .header__logo {
+        flex: 0 0 30%;
+    }
+
+    .menu {
+        flex: 0 0 30%;
+    }
+
+    .pick-up__item:last-child {
+        display: none;
+    }
+
+    .pick-up__item:first-child {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .overlay input[type=text] {
+        padding: 10px;
+        width: 65%;
+    }
+
+    .overlay button {
+        right: 95px;
+        font-size: 15px;
+    }
+
+    .header__inner {
+        padding: 20px 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .main-section {
+        margin-bottom: 0;
+    }
+
+    .main-section__slider-title {
+        margin-right: 150px;
+        line-height: 40px;
+    }
+
+    .main-section__slider-desc {
+        margin-right: 135px;
+    }
+
+    .main-section__slider-desc .block-text {
+        display: inline;
+    }
+
+    .overlay .closebtn {
+        right: 20px;
+        padding: 0px 15px;
+        font-size: 30px;
+    }
+
+    .categories-item {
+        flex: 0 0 100%;
+    }
+
+    .quick-selection {
+        margin-top: 760px;
+    }
+
+    .quick-selection .section-title {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .quick-selection .tab__head-list {
+        overflow: hidden;
+    }
+
+    .quick-selection__form .quick-selection__form-item {
+        flex: 0 0 100% !important;
+        justify-content: flex-start;
+        margin-bottom: 25px;
+    }
+
+    .quick-selection__form .quick-selection__form-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .quick-selection__form-item .form-text {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .rialto .rialto__item {
+        flex: 0 0 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .rialto .rialto__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .best-deals .tab__head {
+        display: none;
+    }
+
+    .best-deals .section-title {
+        font-size: 26px;
+    }
+
+    .best-deals__select {
+        display: block;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .best-deals__select select {
+        width: 100%;
+        padding: 7px 15px;
+        outline: none;
+        font-family: 'PTSans Caption Bold';
+        font-size: 15px;
+        line-height: 40px;
+        color: #000;
+        background-color: rgba(255, 255, 255, 0.98);
+        box-shadow: 0px 21px 51px 0px rgba(69, 68, 68, 0.13);
+    }
+
+    .best-deals__select select {
+        /* for Firefox */
+        -moz-appearance: none;
+        /* for Chrome */
+        -webkit-appearance: none;
+        background-color: #fff;
+    }
+
+    /* For IE10 */
+    .best-deals__select select::-ms-expand {
+        display: none;
+    }
+
+    .best-deals__select .selectarrow {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        bottom: 0;
+        margin: auto;
+        display: block;
+        transform: translateY(40%);
+    }
+
+    .useful-articles .best-deals__select .selectarrow {
+        right: 35px;
+    }
+
+    .best-deals__select select:focus {
+        border-color: #f8d329;
+    }
+
+    .best-deals .tab__body-card {
+        margin-right: 0;
+        width: 100%;
+        background-position: 0px 0px;
+    }
+
+    .best-deals .content.active {
+        padding: 0;
+    }
+
+    .best-deals .yellow-link {
+        padding: 15px 25px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .best-deals .yellow-arrow.add-info__link {
+        padding: 15px 13px;
+    }
+
+    .all-categories {
+        padding-top: 0;
+    }
+
+    .useful-articles .section-title {
+        font-size: 26px;
+    }
+
+    .useful-articles .tab__head,
+    .articles-main {
+        display: none;
+    }
+
+    .useful-articles .tab__body {
+        padding: 0;
+    }
+
+    .articles-feed {
+        flex: 0 0 100%;
+    }
+
+    .best-deals__select.usefulselect select:focus {
+        border-color: rgb(25, 155, 197);
+    }
+
+    .useful-articles .content.active {
+        padding: 25px 10px 60px 10px;
+    }
+
+    .useful-articles .articles__all.ynone {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .useful-articles .articles__all.ynone a {
+        background-color: #fbd93f;
+    }
+
+    .financial-supermarket .articles-main__all.displaynone {
+        display: block;
+    }
+
+    .financial-supermarket__text:nth-last-child(-n+2) {
+        margin-bottom: 25px;
+    }
+
+    .financial-supermarket .section-title {
+        font-size: 25px;
+    }
+
+    .social-networks .header__logo {
+        flex: 0 0 67%;
+    }
+
+    .social-networks__list {
+        flex: 0 0 33%;
+    }
+
+    .header__logo-title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .big-letter {
+        font-size: 33px;
+    }
+
+    .header_logo-desc {
+        font-size: 12px;
+    }
+
+    .products .products__item,
+    .products .products__item:last-child {
+        flex: 0 0 100%;
+        display: block;
+    }
+
+    .products .products__item:last-child .products__item-list:last-child {
+        margin-bottom: 0;
+    }
+
+    .products.mobilehide {
+        display: none;
+    }
+
+    .products.mobileshow {
+        display: block;
+    }
+
+    .products.mobileshow .products__item-title {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .products.mobileshow .products__item .chevrondnone {
+        position: absolute;
+        top: 50%;
+        right: -25px;
+        font-size: 14px;
+        transform: translateY(-50%);
+        color: #2bc9fc;
+        display: none;
+    }
+
+    .footer__info,
+    .footer__contact {
+        flex: 0 0 100%;
+    }
+
+    .footer__info-list {
+        margin-bottom: 25px;
+    }
+
+    .footer__list-item {
+        margin-right: 25px;
+    }
+
+    .footer__info-middle {
+        transform: translate(0px, 215px);
+    }
+
+    .footer__info-bottom {
+        transform: translate(0px, 210px);
+        width: auto;
+    }
+
+    .footer__contact {
+        transform: translate(35px, -125px);
+    }
+
+    .insurance-selects__inner-form {
+        flex-wrap: wrap;
+    }
+
+    .insurance-selects__form-item {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
+
+    .insurance-online__inner-top {
+        flex-wrap: wrap;
+        align-items: stretch;
+        padding: 0 20px;
+    }
+
+    .insurance-online__inner-top .insurance-online__inner-item {
+        flex: 0 0 36%;
+        margin-bottom: 30px;
+        align-items: flex-start;
+    }
+
+    .page-title {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .insurance-online__item {
+        flex: 0 0 100% !important;
+        margin-bottom: 0;
+        border-radius: 0 !important;
+    }
+
+    .insurance-online__item:first-child {
+        background-image: url(../images/yangi1m.png);
+    }
+
+    .insurance-online__item .insurance-online__item-desc .block-text {
+        display: block;
+    }
+
+    .insurance-online__inner {
+        padding: 0;
+    }
+
+    .show-all.insurance-online__show-all {
+        margin-top: 20px;
+    }
+
+    .rf-online__top {
+        padding: 0;
+    }
+
+    .rf-online .section-title {
+        margin-bottom: 25px;
+        padding: 0 30px;
+    }
+
+    .rf-online__top-info {
+        padding: 30px 10px;
+    }
+
+    .rf-online__top-title {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .rf-online__top-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rf-online__top-item {
+        margin-bottom: 25px;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .rf-online__top-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .rf-online__top {
+        margin-bottom: 25px;
+    }
+
+    .rf-online__top-title {
+        padding: 0 20px;
+    }
+
+    .rf-online__bottom-item {
+        height: 100px;
+    }
+
+    .rf-online .owl-carousel .owl-nav {
+        display: block !important;
+        height: auto;
+    }
+
+    .rf-online .owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    .rf-online .owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    .rf-online__bottom-item {
+        width: 100%;
+    }
+
+    .rf-online {
+        margin-bottom: 50px;
+    }
+
+    .compares-prices__inner {
+        padding: 30px 20px 15px 20px;
+    }
+
+    .compares-prices__logo .big-letter {
+        font-size: 47px;
+    }
+
+    .compares-prices__logo .compares-prices__logo {
+        font-size: 36px;
+    }
+
+    .compares-prices__logo {
+        line-height: 60px;
+    }
+
+    .compares-prices__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .compares-prices__subtitle span {
+        display: inline;
+    }
+
+    .wrapper.straxovanie .compares-prices__all-link .all-link__img {
+        padding: 8px 9px 6px 9px;
+        color: #000;
+    }
+
+    .compares-prices .yellow-link {
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .compares-prices__all .all-link__text {
+        margin-right: 10px;
+    }
+
+    .online-insurance .online-insurance__inner {
+        padding: 40px 10px 25px 10px;
+    }
+
+    .online-insurance .section-title {
+        font-size: 22px;
+    }
+
+    .online-insurance .section-title.dnone,
+    .online-insurance__text.dnone {
+        display: none;
+    }
+
+    .service-benefits {
+        display: none;
+    }
+
+    .service-benefits.mobile {
+        display: block;
+    }
+
+    .service-benefits__item {
+        flex-wrap: wrap;
+    }
+
+    .service-benefits.mobile .service-benefits__inner {
+        padding-top: 60px;
+    }
+
+    .service-benefits.mobile .section-title {
+        margin-bottom: 25px;
+    }
+
+    .service-benefits.mobile .service-benefits__item-img {
+        flex: 0 0 100%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .service-benefits.mobile .service-benefits__item-img img {
+        width: auto;
+    }
+
+    .service-benefits.mobile .service-benefits__item-info {
+        text-align: center;
+    }
+
+    .service-benefits.mobile .owl-dots {
+        display: block;
+        text-align: center;
+    }
+
+    .service-benefits.mobile .owl-carousel button.owl-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #e0e0de;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .service-benefits.mobile .owl-carousel button.owl-dot.active {
+        background-color: #33cc66;
+        ;
+    }
+
+    .service-benefits.mobile .service-benefits__item {
+        margin-bottom: 20px;
+    }
+
+    .insurance-online__items {
+        height: 654px;
+    }
+
+    .best-deals .best-deals__inner {
+        padding: 0 20px;
+    }
+
+    .quick-selection {
+        margin-top: 70px;
+    }
+
+    .financial-performance .dmobile {
+        width: 100%;
+        padding: 7px 15px;
+        outline: none;
+        font-family: 'PTSans Caption Bold';
+        font-size: 15px;
+        line-height: 40px;
+        color: #000;
+        background-color: rgba(255, 255, 255, 0.98);
+        box-shadow: 0px 21px 51px 0px rgb(69, 68, 68, .13);
+    }
+
+    .financial-performance .tab__head {
+        display: none;
+    }
+
+    .financial-performance select.dmobile {
+        display: block;
+    }
+
+    .financial-performance__inner {
+        padding: 0 20px;
+    }
+
+    .best-deals__select {
+        display: block;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .wrapper.glavnaya .best-deals__select,
+    .wrapper.straxovanie2 .best-deals__select {
+        position: relative;
+    }
+
+    .wrapper.glavnaya .best-deals__select::after,
+    .wrapper.straxovanie2 .best-deals__select::after {
+        position: absolute;
+        content: '';
+        display: block;
+        background-image: url(../images/card/select_icon.png);
+        background-repeat: no-repeat;
+        width: 9px;
+        height: 5px;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .financial-performance select.dmobile {
+        /* for Firefox */
+        -moz-appearance: none;
+        /* for Chrome */
+        -webkit-appearance: none;
+    }
+
+    /* For IE10 */
+    .financial-performance select.dmobile::-ms-expand {
+        display: none;
+    }
+
+    .best-deals__select .selectarrow {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        bottom: 0;
+        margin: auto;
+        display: block;
+        transform: translateY(40%);
+    }
+
+    .useful-articles .best-deals__select .selectarrow {
+        right: 35px;
+    }
+
+    .best-deals__select select:focus {
+        border-color: #f8d329;
+    }
+
+    .financial-performance__inner-rotate {
+        transform: none;
+    }
+
+    .financial-performance__inner {
+        padding: 40px 10px 20px 10px;
+    }
+
+    .categories-item.financial {
+        background-position: -20px -30px;
+    }
+
+    .categories-item__text {
+        line-height: 20px;
+    }
+
+    .tab__body-cards.mobile .tab__body-card {
+        background-size: 108% 100%;
+    }
+
+    .travel-abroad.straxovanie2 .page-title,
+    .travel-abroad.straxovanie2 .section-subtitle {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .travel-abroad .page-title .block-text,
+    .travel-abroad .section-subtitle .block-text {
+        display: block;
+    }
+
+    .travel-abroad.straxovanie2 {
+        padding: 50px 0 250px 0;
+        background-size: cover;
+    }
+
+    .travel-abroad.straxovanie2 .section-subtitle {
+        font-size: 18px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem {
+        flex: 0 0 100%;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 {
+        padding: 0 10px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-block {
+        padding: 20px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-title {
+        font-size: 21px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-title {
+        margin-bottom: 15px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem select.form-control {
+        margin-bottom: 10px
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-group__bottom.mobilehide,
+    .form-group__top.opacity0 {
+        display: none !important;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-group__bottom.mobileshow {
+        display: flex;
+        flex: 0 0 100%;
+        order: 5;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem input.form-control,
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem select.form-control {
+        margin-bottom: 10px
+    }
+
+    .service-benefits.straxovanie2.mobilehide {
+        display: none;
+    }
+
+    .service-benefits.straxovanie2.mobileshow {
+        display: block;
+        padding: 50px 0;
+    }
+
+    .service-benefits.straxovanie2 .section-title {
+        text-align: center;
+        padding: 0 28px 20px 28px;
+        margin-bottom: 20px;
+    }
+
+    .service-benefits.straxovanie2 .section-title::after {
+        right: 0;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .service-benefits__item>div {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .service-benefits__item .service-benefits__item-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .owl-carousel .owl-item img {
+        width: auto;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .service-benefits__item-text {
+        padding: 0px 25px 0px 25px;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .service-benefits__item {
+        margin-bottom: 0
+    }
+
+    .service-benefits.straxovanie2.mobileshow .owl-dots {
+        text-align: center;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .owl-carousel button.owl-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #e0e0de;
+        margin-right: 10px
+    }
+
+    .service-benefits.straxovanie2.mobileshow .owl-carousel button.owl-dot.active {
+        background-color: #199bc5;
+    }
+
+    .questions-answers__inner {
+        padding: 0 10px;
+    }
+
+    .questions-answers .card-body {
+        padding: 10px;
+    }
+
+    .best-deals.straxovanie2 .tab__body-card {
+        flex: 0 0 100%;
+    }
+
+    .best-deals.straxovanie2 .tab__body-card:nth-last-child(-n+3) {
+        display: none;
+    }
+
+    .products.tabletshow.straxovanie2 .products__items .products__itemsbox {
+        flex: 0 0 100%;
+    }
+
+    .products .products__item,
+    .products .products__item {
+        margin-bottom: 20px
+    }
+
+    /*
+
+
+        straxovanie3.html
+
+
+
+    */
+
+
+    .travel-abroad.straxovanie2 .page-title,
+    .travel-abroad.straxovanie2 .section-subtitle {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .travel-abroad .page-title .block-text,
+    .travel-abroad .section-subtitle .block-text {
+        display: block;
+    }
+
+    .travel-abroad.straxovanie2 {
+        padding: 50px 0 135px 0;
+    }
+
+    .travel-abroad.straxovanie2 .section-subtitle {
+        font-size: 18px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem {
+        flex: 0 0 100%;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 {
+        padding: 0 10px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-block {
+        padding: 20px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-title {
+        font-size: 21px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-title {
+        margin-bottom: 15px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem select.form-control {
+        margin-bottom: 10px
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-group__bottom.mobilehide,
+    .form-group__top.opacity0 {
+        display: none !important;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-group__bottom.mobileshow {
+        display: flex;
+        flex: 0 0 100%;
+        order: 5;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem input.form-control,
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem select.form-control {
+        margin-bottom: 10px
+    }
+
+    .calculating-tourist{
+        padding-top: 30px;
+    }
+    .calculating-tourist__buy-left {
+        padding: 0 5px;
+    }
+
+    .calculating-tourist__buy {
+        padding: 10px;
+    }
+
+    .calculating-tourist__buyright-logo,
+    .calculating-tourist__buyright-assistance {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
+
+    .calculating-tourist__buyright-assistance .options {
+        margin-top: 5px;
+    }
+
+    .calculating-tourist__buyright-oldprice {
+        margin-bottom: 5px;
+    }
+
+    .calculating-tourist__buy {
+        margin-bottom: 15px;
+    }
+
+    .tab-content__items {
+        flex-wrap: wrap;
+    }
+
+    .tab-content__item.opst {
+        flex: 0 0 100%;
+    }
+
+    .calculating-tourist__buyright-tab .nav-tabs li.active {
+        order: 3;
+    }
+
+    .online-insurance__breadcrumb li a,
+    .online-insurance__breadcrumb li,
+    .online-insurance__breadcrumb li+li:before {
+        line-height: 1;
+    }
+
+    footer.footer.straxovanie3 .footer__inner {
+        padding: 20px 20px 40px 20px;
+    }
+
+    /*
+
+
+        straxovanie4.html
+
+
+    */
+
+    .wrapper.straxovanie4 .header__inner {
+        padding: 10px 0;
+    }
+
+    .buyvia__block {
+        padding: 10px;
+    }
+
+    .buyvia__block-item {
+        flex-wrap: wrap;
+    }
+
+    .buyvia__block-item>div,
+    .buyvia__block-itemright .buyvia__block-buyvialogo,
+    .buyvia__block-itemright .buyvia__block-buyviatext {
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    .buyvia__block-item:nth-child(2) {
+        border-bottom: 0;
+    }
+
+    .buyvia__block-item>div img {
+        width: 100%;
+    }
+
+    .buyvia__block-itemright .buyvia__block-logobank,
+    .buyvia__block-item .buyvia__block-itemright {
+        margin-bottom: 0;
+    }
+
+    .price {
+        flex: 0 0 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .pricetext {
+        margin-bottom: 0;
+    }
+
+    .suminsured {
+        border-bottom: 1px solid #f0f0f0;
+        padding-bottom: 15px;
+    }
+
+    .buyvia__block-item:last-child {
+        padding: 5px 0 10px 0;
+    }
+
+    .theinsured .container {
+        padding: 0;
+    }
+
+    .theinsured__form-item {
+        padding: 20px 15px;
+        margin-bottom: 20px;
+    }
+
+    .theinsured__form-itemsection {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .theinsured__form-itemsection>div {
+        flex: 0 0 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .theinsured__form-addtourist {
+        padding: 0 15px 20px 15px;
+    }
+
+    .theinsured__form-item:last-child {
+        padding: 20px 15px;
+    }
+
+    .theinsured__form-item:last-child .theinsured__form-itemsection>div {
+        flex: 0 0 100%;
+    }
+
+    .theinsured__form-item:last-child .theinsured__form-itemsectionleft a,
+    .theinsured__form-item:last-child .theinsured__form-itemsectionright button {
+        width: 100%;
+        text-align: center;
+    }
+    .theinsured__form-item:last-child .theinsured__form-itemsectionleft a{
+        display: none;
+    }
+
+    .theinsured__form-item:last-child .theinsured__form-itemsectionright.text {
+        padding-right: 0;
+    }
+
+    .theinsured__form-itemsectionleft .block-text {
+        display: inline;
+    }
+
+    .theinsured__form-item:last-child .theinsured__form-itemsectionleft.input {
+        flex: 0 0 auto;
+        width: 10%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .theinsured__form-item:last-child .theinsured__form-itemsectionright.text {
+        flex: 0 0 auto;
+        width: 90%;
+    }
+
+    .theinsured__breadcrumb {
+        padding: 0 15px 15px 15px;
+    }
+
+    .online-insurance__breadcrumb li,
+    .online-insurance__breadcrumb li a,
+    .online-insurance__breadcrumb li+li:before {
+        line-height: 1;
+    }
+
+    .theinsured__form-itemsectionrigh.mobilehide {
+        display: none;
+    }
+
+    .theinsured__form-itemsectionright.mobileshow {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+        straxovanie5.html
+
+
+    */
+    .travel-abroad__form-translate.straxovanie2 .order-5{
+        width: 100%;
+    }
+    .travel-abroad__form-translate.straxovanie2 .btn-calculate {
+        padding: 12px 30px;
+        display: block;
+        width: 100%;
+    }
+
+    .travel-abroad.straxovanie2 .page-title,
+    .travel-abroad.straxovanie2 .section-subtitle {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .travel-abroad.straxovanie2 .page-title{
+        margin-bottom: 15px;
+    }
+    .travel-abroad.straxovanie2 .section-subtitle{
+        line-height: 1.4;
+    }
+
+    .travel-abroad .page-title .block-text,
+    .travel-abroad .section-subtitle .block-text {
+        display: block;
+    }
+    .travel-abroad .page-title .block-text{
+        margin-bottom: 35px;
+    }
+
+    .wrapper.straxovanie5 .travel-abroad__form-block .travel-abroad__form-title {
+        font-size: 22px;
+    }
+
+    .wrapper.straxovanie5 .travel-abroad .page-title span {
+        display: inline;
+    }
+
+    .wrapper.straxovanie5 .travel-abroad {
+        padding: 35px 0 135px 0;
+    }
+
+    .travel-abroad.straxovanie2 .section-subtitle {
+        font-size: 18px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem {
+        flex: 0 0 100%;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 {
+        padding: 0 10px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-block {
+        padding: 20px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-title {
+        font-size: 18px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .travel-abroad__form-title {
+        margin-bottom: 15px;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem select.form-control {
+        margin-bottom: 10px
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-group__bottom.mobilehide,
+    .form-group__top.opacity0 {
+        display: none !important;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-group__bottom.mobileshow {
+        display: flex;
+        flex: 0 0 100%;
+        order: 5;
+    }
+
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem input.form-control,
+    .travel-abroad__form-translate.straxovanie2 .form-groupitem select.form-control {
+        margin-bottom: 10px
+    }
+
+    .insurancefor__insurancefor-days,
+    .insurancefor__insurancefor-month {
+        padding: 20px 0;
+        border-right: 0;
+    }
+
+    .accordion-serviceadvantages__left .card-link,
+    .accordion-serviceadvantages__left .card-body,
+    .accordion-serviceadvantages__right {
+        padding: 15px 30px 15px 15px;
+    }
+
+    .accordion-serviceadvantages__right {
+        max-height: 550px;
+    }
+
+    .accordion-serviceadvantages__left .card-link span {
+        right: 15px;
+    }
+
+    .insurance-risksrequirements .section-title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .insurance-risksrequirements ul,
+    .insurance-risksrequirements ol {
+        padding-left: 0;
+    }
+
+    .insurance-risksrequirements__item {
+        padding: 35px 0 15px 0;
+    }
+
+    .sportstate-display__bottom-list {
+        flex: 0 0 100%;
+    }
+
+    .sportstate-display__bottom-item {
+        padding: 20px 15px;
+    }
+
+    .sportstate-display__bottom-list {
+        margin-right: 0;
+    }
+
+    .service-benefits.straxovanie2.mobilehide {
+        display: none;
+    }
+
+    .service-benefits.straxovanie2.mobileshow {
+        display: block;
+        padding: 50px 0;
+    }
+
+    .service-benefits.straxovanie2 .section-title {
+        text-align: center;
+        padding: 0 28px 20px 28px;
+        margin-bottom: 20px;
+    }
+
+    .service-benefits.straxovanie2 .section-title::after {
+        right: 0;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .service-benefits__item>div {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .service-benefits__item .service-benefits__item-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .owl-carousel .owl-item img {
+        width: auto;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .service-benefits__item-text {
+        padding: 0px 25px 0px 25px;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .service-benefits__item {
+        margin-bottom: 0
+    }
+
+    .service-benefits.straxovanie2.mobileshow .owl-dots {
+        text-align: center;
+    }
+
+    .service-benefits.straxovanie2.mobileshow .owl-carousel button.owl-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #e0e0de;
+        margin-right: 10px
+    }
+
+    .service-benefits.straxovanie2.mobileshow .owl-carousel button.owl-dot.active {
+        background-color: #199bc5;
+    }
+
+    .questions-answers__inner {
+        padding: 0 10px;
+    }
+
+    .questions-answers .card-body {
+        padding: 10px;
+    }
+
+    .best-deals.straxovanie2 .tab__body-card {
+        flex: 0 0 100%;
+    }
+
+    .best-deals.straxovanie2 .tab__body-card:nth-last-child(-n+3) {
+        display: none;
+    }
+
+    .products.tabletshow.straxovanie2 .products__items .products__itemsbox {
+        flex: 0 0 100%;
+    }
+
+    .products .products__item,
+    .products .products__item {
+        margin-bottom: 20px
+    }
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+
+
+        vkladi.html
+
+
+
+
+    */
+
+    .container {
+        padding: 0 5px;
+    }
+
+    .header__inner {
+        padding: 20px 10px;
+    }
+
+    .header_logo-desc {
+        font-size: 14px;
+    }
+
+    .main-sectionvkladi .section-title {
+        font-size: 26px;
+        margin-bottom: 15px;
+        padding-bottom: 20px;
+    }
+
+    .vkladi-form__inner-top {
+        padding: 25px 20px;
+    }
+
+    .vkladi-form .section-title {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .vkladi-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .vkladi-form input[type="number"] {
+        padding-top: 0;
+    }
+
+    .vkladi-form .form-group .opacity0 {
+        display: none;
+    }
+
+    .vkladi-form .forcollapse {
+        padding: 25px 20px;
+    }
+
+    .vkladi-form .checkboxs__items {
+        margin-bottom: 0;
+    }
+
+    .vkladi-form .form-check {
+        margin-right: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .vkladi-tabs .nav-tabs {
+        overflow: hidden;
+        flex-wrap: nowrap;
+        display: -webkit-box;
+    }
+
+    .vkladi-tabs .nav-tabs .nav-item {
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+
+    .vkladi-tabs .tab-content form {
+        display: none;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info {
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item {
+        flex: 0 0 40%;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .vkladi-tabs .collapse .tableblock {
+        padding: 25px 10px 0 10px;
+        overflow: hidden;
+    }
+
+    .vkladi-tabs .collapse .section-title {
+        font-size: 19px;
+        text-align: left;
+    }
+
+    .vkladi-tabs .tableblock table {
+        margin-bottom: 10px;
+    }
+
+    .vkladi-tabs .tablebottomblock {
+        padding: 18px 40px;
+    }
+
+    .vkladi-tabs .tablebottomblock__link {
+        line-height: 1.2;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item {
+        flex: 0 0 100%;
+        border-bottom: 1px solid #f5f5f5;
+        padding-bottom: 10px;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item:first-child {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item:last-child {
+        border-bottom: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item:last-child .vkladi-tabs__info-lisnum {
+        flex: 0 0 100%;
+        text-align: left;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item:last-child .vkladi-tabs__info-link {
+        flex: 0 0 60%;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-item:last-child .centerblock {
+        flex: 0 0 30%;
+    }
+
+    .vkladi-tabs .vkladi-tabs__info-logo,
+    .vkladi-tabs .vkladi-tabs__info-logodesc {
+        margin-bottom: 0;
+    }
+
+    .vkladi-tabs .btn {
+        font-size: 14px;
+    }
+
+    .footer__inner {
+        padding: 20px 10px 40px 10px;
+    }
+
+    /*
+
+
+
+        vkladialfabank.html
+
+
+
+    */
+
+    .mainsection-alfabank__backtocalculation {
+        margin-bottom: 15px;
+    }
+
+    .mainsection-alfabank__titleright img {
+        max-width: 50%;
+    }
+
+    .mainsection-alfabank__titles {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mainsection-alfabank__listitems>div {
+        flex-wrap: wrap;
+    }
+
+    .mainsection-alfabank__listitems>ul,
+    .mainsection-alfabank__listitems>div .btn,
+    .mainsection-alfabank__listitems>div a {
+        flex: 0 0 100%;
+    }
+
+    .mainsection-alfabank__listitems>ul {
+        margin-bottom: 30px;
+    }
+
+    .mainsection-alfabank__list li {
+        font-size: 16px;
+    }
+
+    .mainsection-alfabank__list li:last-child {
+        margin-bottom: 0;
+    }
+
+    .mainsection-alfabank__listitems>div .btn,
+    .mainsection-alfabank__listitems>div a {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .alfabank-payment__inner {
+        padding: 45px 10px;
+    }
+
+    .alfabank-payment__left {
+        padding: 20px;
+    }
+
+    .alfabank-payment__left .section-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .alfabank-payment__left .form-group {
+        margin-bottom: 25px;
+    }
+
+    .alfabank-payment__left input[type="number"] {
+        padding: 0;
+    }
+
+    .alfabank-payment__left .form-group:last-child label {
+        display: none;
+    }
+
+    .alfabank-payment__left .form-group:nth-last-child(-n+2) {
+        margin-bottom: 15px;
+    }
+
+    .alfabank-payment__left .form-group:last-child,
+    .alfabank-payment__rightitem:last-child {
+        margin-bottom: 0;
+    }
+
+    .alfabank-payment__rightitemtitle {
+        justify-content: flex-start;
+    }
+
+    .alfabank-payment__rightitem {
+        text-align: left;
+    }
+
+    .deposit-info .section-title {
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+
+    .deposit-info .nav-tabs {
+        display: none;
+    }
+
+    .deposit-info .tabledesc,
+    .deposit-info .tabletext {
+        padding-left: 0;
+    }
+
+    .deposit-info .tabletext {
+        margin-bottom: 25px;
+    }
+
+    .deposit-info .tablebottomblock__link {
+        display: block;
+    }
+
+    .otherdepositsalfabank .vkladi-tabs__info {
+        padding: 15px;
+        align-items: flex-start;
+    }
+
+    .otherdepositsalfabank .vkladi-tabs__info-item {
+        flex: 0 0 40%;
+    }
+
+    .otherdepositsalfabank .vkladi-tabs__info-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .branchesalfabank .section-title {
+        padding: 0 10px;
+    }
+
+    .branchesalfabank #map {
+        height: 100%;
+        width: 450px;
+        position: absolute;
+        margin: 0 15px;
+    }
+
+    .alfabankinfo .section-title {
+        font-size: 26px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .alfabankinfo__item {
+        flex: 0 0 100%;
+        align-items: flex-start;
+    }
+
+    .alfabankinfo__itemleft {
+        flex: 0 0 40%;
+    }
+
+    .alfabankinfo__item:last-child {
+        justify-content: space-between;
+    }
+
+    .alfabankinfo__item:last-child .alfabankinfo__itemleft {
+        flex: 0 0 18%;
+        margin-right: 0;
+    }
+
+    .alfabankinfo__item:last-child .alfabankinfo__itemright {
+        flex: 0 0 78%;
+    }
+
+    .alfabankinfo__itemright {
+        flex: 0 0 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .alfabankinfo__itemright:first-child {
+        display: flex;
+    }
+
+    .alfabankinfo__itemright span {
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+    .otherdepositsalfabank .vkladi-tabs__info-item {
+        flex: 0 0 100%;
+        border-bottom: 1px solid #f5f5f5;
+        padding-bottom: 10px;
+    }
+
+    .otherdepositsalfabank .vkladi-tabs__info-item:last-child {
+        border-bottom: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .otherdepositsalfabank .vkladi-tabs__info-item:last-child .vkladi-tabs__info-lisnum {
+        flex: 0 0 100%;
+        text-align: left;
+    }
+
+    .otherdepositsalfabank .vkladi-tabs__info-item:last-child .vkladi-tabs__info-link {
+        flex: 0 0 60%;
+    }
+
+    .branchesalfabank .section-title {
+        padding: 0 65px;
+    }
+
+    .branchesalfabank {
+        padding: 25px 0 400px 0;
+    }
+
+    .branchesalfabank .section-title {
+        margin-bottom: 20px;
+        line-height: 1.2;
+    }
+
+    .alfabankinfo__item:last-child .alfabankinfo__itemleft {
+        flex: 0 0 15%;
+        margin-right: 0;
+    }
+
+    .alfabankinfo__item:last-child .alfabankinfo__itemright {
+        flex: 0 0 65%;
+    }
+
+
+
+
+
+
+
+
+
+    /*
+        
+
+
+        blog.html
+
+
+
+
+    */
+
+    .wrapper.blog .blog-main__inner {
+        padding: 80px 10px 80px 10px;
+    }
+
+    .wrapper.blog .best-deals__select {
+        display: block;
+        margin-bottom: 20px;
+        position: relative;
+        padding: 0;
+    }
+
+    .wrapper.blog .articles-main {
+        display: block;
+        flex: 0 0 100%;
+        margin-bottom: 35px
+    }
+
+    .wrapper.blog .articles-mainminiitem {
+        flex: 0 0 100%;
+        margin-bottom: 35px;
+    }
+
+    .wrapper.blog .articles-mainmini {
+        margin-bottom: 35px;
+    }
+
+    .wrapper.blog .articles-mainminiitem:last-child {
+        margin-bottom: 0;
+    }
+
+    .wrapper.blog .articles-main__all {
+        margin-bottom: 0
+    }
+
+    .wrapper.blog .articles-main,
+    .wrapper.blog .articles-mainmini,
+    .wrapper.blog .useful-articles {
+        margin-bottom: 20px
+    }
+
+    .wrapper.blog .best-deals.straxovanie2 .tab__body-card {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+        background-size: cover;
+    }
+
+    .wrapper.blog .articles-main__title,
+    .wrapper.blog .articles-mainmini .articles-main__title {
+        font-size: 18px;
+    }
+
+    .wrapper.blog .articles-main__text {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+
+        statyabloga.html
+
+
+
+    */
+
+    .wrapper.statyabloga .page-title {
+        padding: 0;
+    }
+
+    .wrapper.statyabloga .tab__body-articleslefttitle {
+        font-size: 22px;
+    }
+
+    .wrapper.statyabloga .datepublication {
+        justify-content: space-between;
+    }
+
+    .wrapper.statyabloga .datepublicationtext {
+        margin-right: 0;
+    }
+
+    .wrapper.statyabloga .articlesblock {
+        flex-wrap: wrap;
+    }
+
+    .wrapper.statyabloga .articlesblock__img {
+        margin-bottom: 25px
+    }
+
+    .wrapper.statyabloga .articlesblock>div {
+        flex: 0 0 100%;
+    }
+
+    .wrapper.statyabloga .articlesblock__img {
+        max-width: 450px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .wrapper.statyabloga .useful-articles .section-title {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .wrapper.statyabloga .sharesocials {
+        padding: 20px 10px;
+    }
+
+    .wrapper.statyabloga .sharesocials {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrapper.statyabloga .sharesocials__left {
+        margin-bottom: 15px;
+    }
+
+    .wrapper.statyabloga .sharesocials__right,
+    .wrapper.statyabloga .sharesocials__right button {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+    /*
+
+
+
+    kreditniekarti.html
+
+
+
+    */
+
+    .wrapper.kreditniekarti .main-form .section-title {
+        font-size: 26px;
+        padding: 0 40px;
+        line-height: 1.2;
+    }
+
+    .wrapper.kreditniekarti .main-form {
+        padding: 45px 0;
+    }
+
+    .wrapper.kreditniekarti .main-form .nav-tabs {
+        display: none;
+    }
+
+    .wrapper.kreditniekarti .main-form .tab-content {
+        padding: 20px;
+    }
+
+    .wrapper.kreditniekarti .main-form .form-group {
+        margin-bottom: 25px;
+    }
+
+    .wrapper.kreditniekarti .main-form .form-group:last-child {
+        margin-bottom: 0;
+    }
+
+    .wrapper.kreditniekarti .main-form .form-group .opacity0 {
+        display: none;
+    }
+
+    .wrapper.kreditniekarti .main-form .form-group.rublselect {
+        max-width: 100%;
+    }
+
+    .wrapper.kreditniekarti .main-form__middle-inner {
+        padding: 20px 10px;
+    }
+
+    .wrapper.kreditniekarti .main-form__middle .form-check {
+        margin-right: 0;
+    }
+
+    .wrapper.kreditniekarti .main-form__middle-tops {
+        margin-top: 10px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking {
+        padding: 20px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__left {
+        flex: 0 0 100%;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__left-img span {
+        padding: 5px 10px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right {
+        flex: 0 0 100%;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-middle {
+        padding: 10px 0;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-middleleft .banking__right-middleitem {
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-middleleft .banking__right-middleitem:last-child {
+        flex: 0 0 100%;
+        margin-bottom: 0;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-middleleft {
+        margin-bottom: 15px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .iteminfo {
+        line-height: 1;
+        padding: 5px 10px;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-bottom>div {
+        flex: 0 0 100%;
+        justify-content: space-evenly;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__left-img img {
+        width: 70%;
+    }
+
+    .wrapper.kreditniekarti .banking__right-bottomleft {
+        text-align: center;
+    }
+
+    .wrapper.glavnaya .useful-articles__inner {
+        padding: 20px 10px 55px 10px;
+    }
+
+    .wrapper.glavnaya .financial-supermarket__inner {
+        padding: 45px 10px 40px 10px;
+    }
+
+    .wrapper.glavnaya .yellow-arrow.all-link__img {
+        padding: 6px 9px 9px 9px;
+    }
+
+    .wrapper.straxovanie .compares-prices__article {
+        text-align: left;
+    }
+
+    .wrapper.straxovanie2 .form-groupitem.select2::after,
+    .wrapper.straxovanie3 .form-groupitem.select2::after,
+    .wrapper.straxovanie5 .form-groupitem.select2::after {
+        top: 63%;
+        transform: translateY(-63%);
+    }
+
+    .wrapper.straxovanie5 .products.chasto .products__item {
+        flex: 0 0 100%;
+    }
+
+    .wrapper.straxovanie5 .products.chasto .products__item-list {
+        margin-bottom: 0;
+    }
+
+    .wrapper.straxovanie5 .products.chasto .products__itemsbox {
+        margin-bottom: 0;
+    }
+
+    .products.chasto .products__item .products__item-title {
+        line-height: 1;
+        margin-bottom: 20px;
+        position: relative;
+        color: #2bc9fc;
+        text-decoration: underline;
+    }
+
+    .products .products__item .products__item-title:after{
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Pro"; font-weight: 900; content: "\f078";
+        font-size: 11px;
+        color: #2bc9fc;
+    }
+    .products .products__item .products__item-title.show{
+        color: #000;
+        text-decoration: none;
+    }
+    .products .products__item .products__item-title.show:after{
+        content: "\f077"
+    }
+
+    .wrapper.straxovanie5 .sportstate-display__bottom-list{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+    }
+
+    .wrapper.straxovanie5 .sportstate-display__bottom-list li{
+        flex: 0 0 100%;
+    }
+
+    .wrapper.straxovanie5 .sportstate-display__top{
+        margin-bottom: 50px;
+    }
+
+    .wrapper.straxovanie5 .sportstate-display__inner {
+        padding: 50px 10px 50px 10px;
+    }
+
+    .wrapper.straxovanie5 .best-deals, .useful-articles__inner {
+        padding-top: 50px;
+    }
+
+    .wrapper.straxovanie2 .tab__head{
+        display: none;
+    }
+
+    .wrapper.straxovanie2 .questions-answers {
+        padding-bottom: 25px;
+    }
+
+    .wrapper.straxovanie2 .best-deals, .useful-articles__inner {
+        padding-top: 45px;
+    }
+
+    .wrapper.straxovanie2 .best-deals__select{
+        margin-bottom: 40px
+    }
+
+    .wrapper.straxovanie2 .best-deals{
+        margin-bottom: 0
+    }
+
+    .wrapper.straxovanie2 .products.chasto .products__itemsbox {
+        margin-bottom: 0;
+    }
+
+    .wrapper.straxovanie2 .products.chasto .products__item {
+        flex: 0 0 100%;
+    }
+
+    .wrapper.straxovanie2 .products.chasto .products__item-list{
+        margin-bottom: 0
+    }
+
+    .products .products__item .products__item-title{
+        line-height: 1;
+        margin-bottom: 15px
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .header__logo {
+        flex: 0 0 45%;
+    }
+
+    .header__search-input {
+        font-size: 4px;
+    }
+
+    .header__search-input::placeholder {
+        opacity: 0;
+    }
+
+    .main-section__slider-item {
+        background-position: calc(100% + 50px) bottom !important;
+        background-size: 75%;
+    }
+
+    .main-section__slider-title {
+        margin-right: 50px;
+        line-height: 1.2;
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .main-section__slider-title br{
+        display: none;
+    }
+
+    .main-section__slider-desc {
+        margin-right: 20px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        min-height: 57px;
+    }
+    .main-section__slider-desc br{
+        display: none;
+    }
+
+    .main-section .owl-carousel .owl-dots .owl-dot {
+        width: 50px;
+    }
+
+    .overlay {
+        right: 64px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .overlay-content form {
+        justify-content: flex-start;
+        margin-left: 20px;
+        width: 105%;
+    }
+
+    .footer__info-middle {
+        transform: translate(0px, 215px);
+    }
+
+    .footer__info-bottom {
+        transform: translate(0px, 210px);
+    }
+
+    .footer__contact {
+        transform: translate(35px, -175px);
+    }
+
+    /*.footer__contact.glavnaya{
+        transform: translate(35px, -175px);
+    }*/
+
+    .categories-item.financial {
+        background-position: -12px 0px;
+    }
+
+    .tab__body-cards.mobile .tab__body-card {
+        background-size: 100% 100%;
+    }
+
+
+    /*
+
+
+        straxovanie3.html
+
+
+    */
+
+
+    footer.footer.straxovanie3 .footer__inner .footer__contact {
+        transform: translate(35px, -175px);
+    }
+
+
+
+
+
+
+    /*
+
+
+        straxovanie4.html
+
+
+    */
+
+    footer.footer.straxovanie4 .footer__inner {
+        padding: 20px 0 40px 0;
+    }
+
+    footer.footer.straxovanie4 .footer__inner .footer__contact {
+        transform: translate(35px, -150px);
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+        vkladi.html
+
+
+    */
+
+
+
+
+    /* hech narsa yo'q */
+
+
+
+
+
+
+
+    /*
+
+
+
+        vkladialfabank.html
+
+
+
+    */
+
+    /* hech narsa yo'q */
+
+    .branchesalfabank #map {
+        height: 100%;
+        width: 290px;
+        position: absolute;
+        margin: 0 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*
+
+        statyabloga.html
+
+    */
+
+    .wrapper.kreditniekarti .wrapper.statyabloga .articlesblock__img {
+        text-align: left;
+    }
+
+    .wrapper.kreditniekarti .wrapper.statyabloga .articlesblock__img img {
+        max-width: 290px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+
+    kreditniekarti.html
+
+
+
+    */
+
+    .main-form__middle .main-form__middle-tops button {
+        margin-bottom: 10px;
+        width: 33%;
+    }
+
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-bottom>div>a {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .wrapper.kreditniekarti .main-form__bottom .banking__right-bottom>div>a:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer__contact {
+        transform: translate(35px, -150px);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* Sa'dulla  Bank_kredit_card  Start */
+
+/* Media Query */
+@media (max-width: 1200px) {}
+
+@media (max-width: 768px) {
+    .wrapper.straxovanie5 .travel-abroad{
+        margin-bottom: 30px;
+    }
+    .bank_credit_card .bcc_block .container,
+    .bank_credit_card .mts_bank_card .container,
+    .bank_credit_card .bcc_tab_content .container,
+    .bank_credit_card .description_block .container {
+        padding: 0 30px;
+    }
+
+    .bank_credit_card .mts_bottom .cozys {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+
+    .bank_credit_card .mts_main {
+        padding: 30px 30px 65px 30px;
+    }
+
+    .bank_credit_card .card_block {
+        transform: translate(-40px, 40px);
+        margin: 0 0 15px 0;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .bank_credit_card .card_block .card_img {
+        width: 100%;
+    }
+
+    .bank_credit_card .card_block img {
+        width: 100%;
+    }
+
+    .bank_credit_card .mts_bottom .cozys {
+        padding-top: 0;
+    }
+
+    .bank_credit_card .mts_bottom .order_btn.mobile_btn {
+        display: block;
+    }
+
+    .bank_credit_card .order_btn.mobile_btn a {
+        width: 100%;
+        display: inline-block;
+        padding: 17px 0;
+        text-align: center;
+        background: #199bc5;
+        color: #fff;
+        font-family: 'PTSans Caption Bold';
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .wrapper.straxovanie2 .travel-abroad.straxovanie2 .page-title::after{
+        top: 105px;
+    }
+    .bank_credit_card .bcc_block .container,
+    .bank_credit_card .mts_bank_card .container,
+    .bank_credit_card .bcc_tab_content .container,
+    .bank_credit_card .description_block .container {
+        padding: 0 15px;
+    }
+
+    .bank_credit_card .mts_title {
+        font-size: 26px;
+        font-family: 'PTSans Caption Bold';
+        padding-right: 30px;
+    }
+
+    .bank_credit_card .bcc_block .mts_cashback {
+        padding-bottom: 350px;
+    }
+
+    .bank_credit_card .mts_main {
+        padding: 20px 20px 25px 20px;
+        transform: translate(0, -325px);
+        margin-bottom: -290px;
+    }
+
+    .bank_credit_card .mts_main .mts_top {
+        justify-content: space-between;
+    }
+
+    .bank_credit_card .mts_main .mts_bottom {
+        position: relative;
+    }
+
+    .bank_credit_card .mts_main .mts_top .mts_number {
+        flex: 0 0 29%;
+    }
+
+    .bank_credit_card .mts_main .mts_top .mts_logo {
+        margin-right: 0;
+        flex: 0 0 55%;
+    }
+
+    .bank_credit_card .mts_main .mts_top .mts_logo img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .bank_credit_card .mts_main .mts_top:after {
+        width: 100%;
+    }
+
+    .bank_credit_card .card_block {
+        transform: translate(0, 0);
+    }
+
+    .bank_credit_card .card_block .card_links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    .bank_credit_card .card_block .card_links:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #ebebeb;
+        top: 40px;
+    }
+
+    .bank_credit_card .card_block .card_links p {
+        margin-bottom: 0;
+    }
+
+    .bank_credit_card .description_block .db_texts {
+        margin-bottom: 40px;
+    }
+
+    .bank_credit_card .description_block .db_subtitle {
+        padding-right: 17px;
+    }
+
+    .bank_credit_card .description_block .container {
+        margin-bottom: 20px;
+    }
+
+    .map {
+        width: calc(100% - 30px);
+        margin: 0 15px;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 440px;
+    }
+
+    .info_mts .container {
+        padding: 40px 15px;
+    }
+
+    .bank_credit_card .info_mts .top_title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bank_credit_card .info_mts .info_left {
+        font-size: 15px;
+        margin-right: 0;
+        flex: 0 0 46%;
+    }
+
+    .bank_credit_card .info_mts .info_right {
+        flex: 0 0 53%;
+        padding-left: 3px;
+    }
+
+    .bank_credit_card .mts_item_big {
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    .bank_credit_card .mts_item_big .mts_item:first-child {
+        margin-bottom: 10px;
+    }
+
+    .bank_credit_card .info_mts .info_right ul li:first-child {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bank_credit_card .info_mts .info_right ul li:nth-child(2) {
+        margin-bottom: 36px;
+    }
+
+    .bank_credit_card .info_mts .info_right ul li:nth-child(3) {
+        margin-bottom: 25px;
+    }
+
+    .bank_credit_card .info_mts .info_right ul li:first-child span {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .bank_credit_card .info_mts .info_right ul li:first-child span:last-child {
+        margin-bottom: 0;
+    }
+
+    .bank_credit_card .info_mts .info_left ul li:first-child {
+        margin-bottom: 110px;
+    }
+
+    .bank_credit_card .info_mts .info_right,
+    .bank_credit_card .info_mts .info_right a {
+        font-size: 14px;
+    }
+
+    .bank_credit_card .mts_item_big>div {
+        flex: 0 0 100%;
+    }
+
+    .bank_credit_card .mts_item_big.first {
+        margin-bottom: 20px;
+    }
+
+    .bank_credit_card .mts_item_big.second {
+        margin-bottom: 5px;
+    }
+
+    .bank_credit_card .pr_bottom {
+        margin-bottom: 10px;
+    }
+
+    .bank_credit_card .mts_items {
+        border-bottom: 1px solid #ebebeb;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+    .bank_credit_card .mts_bottom .cozys {
+        padding-left: 15px;
+    }
+
+
+    .bank_credit_card .mb_block_mts {
+        display: block;
+        width: 100%;
+    }
+
+    .bank_credit_card .pc_block {
+        display: none;
+    }
+
+    .bank_credit_card .nav-tabs {
+        width: 600px;
+        overflow: scroll;
+    }
+
+    .products__item-list{
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+    .products__item-list.show{
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+/* Sa'dulla  Bank_kredit_card  End */
+
+
+/* Sa'dulla  Mikrozaym  Start */
+
+
+/* Media Query */
+@media (max-width: 1200px) {}
+
+@media (max-width: 768px) {
+
+    .mikrozaym .credit_types .container,
+    .mikrozaym .consumer_loan .container,
+    .mikrozaym .breadcrumbs .container {
+        padding: 0 30px;
+    }
+
+    .mikrozaym .product_type ul li a {
+        padding: 6px 13px;
+    }
+
+    .mikrozaym .credit_types .ct_item,
+    .mikrozaym .credit_types .col-md-4:nth-child(3n) .ct_item {
+        margin-right: 9px;
+        margin-bottom: 10px;
+    }
+
+    .mikrozaym .credit_types .col-md-4:nth-child(2n) .ct_item {
+        margin-right: 0;
+    }
+
+    .mikrozaym .credit_types .ct_body .body_item .item_right {
+        flex: 0 0 45%;
+    }
+
+    .mikrozaym .consumer_loan .consumer_text .ipoteka_text {
+        padding: 30px;
+    }
+
+    .mikrozaym .consumer_loan .consumer_action .ipoteka_input {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .mikrozaym .consumer_loan .consumer_action .col-md-3:nth-child(3) .ipoteka_input {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .owl-carousel .owl-nav button.owl-prev{
+        left: 0 !important;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        right: 0 !important;
+    }
+    .mikrozaym .credit_types .container,
+    .mikrozaym .consumer_loan .container,
+    .mikrozaym .breadcrumbs .container {
+        padding: 0 15px;
+    }
+
+    .mikrozaym .credit_types .ct_item,
+    .mikrozaym .credit_types .col-md-4:nth-child(3n) .ct_item {
+        margin-right: 9px;
+        margin-bottom: 10px;
+    }
+
+    .mikrozaym .credit_types .col-md-4:nth-child(2n) .ct_item {
+        margin-right: 0;
+    }
+
+    .mikrozaym .credit_types .ct_item .ct_top {
+        height: 60px;
+        padding-left: 15px;
+    }
+
+    .mikrozaym .credit_types .ct_item .ct_top img {
+        width: 85%;
+    }
+
+    .mikrozaym .credit_types .ct_item .ct_body {
+        padding: 15px 11px 15px 15px;
+    }
+
+    .mikrozaym .credit_types .ct_item .body_item {
+        flex-direction: column;
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+
+    .mikrozaym .credit_types .ct_item .body_item:last-child {
+        margin-bottom: 0;
+    }
+
+    .mikrozaym .credit_types .ct_item .body_item .item_left {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    .mikrozaym .credit_types .ct_body .body_item .item_right {
+        font-size: 14px;
+    }
+
+    .mikrozaym .credit_types .ct_body .body_item:first-child .item_right {
+        font-size: 13px;
+    }
+
+    .mikrozaym .credit_types .ct_bottom {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .mikrozaym .credit_types .ct_bottom .btns {
+        flex: 0 0 100%;
+    }
+
+    .mikrozaym .credit_types .ct_bottom .left_btn {
+        margin-bottom: 5px;
+    }
+
+    .mikrozaym .credit_types .ct_bottom .btns a span {
+        display: none;
+    }
+
+    .mikrozaym .product_type {
+        margin-bottom: 0;
+    }
+
+    .mikrozaym .pr_filter ul {
+        display: none;
+    }
+
+    .mikrozaym .pr_filter .mb_filter {
+        display: block;
+        position: relative;
+        font-size: 15px;
+        color: #666;
+    }
+
+    .mikrozaym .pr_filter .mb_filter select {
+        border: none;
+        padding-right: 10px;
+        appearance: none;
+        background-color: #fff;
+        -webkit-appearance:  none;
+    }
+
+    .mikrozaym .pr_filter .mb_filter:after {
+        position: absolute;
+        content: '';
+        display: block;
+        background-image: url(../images/card/select_icon.png);
+        background-repeat: no-repeat;
+        width: 9px;
+        height: 5px;
+        right: 75px;
+        bottom: 30%;
+        transform: translateY(-30%);
+    }
+
+    .mikrozaym .pr_filter .mb_filter .option-group {
+        padding: 10px
+    }
+
+
+
+    .mikrozaym .consumer_loan {
+        padding: 40px 0;
+        margin-bottom: 25px;
+    }
+
+    .mikrozaym .consumer_loan .consumer_action {
+        padding: 20px 20px 30px 20px;
+    }
+
+    .mikrozaym .consumer_text .ipoteka_title {
+        font-size: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .mikrozaym .consumer_loan .consumer_action .ipoteka_input {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .mikrozaym .consumer_loan .consumer_action .col-12:last-child .ipoteka_input {
+        margin-bottom: 0;
+    }
+
+    .mikrozaym .consumer_text .ipoteka_text {
+        font-size: 22px;
+        padding: 0 !important;
+        line-height: 1.4;
+    }
+
+    .mikrozaym .ipoteka_list_items ul li a {
+        font-size: 12px;
+    }
+
+    .mikrozaym .nav {
+        display: -webkit-box;
+        flex-wrap: nowrap;
+        list-style: none;
+        overflow: scroll;
+        padding-bottom: 15px;
+    }
+
+    .mikrozaym .consumer_loan{
+        background-image: url('../images/mikrozaym_mobile_bg.jpg');
+    }
+
+}
+
+
+
+
+/* Sa'dulla  Mikrozaym  End */
+
+
+
+
+/* Farrux Media kredit start*/
+@media (max-width: 992px) {
+    .kredit .consumer_text h4::after {
+        top: 70px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .kredit .kredit_form_currency {
+        padding: 15px 5px;
+    }
+
+    .kredit .kredit_sort .nav-pills .nav-link {
+        padding: 15px 8px;
+        font-family: "PTSans Caption Bold";
+        font-size: 11px;
+    }
+
+    .kredit .most_offers_item .offers_stavka .stavka2 {
+        font-size: 15px;
+    }
+
+    .kredit .most_offers_item .offers_stavka p {
+        font-size: 14px;
+    }
+
+    .kredit .most_offers_item .purpose_block a {
+        padding: 7px 5px;
+        font-size: 15px;
+    }
+
+
+    .kredit .most_offers_item .expand_conditions a,
+    .kredit .most_offers_item .more_kredit a {
+        font-size: 12px;
+    }
+
+    .kredit .most_offers_item .most_offers_btns a,
+    .kredit .most_offers_item .most_offers_btns a {
+        padding: 12px 18px;
+        font-size: 12px;
+    }
+
+    .kredit .top_bank_block ul li a {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    .kredit .consumer_show_btn,
+    .kredit .consumer_collapse_btn {
+        font-size: 15px;
+    }
+
+    .kredit .form_block select {
+        font-size: 14px;
+        background-color: #fff;
+    }
+
+    .kredit .form_block label {
+        font-size: 11.5px;
+    }
+
+}
+
+
+@media (max-width: 760px) {
+    .kredit .consumer_text h4::after {
+        top: 115px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .kredit .kredit_form_currency {
+        width: 25%;
+    }
+
+    .kredit .consumer_show_btn,
+    .kredit .consumer_collapse_btn {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .kredit .consumer_loan .container {
+        padding: 0 15px;
+    }
+
+    .kredit .kredit_sort .container {
+        padding: 0 15px;
+    }
+
+    .kredit .consumer_loan {
+        padding: 40px 0;
+    }
+
+    .kredit .consumer_text h4 {
+        font-size: 26px;
+    }
+
+    .kredit .consumer_text p {
+        font-size: 18px;
+    }
+
+    .kredit .consumer_text h4::after {
+        top: 75px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .kredit .consumer_text h4 a{
+        display: block;
+    }
+
+    .kredit .consumer_action .kredit_order1 {
+        order: 2;
+    }
+
+    .kredit .consumer_action .kredit_order2 {
+        order: 1;
+    }
+
+    .kredit .consumer_action .kredit_order3 {
+        order: 3;
+    }
+
+    .kredit .consumer_action .kredit_order4 {
+        order: 4;
+    }
+
+
+    .kredit .kredit-flex {
+        justify-content: flex-start;
+    }
+
+    .kredit .kredit_form_currency {
+        width: 70%;
+        font-size: 17px;
+        padding-left: 15px;
+    }
+
+    .kredit .kredit_form_control {
+        display: block;
+    }
+
+    .kredit input[type="range"] {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .kredit .kredit_form_select {
+        padding: 9px 15px;
+        font-size: 14px;
+        background-color: #fff;
+    }
+
+    .kredit .kredit_select_label {
+        display: block;
+    }
+
+    .kredit .consumer_action .kredit_valyuta {
+        padding: 0 15px;
+    }
+
+    .kredit .consumer_show_btn {
+        margin: 0;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .kredit .consumer_show_btn i {
+        display: none;
+    }
+
+    .kredit .consumer_collapse_btn {
+        display: none;
+    }
+
+    .kredit .consumer_more_btn {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 18px 0;
+        outline: none;
+        color: #33cc66;
+        font-size: 15px;
+        width: 100%;
+        border: 1px solid #33cc66;
+    }
+
+    .kredit .additional_parametr {
+        display: none;
+    }
+
+    .kredit .kredit_sort .nav {
+        display: -webkit-box;
+        flex-wrap: nowrap;
+        list-style: none;
+        overflow: scroll;
+    }
+
+    .kredit .most_offers_item {
+        position: relative;
+    }
+
+    .kredit .most_offers_item .litsovoy {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        text-align: right;
+        right: -10px;
+        margin: 0;
+        max-width: 20%;
+    }
+
+    .kredit .most_offers_item .offers_stavka p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .kredit .most_offers_item .purpose_block a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .kredit .most_offers_item .most_offers_btns a {
+        display: inline-block;
+        font-size: 12px;
+        font-size: 10px;
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+
+    .kredit .most_offers_item {
+        position: relative;
+    }
+
+    .kredit .most_offers_item .more_kredit {
+        display: block;
+        position: absolute;
+        top: -307px;
+        right: 0;
+    }
+
+    .kredit .most_offers_item .offers_order_2 {
+        order: 2;
+    }
+
+    .kredit .most_offers_item .offers_order_1 {
+        order: 1;
+        margin-bottom: 15px;
+    }
+
+    .kredit .kredit_sort .kredit_sort_list {
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .kredit .kredit_sort .kredit_sort_list li a {
+        font-size: 12px;
+    }
+}
+
+/* Farrux Media kredit end */
+
+/* Farrux Media Ipoteka start */
+@media (max-width: 480px) {
+    .ipoteka .consumer_text .ipoteka_title {
+        font-size: 30px;
+    }
+
+    .ipoteka .consumer_text .ipoteka_text {
+        font-size: 22px;
+    }
+
+    .ipoteka .ipoteka_list_items ul li a {
+        font-size: 12px;
+    }
+
+    .ipoteka .ipoteka_form_block {
+        margin-bottom: 15px;
+    }
+
+    .ipoteka .most_offers_item {
+        position: relative;
+    }
+
+    .ipoteka .most_offers_item .ipoteka_more_kr {
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+
+    .ipoteka .most_offers_item .stavka3 {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .ipoteka .offers_vozrast {
+        max-width: 50%;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    .ipoteka .more_btns_col {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .ipoteka .lits_span {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .ipoteka .kredit_sort .ipoteka_list_items {
+        display: none;
+    }
+    .mobile_vklad_info{
+        display: block;
+    }
+    .deposit-info__inner .tab-content{
+        display: none;
+    }
+    .deposit-info__inner .mobile_vklad_info select{
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #2bc9fc;
+        font-size: 15px;
+        font-family: 'PTSans Caption Bold';
+        margin-bottom: 25px;
+        appearance: none;
+        -webkit-appearance: none;
+        background-image: url(../images/card/select_icon.png);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 15px) center;
+        background-color: #fff;
+    }
+    .deposit-info__inner .mobile_vklad_info .info_name{
+        font-size: 15px;
+        color: #666666;
+        margin-bottom: 10px;
+    }
+    .deposit-info__inner .mobile_vklad_info .info_sum{
+        font-size: 16px;
+        font-family: 'PTSans Caption Bold';
+    }
+    .deposit-info__inner .mobile_vklad_info .info_item{
+        margin-bottom: 35px;
+    }
+    .deposit-info__inner .mobile_vklad_info td{
+        padding: 15px;
+    }
+    .deposit-info__inner .mobile_vklad_info table{
+        width: 200%;
+        max-width: 200%;
+    }
+    .deposit-info__inner .mobile_vklad_info .table-responsive::-webkit-scrollbar{
+        height: 2px;;
+    }
+    .deposit-info__inner .mobile_vklad_info .table-responsive::-webkit-scrollbar-track{
+        background-color: #f3f3f3;
+    }
+    .deposit-info__inner .mobile_vklad_info .table-responsive::-webkit-scrollbar-thumb{
+        background-color: #199bc5;
+    }
+    .deposit-info__inner .mobile_vklad_info .vklad_info_action .subtitle{
+        font-size: 14px;
+        color: #999999;
+        margin-bottom: 15px;
+    }
+    .deposit-info__inner .mobile_vklad_info .vklad_info_action .title{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .deposit-info__inner .mobile_vklad_info .vklad_info_action .button a{
+        font-size: 15px;
+        color: #ffffff;
+        padding: 20px;
+        display: block;
+        background-color: #33cc66;
+        border-radius: 8px;
+        text-align: center;
+        font-family: 'PTSans Caption Bold';
+    }
+    .wrapper.straxovanie5 .travel-abroad.straxovanie2{
+        margin-bottom: 60px;
+    }
+
+    .theinsured__form-check .form-check-input,
+    .theinsured__form-item:last-child .theinsured__form-itemsectionleft.input input{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+        padding: 0;
+    }
+
+    .quick-selection .tab__head-list li{
+        margin-right: 5px;
+    }
+    .quick-selection .tab__head-list{
+        overflow-x: scroll;
+    }
+    .quick-selection .tab__head-link{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .quick-selection .tab__body-item.fourth4 .select-blocks{
+        width: 100%;
+        display: block;
+    }
+    .wrapper.glavnaya .quick-selection .tab__body-item.fourth4 .select-blocks label{
+        margin-bottom: 20px;
+    }
+    .quick-selection .tab__body-item.fourth4 .select-blocks input{
+        width: 100%;
+    }
+    .quick-selection .tab__body-item.third3 .cardnumberlabel{
+        display: block;
+        margin-bottom: 0;
+    }
+    .quick-selection .tab__body-item.third3 input[type="text"]{
+        width: 100%;
+    }
+    .quick-selection__form-item .tourists .tourists_block{
+        flex-wrap: wrap;
+    }
+    .quick-selection__form-item .tourists .tourists_block .tourist_item{
+        width: 90px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Farrux Media Ipoteka end */
+
+
+@media (min-width: 1400px){
+    .overlay-content form{
+        display: flex;
+        position: relative;
+    }
+    .overlay .closebtn{
+        right: -30px;
+        top: 13px;
+    }
+    .overlay button{
+        right: 105px;
+    }
+}

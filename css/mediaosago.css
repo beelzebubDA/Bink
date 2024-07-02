@@ -1,0 +1,1026 @@
+/* Media Query */
+@media (max-width: 1600px){
+	.osago__page_six1 {
+	    background-size: 117%;
+	}
+	.osago__page_calc{
+		background-size: 119%;
+	}
+}
+@media (max-width: 1400px){
+	.osago__page_six1 {
+	    background-size: 134%;
+	}
+	.osago__page_calc{
+		background-size: 136%;
+	}
+}
+@media (max-width: 1366px){
+	.osago__page_six1 {
+	    background-size: 140%;
+	}
+	.osago__page_calc{
+		background-size: 140%;
+	}
+}
+@media (max-width: 1200px){
+	.calculation-osago {
+	    background-size: 105%;
+	    margin-bottom: 40px;
+	}
+	.osago__page_six1{
+		background-size: 157%;
+	}
+	.osago__page_calc{
+		background-size: 157%;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after {
+	    left: calc(56% - 120px);
+	}
+	.date__inner {
+	    padding: 0 165px;
+	}
+	.osago__page_seven2 .date__inner_absolyut{
+		width: 70%;
+	}
+	.unit-osago .owl-carousel{
+		padding: 0 30px;
+	}
+	.unit-osago .owl-carousel .owl-nav button.owl-prev{
+		left: 10px;
+	}
+	.unit-osago .owl-carousel .owl-nav button.owl-next{
+		right: 10px;
+	}
+	.unit-osago .owl-carousel .owl-nav button.owl-next, 
+	.unit-osago .owl-carousel .owl-nav button.owl-prev{
+		top: calc(67% - 38px);
+	}
+	.policy_items .item .p_num:before{
+		left: 80px;
+	}
+	.reason-issue .reason__inner{
+		padding: 0 20px;
+	}
+	.reason__items .item_iss{
+		padding-right: 20px;
+		flex: 0 0 33%;
+	}
+	.reason__items .item_iss:last-child{
+		padding-left: 20px;
+	}
+}
+@media (max-width: 1125px){
+	.calculation-osago {
+	    background-size: 114%;
+	}
+	.osago__page_six1{
+		background-size: 152%;
+	}
+	.osago__page_calc{
+		background-size: 170%;
+	}
+	.date__inner {
+	    padding: 0 128px;
+	}
+	.osago__page_four .osago__inner,
+	.osago__page_four .date__inner,
+	.osago__page_four .payment-osago__block {
+	    padding: 0 30px;
+	}	
+	.osago__inner .osago__text{
+		margin-bottom: 45px;
+	}
+	.osago__inner_items {
+		justify-content: space-around;
+	}
+	.osago__inner_items .inner__item{
+		flex: 0 0 47%;
+		margin-bottom: 15px;
+	}
+	.policy_items .item .p_num:before{
+		left: 80px;
+		width: 270px;
+	}
+	.unit-osago .rf-online__top-info{
+		padding: 50px;
+	}
+}
+@media (max-width: 1060px){
+	.calculation-osago {
+	    background-size: 121%;
+	}
+	.osago__page_six1{
+		background-size: 164%;
+	}
+	.osago__page_calc{
+		background-size: 178%;
+	}
+	.date__inner {
+	    padding: 0 95px;
+	}	
+	.second:after{
+		right: 19%;
+	}
+	.osago__product_item li{
+		padding: 10px;
+	}
+	.osago__product_item li:nth-child(3) img{
+		width: 125px;
+	}
+	.reason__items{
+		justify-content: space-around;
+	}
+	.reason__items .item_iss{
+		flex: 0 0 40%;
+	}
+	.reason__items .item_iss:nth-child(2){
+		display: none;
+	}
+	.policy_items .item .p_num:before{
+		width: 250px;
+	}
+	.quest{
+		padding-bottom: 0;
+	}
+	.quest .questions-answers__inner{
+		padding: 0 30px;
+	}
+	.osago__page .products__itemsbox{
+		flex: 0 0 23%;
+	}
+	.unit-osago .rf-online__top{
+		padding: 0 100px;
+	}
+	.unit-osago .rf-online__top-info{
+		padding: 40px;
+	}
+}
+@media (max-width: 1024px){
+	.calculation-osago {
+	    background-size: 125%;
+	}
+	.osago__page_six1{
+		background-size: 172%;
+	}
+	.osago__page_calc{
+		background-size: 185%;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after {
+	    left: calc(56.5% - 120px);
+	}
+	.osago__inner,
+	.date__inner,
+	.vehicle-date__inner {
+	    padding: 0 65px;
+	}
+	.date__inner_form {
+	    margin-bottom: 20px;
+	}
+	.osago__inner .page__prev{
+		margin-top: 8px;
+	}
+	.second:after{
+		right: 20%;
+	}
+	.unit-osago{
+		margin-bottom: 40px;
+	}
+	.reason-issue{
+		padding: 40px 0 35px;
+	}
+	.policy__inner{
+		padding: 40px 0;
+	}
+	.policy_items .item .p_num:before{
+		width: 235px;
+	}
+	.worth__inner .worth_items{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.worth__inner .worth_items .w_item{
+		flex: 0 0 40%;
+	}
+	.worth__inner .worth_items .w_item:nth-child(1),
+	.worth__inner .worth_items .w_item:nth-child(2){
+		margin-bottom: 15px;
+	}
+	.worth__inner .worth_text p{
+		padding: 0 30px;
+	}
+	.worth__inner .worth_text p br{
+		display: none;
+	}
+}
+@media (max-width: 930px){
+	.calculation-osago {
+	    background-size: 137%;
+	}
+	.osago__page_six1{
+		background-size: 187%;
+	}
+	.osago__page_calc{
+		background-size: 200%;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after {
+	    left: calc(57% - 120px);
+	}
+	.date__inner_form .form_row{
+		flex-wrap: wrap;
+		margin-bottom: 0;
+		justify-content: space-between;
+	}
+	.date__inner_form .form_row label {
+	    margin-bottom: 10px;
+	}
+	.date__inner_form .form_row input, 
+	.date__inner_form .form_row select{
+		margin-bottom: 15px;
+		width: 100%!important;
+	}
+	.date__inner_form .form_row p {
+	    padding-right: 0;
+	    flex: 0 0 48%;
+	}
+	.date__inner_form .form_row .caret .ico{
+		bottom: 30px;
+    	right: 5px
+	}
+	.date__inner_form .form_row .check2{
+		display: none;
+	}
+	.check2{
+		display: block;
+	}
+	.date__inner_form .form_row .caret .ico{
+		bottom: 30px;
+    	right: 5px
+	}
+	.payment-osago__block{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.payment-osago__left {
+	    flex: 0 0 100%;
+	    margin-bottom: 40px;
+	}
+	.payment-osago__right {
+	    flex: 0 0 100%;
+	}
+	.payment-osago__items{
+		display: flex;
+		border: none;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.payment-osago__items li{
+		flex: 0 0 32%;
+		padding: 0;
+		border: none;
+		background-color: transparent;
+	}	
+	.payment-osago__items li:last-child br{
+		display: none;
+	}
+	.second:after{
+		right: 16%;
+	}
+	.unit-osago .rf-online__top{
+		padding: 0 80px;
+	}
+	.policy_items .item .p_num:before {
+	    width: 205px;
+	}
+	.osago__page .products__itemsbox{
+		flex: 0 0 40%;
+	}
+	.osago__page .products__items{
+		justify-content: space-around;
+	}
+	.unit-osago .rf-online__top{
+		padding: 0 70px;
+	}
+}
+@media (max-width: 870px){
+	.calculation-osago {
+	    background-size: 147%;
+	}
+	.osago__page_six1{
+		background-size: 200%;
+	}
+	.osago__page_calc{
+		background-size: 220%;
+		margin-bottom: 0;
+	}
+	.osago__inner,
+	.date__inner,
+	.vehicle-date__inner {
+	    padding: 0 30px;
+	}
+	.osago__page_four .osago__inner,
+	.osago__page_four .date__inner,
+	.osago__page_four .payment-osago__block {
+	    padding: 0 15px;
+	}
+	.second:after{
+		right: 17%;
+	}
+	.osago__inner_items .inner__item{
+		flex: 0 0 48%;
+	}
+	.policy_items .item .p_num:before{
+		display: none;
+	}
+	.worth__inner .worth_title h2:after {
+	    left: calc(56% - 90px);
+	}
+	.unit-osago .rf-online__top{
+		padding: 0 20px;
+	}
+}
+@media (max-width: 820px){
+	.calculation-osago {
+	    background-size: 156%;
+	}
+	.osago__page_six1{
+		background-size: 215%;
+	}
+	.osago__page_calc{
+		background-size: 230%;
+		margin-bottom: 0;
+	}
+	.second:after{
+		right: 18%;
+	}
+	.osago__page_seven2 .date__inner_absolyut{
+		width: 80%;
+	}
+}
+@media (max-width: 768px){
+	.calculation-osago {
+	    background-size: 166%;
+	}
+	.osago__page_six1{
+		background-size: 225%;
+	}
+	.osago__page_calc{
+		background-size: 250%;
+		margin-bottom: 0;
+	}
+	.osago__inner .osago__title h1{
+		font-size: 36px;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after {
+	    left: calc(58.5% - 120px);
+	}
+	.unit-osago .section-title{
+		font-size: 36px;
+		margin-bottom: 30px;
+	}
+	.unit-osago .rf-online__top{
+		padding: 0 30px;
+	}
+	.second:after{
+		right: 20%;
+	}
+	.reason_desc,
+	.policy_desc,
+	.osago__page .products__desc{
+		display: none;
+	}
+	.reason_mob,
+	.policy_mob,
+	.osago__page .products__mob{
+		display: block;
+	}
+	.reason_slider .iss{
+		text-align: center;
+	}
+	.reason_slider .iss .iss_img{
+		height: 49px;
+		margin-bottom: 15px;
+	}
+	.reason_slider .iss h4{
+		font-size: 18px;
+		font-family: 'PTSans Caption Bold';
+		margin-bottom: 15px;
+	}
+	.owl-drag {
+   		overflow: hidden;
+	}
+	.owl-item {
+	    float: left;
+	}
+	.reason_slider .iss p{
+		font-size: 15px;
+		line-height: 1.6;
+	}
+	.reason_slider .owl-nav,
+	.policy_slider .owl-nav{
+		display: none;
+	}
+	.reason_slider .owl-dots,
+	.policy_slider .owl-dots{
+		display: block;
+		text-align: center;
+	}
+	.reason_slider .owl-dots .owl-dot,
+	.policy_slider .owl-dots .owl-dot{
+		width: 10px;
+		height: 10px;
+		background-color: #e0e0de;
+		border-radius: 50%;
+		margin: 20px 5px 0;
+	}
+	.reason_slider .owl-dots .owl-dot.active{
+		background-color: #199bc5;
+	}
+	.policy_slider .owl-dots .owl-dot.active{
+		background-color: #33cc66;
+	}
+	.policy_slider{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.policy_link {
+		margin-top: 35px;
+	}
+	.osago__page .card_title{
+		width: 100%;
+	}
+	.osago__page .card_title .btn{
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		color: #199bc5!important;
+	}
+	.osago__page .card_title .btn .card-header__title,
+	.osago__page .card_title .btn{
+		color: #199bc5;		
+		font-weight: 600;
+		text-decoration: none!important;
+	}
+	.osago__page .card_title .btn .card-header__title{
+		position: relative;
+		margin-right: 10px;
+	}
+	.osago__page .products__item-list{
+		height: auto;
+	}
+	.reason_title h2,
+	.policy__inner .policy_title h2,
+	.worth__inner .worth_title h2{
+		font-size: 36px;
+	}
+	.worth__inner .worth_title p{
+		padding: 0 30px;
+	}
+	.worth__inner .worth_title p br{
+		display: none;
+	}
+	.worth__inner .worth_items .w_item{
+		flex: 0 0 45%;
+	}
+	.worth-insurance{
+		padding: 40px 0;
+	}
+	.buy__inner{
+		padding: 0 30px;
+	}
+	.buy__inner .buy_text p{
+		padding-bottom: 15px;
+	}
+	.buy__inner .buy_block{
+		padding: 20px;
+	}
+	.buy__inner .buy_block .b_title h3{
+		font-size: 18px;
+	}
+	.buy__inner .buy_block .b_links{
+		flex-direction: column;
+		align-items: center;
+	}
+	.buy__inner .buy_block .b_links .links{
+		margin: 0 0 15px 0;
+	}
+	.buy__models{
+		padding: 30px;
+	}
+	.worth__inner .worth_title h2:after {
+	    left: calc(57% - 90px);
+	}
+}
+@media (max-width: 730px){
+	.calculation-osago {
+	    background-size: 175%;
+	}
+	.osago__page_six1{
+		background-size: 240%;
+	}
+	.osago__page_calc{
+		background-size: 270%;
+	}
+	.osago__page_six1 .osago__inner {
+	    padding: 0 15px;
+	}
+	.osago__page_seven2 .date__inner_absolyut{
+		width: 85%;
+	}
+	.osago__form_inner .form_calc{
+		width: 100%;
+	}
+	.osago__form_inner .form_calc:before{
+		width: 102.5%;
+		height: 104.5%;
+	}
+	.osago__form_inner .form_calc p input{
+		margin-bottom: 15px;
+		margin-right: 0;
+	}
+	.osago__page .products__items{
+		justify-content: space-between;
+	}
+}
+@media (max-width: 625px){
+	.calculation-osago {
+	    background-size: 189%;
+	}
+	.osago__page_six1{
+		background-size: 270%;
+	}
+	.osago__page_calc{
+		background-size: 300%;
+	}
+	.osago__inner .osago__title h1 {
+	    font-size: 36px;
+	    margin-bottom: 20px;
+	}
+	.osago__inner .osago__title p br{
+		display: none;
+	}
+	.osago__inner_items .inner__item{
+		flex: 0 0 70%;
+	}
+	.osago__inner .osago__title .osago__item_sec li span {
+	    font-size: 16px;
+	}
+	.date__inner_form .form_row{
+		justify-content: center;
+	}
+	.date__inner_form .form_row p {
+	    flex: 0 0 70%;
+	}.osago__inner .osago__title h1:after{
+		left: calc(60% - 120px);
+	}
+	.payment-osago__items{
+		justify-content: space-around;
+	}
+	.payment-osago__left {
+	    margin-bottom: 20px;
+	}
+	.payment-osago__items li{
+		padding: 20px;
+		flex: 0 0 48%;
+		background-color: transparent;
+		background-color: #fff;
+		border: 1px solid #efeff0;
+		margin-bottom: 10px;
+	}
+	.payment-osago__right{
+		flex: 0 0 70%;
+	}
+	.payment-osago__head{
+		display: none;
+	}
+	.payment-osago__item p br{
+		display: block;
+	}
+	.payment-osago__item{
+		padding-bottom: 50px;
+	}
+	.second:before{
+		right: 27%;
+	}
+	.second:after{
+		right: 50%;
+	}
+	.payment-osago__product{
+		padding: 0;
+	}
+	.osago__product_item{
+		flex-wrap: wrap;
+	}
+	.osago__product_item li{
+		border-right: 0;
+		flex: 0 0 50%!important;
+		height: auto!important;
+	}
+	.osago__product_item .price_order{
+		display: block;
+		border-top: 1px solid #efeff0;
+		padding: 20px;
+	}
+	.osago__product_item li:nth-child(4){
+		display: none;
+	}
+	
+	.osago__product_item li:nth-child(1),
+	.osago__product_item li:nth-child(2){
+		padding: 20px;
+	}
+	.osago__product_item li:nth-child(2) p{
+		text-align: right;
+		
+	}
+	.osago__product_item li:nth-child(3){
+		flex: 0 0 100%!important;
+		padding: 0;
+	}
+	.osago__product_item li:nth-child(3) .price{
+		margin-top: 10px;
+		padding-right: 10px;
+	}
+	.osago__product_item li:nth-child(3) .price_img{
+		display: none;
+	}
+	.osago__product_item .price_order .price {
+		padding-right: 60px;
+	}
+	.second:before {
+	    right: 18%;
+	}
+	.second:after {
+	    right: 51%;
+	}
+	.osago__inner, .date__inner, .payment-osago__block {
+	    padding: 0 15px;
+	}
+	.item_first li:nth-child(3) .border-top{
+		border-top: none!important;
+		padding-top: 0;
+	}
+	.item_first li:nth-child(3) .price{
+		margin-top: 0;
+		padding-right: 10px;
+	}
+	.absolyut__document .document__items{
+		justify-content: center;
+	}
+	.absolyut__document .document__items .doc__item{
+		flex: 0 0 70%;
+		margin: 10px 0;
+	}
+	.osago__page_seven2 .date__inner_absolyut{
+		width: 100%;
+	}
+	.policy__inner .policy_title{
+		padding: 0 30px;
+	}
+	.policy__inner .policy_title h2 br,
+	.policy__inner .policy_title p br{
+		display: none	;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after{
+		left: calc(60% - 120px);
+	}
+	.worth__inner .worth_items{
+		padding: 15px;
+	}
+	.worth__inner .worth_items .w_item{
+		flex: 0 0 50%;
+	}
+	.worth__inner .worth_title h2:after {
+	    left: calc(58% - 90px);
+	}
+}
+@media (max-width: 576px){
+	.osago__page_six1{
+		background-size: 285%;
+	}
+	.date__inner_form .form_row p {
+	    flex: 0 0 80%;
+	}
+	.date__inner_pages{
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-bottom: 0;
+	}
+	.date__inner_pages .date__inner_pages_prev{
+		margin-bottom: 15px;
+	}
+	.payment-osago__items li{
+		flex: 0 0 80%;
+		margin-bottom: 0;
+	}
+	.payment-osago__right{
+		flex: 0 0 80%;
+	}
+	.osago__inner .osago__title h1:after{
+		left: calc(63% - 120px);
+	}
+	.second:before {
+	    right: 19%;
+	}
+	.second:after {
+	    right: 51%;
+	}	
+	.absolyut__document .document__items .doc__item{
+		flex: 0 0 80%;
+	}
+	.unit-osago .rf-online__top-items{
+		flex-direction: column;
+	}
+	.unit-osago .rf-online__top-info{
+		padding: 30px;
+	}
+	.unit-osago .rf-online__top-items .rf-online__top-item{
+		margin-bottom: 15px;
+	}
+	.unit-osago .rf-online__top-items .rf-online__top-item:last-child{
+		margin-bottom: 0;
+	}
+	.policy_slider {
+		width: 70%;
+	}
+	.osago__page .products__itemsbox{
+		margin-bottom: 20px;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after{
+		left: calc(61% - 120px);
+	}
+	.worth__inner .worth_items .w_item{
+		flex: 0 0 60%;
+	}
+	.worth__inner .worth_items .w_item:nth-child(1), 
+	.worth__inner .worth_items .w_item:nth-child(2),
+	.worth__inner .worth_items .w_item:nth-child(3){
+		margin-bottom: 15px;
+	}
+	.worth__inner .worth_title h2:after {
+	    left: calc(58% - 90px);
+	}
+}
+@media (max-width: 545px){
+	.calculation-osago {
+		background-size: 200%;
+	   	padding-bottom: 35px;
+	   	margin-bottom: 20px;
+	}
+	.osago__page_six1{
+		background-size: 310%;
+	}
+	.osago__page_calc{
+		background-size: 320%;
+	}
+	.osago__inner .osago__title h1{
+		margin-top: 10px;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after{
+		left: calc(62% - 120px);
+	}
+}
+@media (max-width: 480px){
+	.calculation-osago {
+		/*background-image: url('../images/osago-mob-bg.png');*/
+		background-size: 220%;
+	}
+	.osago__page_six1{
+		background-size: 370%;
+	}
+	.osago__page_calc{
+		background-size: 350%;
+	}
+	.osago__inner_items .inner__item{
+		flex: 0 0 100%;
+	}
+	.osago__inner .osago__title .osago__item_sec li.active span:before{
+		bottom: 7px;
+	}
+	.date__inner_form .form_row p {
+	    flex: 0 0 100%;
+	}
+	.date__inner_pages .date__inner_pages_prev,
+	.date__inner_pages .date__inner_pages_next{
+		flex: 0 0 100%;
+	}
+	.date__inner_pages a{
+		width: 100%;
+	}
+	.payment-osago__right{
+		flex: 0 0 100%;
+	}
+	.payment-osago__items li{
+		flex: 0 0 100%;
+	}
+	.osago__inner .osago__title h1:after{
+		left: calc(63% - 120px);
+	}
+	.second:before {
+	    right: 20%;
+	}
+	.absolyut__document .document__items .doc__item{
+		flex: 0 0 100%;
+	}
+	.unit-osago .rf-online__top-info{
+		margin: 0 auto;
+		width: 70%;
+	}
+	.unit-osago .rf-online__top-info img{
+		width: 100%
+	}
+	.unit-osago .rf-online .owl-carousel .owl-item img{
+		width: 60%;
+	}
+	.unit-osago .owl-carousel .owl-nav button.owl-next, 
+	.unit-osago .owl-carousel .owl-nav button.owl-prev {
+	    top: calc(77% - 38px);
+	    font-size: 25px;
+	}
+	.reason_slider .iss{
+		padding: 0 50px;
+	}
+	.osago__form_inner .form_calc p input,
+	.osago__form_inner .form_calc p button{
+		width: 100%;
+	}
+	.policy_items .item{
+		padding: 0;
+	}
+	.quest .btn.collapsed .card-header__title{
+		display: inline-block;
+		width: 100%;
+	}
+	.quest .btn.collapsed .card-header__title:before{
+		display: none;
+	}
+	.quest{
+		padding-top: 0;
+	}
+	.quest h5,
+	.quest h5 .btn{
+		width: 100%;
+		text-align: left;
+	}
+	.quest .questions-answers__inner{
+		padding: 0 15px;
+	}
+	.quest__inner{
+		padding: 40px 0;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after {
+	    left: calc(63.5% - 120px);
+	}
+	.unit-osago .section-title{
+		font-size: 26px;
+	}
+	.worth__inner .worth_items .w_item{
+		flex: 0 0 80%;
+	}
+	.reason_title h2 br{
+		display: none;
+	}
+}
+@media (max-width: 425px){
+	.calculation-osago {
+		background-image: url('../images/osago-mob-bg.png');
+		background-size: 100%;
+	}
+	.osago__page_six1{
+		background-size: 400%;
+	}
+	.osago__page_calc{
+		background-image: url('../images/osago-bg-calc-mob.png');
+		background-size: 100%;
+		padding-top: 40px;
+	}
+	.osago__inner .osago__title h1{
+		font-size: 26px;
+	}
+	.osago__inner .osago__title .osago__item_sec{
+		flex-wrap: wrap;
+	}
+	.osago__inner,
+	.date__inner,
+	.vehicle-date__inner {
+	    padding: 0 15px;
+	}
+	.date__inner .date__inner_title{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.date__inner .date__inner_title h3{
+		margin-bottom: 10px;
+	}
+	.date__inner .date__inner_info p{
+		font-size: 13px;
+	}
+	.date__inner_info_check .custom-checkbox+label{
+		font-size: 12px;
+	}.osago__product_item li:nth-child(1){
+		flex: 0 0 65%!important;
+		padding-right: 0;
+	}
+	.osago__product_item li:nth-child(2){
+		flex: 0 0 35%!important;
+		padding-left: 0;
+	}
+	.osago__product_item .price_order .price {
+		padding-right: 0;
+	}
+	.second:before {
+	    right: 16%;
+	}
+	.osago__inner .osago__title h1:after{
+		left: calc(70% - 120px);
+	}
+	.osago__page_seven2 .date__inner_absolyut{
+		flex-direction: column;
+	}
+	.osago__page_seven2 .date__inner_absolyut .absolyut__price{
+		flex-direction: row;
+	}
+	.unit-osago{
+		margin-bottom: 0;
+	}
+	.unit-osago .section-title{
+		padding: 0;
+	}
+	.unit-osago .rf-online__top-info{
+		width: 85%;
+	}
+	.unit-osago .owl-carousel .owl-nav button.owl-next, 
+	.unit-osago .owl-carousel .owl-nav button.owl-prev{
+		font-size: 16px;
+	}
+	.reason_slider .iss{
+		padding: 0;
+	}
+	.reason_title h2, .policy__inner .policy_title h2,
+	.worth__inner .worth_title h2,.buy__inner .buy_title h2{
+		font-size: 26px;
+	}
+
+	.osago__page_calc .osago__inner .osago__title h1:after{
+		left: calc(65% - 120px);
+	}
+	.worth__inner .worth_items{
+		margin: 25px 15px 0 15px;
+	}
+	.worth__inner .worth_text p,
+	.buy__inner{
+		padding: 0 15px;
+	}
+	.buy__models{
+		padding: 30px 15px;
+		margin-top: 40px;
+	}
+	.buy__inner .buy_block .b_links .links{
+		margin-bottom: 0;
+		flex: 0 0 100%;
+	}
+	.buy__inner .buy_block .b_links .links a{
+		width: 100%;
+		margin: 0 0 15px 0;
+	}
+	.worth__inner .worth_title h2:after {
+	    left: calc(60% - 90px);
+	}
+	.worth__inner .worth_items .w_item{
+		flex: 0 0 90%;
+	}
+}
+@media (max-width: 375px){
+	.osago__page_six1{
+		background-size: 480%;
+	}
+	.second:before {
+	    right: 11%;
+	}
+	.osago__form_inner .form_calc{
+		padding: 15px;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after{
+		left: calc(67% - 120px);
+	}
+	.worth__inner .worth_title h2:after {
+	    left: calc(62% - 90px);
+	}
+}
+@media (max-width: 320px){
+	.osago__page_seven2 .date__inner_absolyut .absolyut__price,
+	.osago__page_seven2 .date__inner_absolyut .absolyut__info{
+		padding: 10px;
+	}
+	.second:before {
+	    right: 2%;
+	}
+	.osago__page_calc .osago__inner .osago__title h1:after{
+		left: calc(70% - 120px);
+	}
+	.worth__inner .worth_items .w_item{
+		flex: 0 0 100%;
+	}
+}

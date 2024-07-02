@@ -1,0 +1,1327 @@
+body{
+	font-family: 'PTSans Caption Regular';
+}
+
+
+/*osago-1*/
+.calculation-osago{
+	padding: 25px 0 55px;
+	background-image: url('../images/osago-bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	margin-bottom: 50px;
+	background-position: top center;
+}
+.osago__inner{
+	padding: 0 65px;
+}
+.osago__inner .page__prev a{
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 999;
+	color: #333333;
+	font-weight: 600;
+	width: 95px;
+}
+.osago__inner .page__prev a img{
+	margin-right: 15px;
+	margin-left: 9px;
+}
+.osago__inner .page__prev a:before{
+	content: '';
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #ffd92c;
+	position: absolute;
+	z-index: -1;
+}
+.osago__inner .osago__title{
+	text-align: center;
+}
+.osago__inner .osago__title h1{
+	font-size: 42px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #333333;
+}
+.osago__inner .osago__title .osago__item_sec{
+	display: flex;
+	justify-content: center;
+}
+.osago__inner .osago__title .osago__item_sec li span{
+	font-size: 18px;
+	color: #333333;
+	padding: 0 5px 15px 5px;
+	display: inline-block;
+}
+.osago__inner .osago__title .osago__item_sec li.active span{
+	font-weight: 600;
+	position: relative;
+	
+}
+.osago__inner .osago__title .osago__item_sec li.active span:before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background-color: #199bc5;
+	bottom: 0;
+	left: 0;
+}
+.osago__inner .osago__title .osago__item_sec li{
+	margin-right: 15px;
+}
+.osago__inner .osago__title .osago__item_sec li img{
+	margin-right: 10px;
+}
+/*osago-1*/
+.date__inner{
+	padding: 0 215px;
+}
+.date__inner .date__inner_title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.date__inner .date__inner_title h3{
+	font-family: 'PTSans Caption Bold';
+	font-size: 26px;
+}
+.date__inner .date__inner_title h4{
+	font-family: 'PTSans Caption Bold';
+	font-size: 22px;
+}
+.date__inner .date__inner_title a{
+	color: #999999;
+	font-size: 14px;
+}
+.date__inner .date__inner_title a img{
+	margin-right: 8px;
+}
+.date__inner .date__inner_info{
+	display: flex;
+	align-items: flex-start;
+	padding: 15px;
+	border-radius: 8px;
+	background-color: #e9f7fc;
+	margin-bottom: 25px;
+}
+.date__inner .date__inner_info img{
+	margin-right: 10px;
+}
+.date__inner .date__inner_info p{
+	font-size: 14px;
+	color: #333333;
+	line-height: 18px;
+}
+.date__inner .date__inner_info p span{
+	font-weight: 600;
+}
+.date__inner_form{
+	margin-bottom: 40px;
+}
+.date__inner_form .form_row{
+	display: flex;
+	margin-bottom: 15px;
+	align-items: flex-end;
+}
+.date__inner_form .form_row p{
+	display: flex;
+	flex-direction: column;
+}
+.date__inner_form .form_row p{
+	padding-right: 30px;
+}
+.date__inner_form .form_row p:last-child{
+	padding-right: 0;
+}
+.date__inner_form .form_row label{
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.date__inner_form .form_row input,
+.date__inner_form .form_row select{
+	width: 270px;
+	font-size: 15px;
+	padding: 16px 20px;
+	line-height: 1.1;
+	border-radius: 5px;
+	border: 1px solid #ece9e9;
+	outline: none;
+	color: #707070;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #fff;
+}
+.date__inner_form .form_row .form__input{
+	width: 570px;
+}
+.date__inner_form .form_row select{
+	height: 50px;
+	color: #707070;
+}
+.date__inner_form .form_row .caret {
+	position: relative;
+}
+.date__inner_form .form_row .caret .ico{
+	display: none !important;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	bottom: 14px;
+	right: 35px;
+	color: #707070;
+}
+.date__inner_form .form_row p:last-child .ico{
+	right: 5px;
+}
+.date__inner_form .form_row .disabled,
+.date__inner_form .form_row .disabled input,
+.date__inner_form .form_row .disabled select,
+.date__inner_form .form_row .disabled .ico{
+	color: #b3b3b3;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #fff;
+}
+.date__inner_form .form_row .disabled label{
+	font-weight: 500;	
+}
+.date__inner_pages{
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid #199bc5;
+	padding: 30px 0;
+}
+.date__inner_pages a{
+	width: 260px;
+	padding: 18px;
+	text-align: center;
+	font-size: 15px;
+	transition: .3s all ease;
+}
+.date__inner_pages .date__inner_pages_prev a{
+	border-radius: 4px;
+	border: 1px solid #199bc5;
+	color: #199bc5;
+}
+.date__inner_pages .date__inner_pages_next a{
+	border-radius: 4px;
+	background-color: #199bc5;
+	color: #fff;
+	font-weight: 600;
+}
+.date__inner_pages .date__inner_pages_prev a:hover{
+	background-color: #199bc5;
+	color: #fff;
+}
+.date__inner_pages .date__inner_pages_next a:hover{
+	box-shadow: 10px 10px 10px rgba(25, 155, 197, .5);
+}
+
+/*osago-2*/
+.date__inner_info_check{
+	 margin-bottom: 30px;
+}
+.date__inner_info_check a{
+	color: #199bc5;
+	position: relative;
+}
+.date__inner_info_check a:after{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+	height: 1px;
+	background-color: #199bc5;
+}
+.date__inner_info_check .custom-checkbox{
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.date__inner_info_check .custom-checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.date__inner_info_check .custom-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.75em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.date__inner_info_check .custom-checkbox:checked+label::before {
+  border-color: #199bc5;
+  background-color: #fff;
+  background-image: url('../images/checkiconblue.png');
+}
+.date__inner_info_check label{
+	font-size: 15px;
+}
+.check2 {
+	display: none;
+}
+.date__inner_form .form_row .check2{
+	margin-bottom: 15px;
+	display: block;
+}
+.date__inner_form .form_row .check2 label{
+	font-weight: 500;
+	color: #666666;
+	margin-bottom: 0;
+}
+.date__inner_info_check img{
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+.date__inner_link{
+	margin-bottom: 35px;
+}
+.date__inner_link a{
+	display: flex;
+	align-items: center;
+	width: 180px;
+	color: #000;
+	font-weight: 600;
+}
+.date__inner_link a img{
+	margin-right: 10px;
+}
+.osago__page_two .date__inner_info{
+	flex-direction: column;
+}
+.osago__page_two .date__inner .first{
+	display: flex;
+	flex-direction: row;
+}
+/*osago-3*/
+.date__inner .date__inner_text{
+	font-size: 15px;
+	color: #999999;
+	margin-bottom: 20px;
+}
+
+.date__inner .date__inner_text.blue_info{
+	padding: 20px 18px;
+	border-left: 3px solid #199bc5;
+	background-color: #f6fcf8;
+	font-size: 15px;
+	color: #666666;
+}
+.date__inner .date__inner_text.blue_info span{
+	font-family: 'PTSans Caption Bold';
+}
+
+/*osago-4*/
+.payment-osago__item p br{
+	display: none;
+}
+.payment-osago__block{
+	padding: 0 65px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.payment-osago__left{
+	flex: 0 0 27%;
+}
+.payment-osago__items{
+	border: 1px solid #efeff0;
+}
+.payment-osago__items li{
+	padding: 25px 30px;
+	border-bottom: 1px solid #efeff0;
+	background-color: #fff;
+}
+.payment-osago__items li:last-child{
+	border-bottom: none;
+}
+.payment-osago__items li h5{
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+.payment-osago__items li p{
+	color: #666666;
+	font-size: 15px;
+	line-height: 1.4;
+	padding-bottom: 20px;
+}
+.payment-osago__items li a{
+	color: #199bc5;
+}
+.payment-osago__items li a img{
+	margin-right: 5px;
+}
+.payment-osago__right{
+	flex: 0 0 71%;
+	margin-bottom: 30px;
+}
+.payment-osago__history{
+	border-left: 2px solid #33cc66;	
+	margin-bottom: 40px;
+	box-shadow: 0 0 20px rgb(0, 0, 0,  10%);
+}
+.payment-osago__item{
+	padding: 25px 30px;
+	border: 1px solid #efeff0;
+}
+.payment-osago__item h5{
+	font-size: 16px;
+	font-weight: 600;
+}
+.payment-osago__item h5 span{
+	font-weight: 500;
+	color: #666666;
+}
+.payment-osago__item h5 img{
+	margin-left: 7px;
+	margin-bottom: 3px;
+}
+.payment-osago__item p{
+	font-size: 15px;
+	color: #666666;
+	padding-top: 15px;
+}
+.payment-osago__item p a{
+	color: #199bc5;
+	font-size: 15px;
+	margin-left: 5px;
+}
+.payment-osago__head{
+	padding: 6px;
+	border-radius: 4px;
+	background-color: #33cc66;
+	margin-bottom: 15px;
+}
+.second{
+	position: relative;
+}
+.second:before{
+	content: "Скидка 5%";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	right: 1%;
+	width: 120px;
+	height: 35px;
+	border-radius: 20px 20px 0 0;
+	background-color: #33cc66;
+	color: #fff;
+	font-size: 14px;
+}
+.second:after{
+	content: "КБМ 0.95";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	right: 17%;
+	width: 120px;
+	height: 35px;
+	border-radius: 20px 20px 0 0;
+	background-color: #199bc5;
+	color: #fff;
+	font-size: 14px;
+}
+.osago__head_item{
+	display: flex;
+}
+.osago__head_item li{
+	color: #fff;
+	font-size: 15px;
+	padding: 12px 20px;
+	border-right: 1px solid #52d47d;
+}
+.osago__head_item li:nth-child(1){
+	flex: 0 0 28%;
+}
+.osago__head_item li:nth-child(2){
+	flex: 0 0 15%;
+}
+.osago__head_item li:nth-child(3){
+	flex: 0 0 22%;
+}
+.osago__head_item li:nth-child(4){
+	border-right: none;
+}
+.payment-osago__product{
+	padding: 6px;	
+	border: 1px solid #efeff0;
+	margin-bottom: 15px;
+}
+.osago__product_item{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.osago__product_item .price_order{
+	display: none;
+	font-size: 18px;
+	font-weight: 600;
+}
+.osago__product_item .price_order .price{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.osago__product_item .price_order .price span{
+	font-size: 13px;
+}
+.osago__product_item .price_order .price a{
+	font-size: 14px;
+	color: #000;
+	padding: 10px 20px;
+	border-radius: 30px;
+	background-color: #ffd92c;
+}
+.osago__product_item li{
+	font-size: 15px;
+	padding: 12px 20px;
+	border-right: 1px solid #efeff0;
+	height: 85px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.osago__product_item li:nth-child(1){
+	flex: 0 0 28%;
+	font-size: 14px;
+	color: #999999;
+	align-self: center;
+}
+.osago__product_item li:nth-child(1) img{
+	margin-bottom: 15px;
+}
+.osago__product_item li:nth-child(2){
+	flex: 0 0 15%;
+	font-size: 18px;
+	font-weight: 600;
+}
+.osago__product_item li:nth-child(2) img{
+	margin-bottom: 3px;
+}
+.osago__product_item li:nth-child(3){
+	flex: 0 0 22%;
+}
+.osago__product_item li:nth-child(3) .price_img{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.products__sec li:nth-child(3) .price_img{
+	height: 145px;
+}
+.products__thri li:nth-child(3) .price_img{
+	height: 225px;
+}
+.osago__product_item li:nth-child(4){
+	flex: 0 0 34%;
+	border-right: none;	
+	font-size: 18px;
+	font-weight: 600;
+	height: auto;
+}
+.osago__product_item li .price{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.osago__product_item li .price:last-child{
+	margin-bottom: 0;
+}
+.osago__product_item li .price span{
+	font-size: 13px;
+}
+.osago__product_item li .price a{
+	font-size: 14px;
+	color: #000;
+	padding: 10px 20px;
+	border-radius: 30px;
+	background-color: #ffd92c;
+}
+.products__sec .osago__product_item li{
+	height: 145px;
+}
+.products__thri .osago__product_item li{
+	height: 225px;
+}
+
+/*osago-5*/
+.date__inner_absolyut{
+	background-color: #f6fcf8;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+.date__inner_absolyut .absolyut__price{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.date__inner_absolyut .absolyut__price p span{
+	font-size: 12px;
+	color: #999999;
+	display: inline-block;
+	margin-top: 10px;
+}
+.date__inner_absolyut .absolyut__price h5{
+	font-size: 20px;
+	font-weight: 600;
+}
+.date__inner_absolyut .absolyut__price h5 p{
+	font-size: 16px;
+	color: #999999;
+	font-weight: 500;
+	margin-bottom: 13px;
+}
+.date__inner_absolyut .absolyut__price h5 span{
+	font-size: 14px;
+}
+.date__inner_absolyut .absolyut__text{
+	padding: 20px;
+	background-color: #ecf7f0;
+}
+.date__inner_absolyut .absolyut__text p{
+	font-size: 14px;
+}
+.date__inner_absolyut .absolyut__text p span{
+	font-weight: 600;
+	line-height: 1.4;
+}
+.absolyut__document{
+	padding: 20px;
+	border-bottom: 1px solid #e9efeb;
+}
+.absolyut__document h4{
+	font-weight: 600;
+	font-size: 20px;
+}
+.absolyut__document .document__title{
+	margin-bottom: 20px;
+}
+.absolyut__document .document__items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.absolyut__document .document__items .doc__item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 0 0 48%;
+	padding: 30px 25px;
+	border: 1px solid #e9efeb;
+	background-color: #fff;
+}
+.absolyut__document .document__items .doc__item a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #199bc5;
+	margin-top: 15px;
+}
+.absolyut__info{
+	padding: 25px 20px;
+}
+.absolyut__info .info__item{
+	margin-bottom: 20px;
+}
+.absolyut__info .info__item:last-child{
+	margin-bottom: 10px;
+}
+.absolyut__info .info__item h5{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.absolyut__info .info__item h5 a{
+	color: #199bc5;
+	margin-left: 5px;
+}
+.absolyut__info .info__item h5 a img{
+	margin-right: 5px;
+}
+.absolyut__info .info__item p{
+	font-size: 15px;
+	color: #666666;
+	padding-bottom: 10px;
+}
+.absolyut__info .info__item p span{
+	font-weight: 600;
+	color: #8a8c8b;
+}
+
+/*osago-6*/
+.osago__page_six1 {
+	padding: 25px 0 25px;
+}
+.osago__page_six1 .osago__inner .osago__title{
+	margin-top: 35px;
+}
+.osago__page_six1 .osago__inner .osago__title h1{
+	position: relative;
+}
+.osago__page_six1 .osago__inner .osago__title h1:after{
+	content: '';
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 120px;
+	background-color: #199bc5;
+	bottom: -15px;
+	left: calc(55% - 120px);
+}
+.osago__page_six1 .osago__inner .osago__title h1 span{
+	color: #199bc5;
+}
+.osago__page_six1 .osago__text{
+	font-size: 20px;
+	color: #333333;
+	margin-bottom: 65px;
+}
+.osago__inner_items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.osago__inner_items .inner__item{
+	display: flex;
+	justify-content: space-between;	
+	flex: 0 0 32%;
+	padding: 30px;
+	background-color: #fff;
+	border: 1px solid #f2f2f2;
+}
+.osago__inner_items .inner__item .item_text{
+	padding-right: 20px;
+}
+.osago__inner_items .inner__item h4{
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 18px;
+}
+.osago__inner_items .inner__item p{
+	font-size: 15px;
+	color: #666666;
+	line-height: 1.5;
+}
+
+/*osago-7*/
+.osago__page_seven2 .date__inner_absolyut{
+	background-color: #f6fcf8;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	border: 1px solid #f2f2f2;
+	width: 64%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__price{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__price p span{
+	font-size: 12px;
+	color: #999999;
+	display: inline-block;
+	margin-top: 10px;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__price h5{
+	font-size: 20px;
+	font-weight: 600;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__price h5 p{
+	font-size: 16px;
+	color: #999999;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__price h5 span{
+	font-size: 14px;
+}
+.osago__page_seven .date__inner_absolyut .absolyut__info{
+	padding: 20px 40px 20px;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__info .absolyut__info_item{
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__info .absolyut__info_item:last-child{
+	margin-bottom: 0;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__info .absolyut__info_item .icon{
+	color: #acadac;
+	margin-right: 10px;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__info .absolyut__info_item h5{
+	line-height: 1.1;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.osago__page_seven2 .date__inner_absolyut .absolyut__info .absolyut__info_item p{
+	font-size: 15px;
+	color: #666666;
+}
+
+
+/*osago-1*/
+.vehicle-date__inner{
+	padding: 0 65px;
+}
+.vehicle-date__breadcrumb li{
+	display: inline;
+    font-family: 'PTSans Caption Regular';
+    font-size: 14px;
+    color: #404040;
+    line-height: 64px;
+}
+.vehicle-date__breadcrumb li a{
+	font-family: 'PTSans Caption Regular';
+    font-size: 14px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 64px;
+}
+.vehicle-date__breadcrumb li+li:before {
+    content: ">";
+    font-family: 'PTSans Caption Regular';
+    font-size: 14px;
+    color: #666;
+    line-height: 64px;
+    padding: 0 5px;
+}
+.vehicle-date__breadcrumb li a:hover{
+	text-decoration: underline;
+}
+
+
+/*osaga*/
+.osago__page_calc{
+	background-image: url('../images/osago-bg-calc.png');
+	padding: 60px 0;
+	margin-bottom: 40px;
+}
+.osago__page_calc .osago__inner .osago__title h1{
+	position: relative;
+}
+.osago__page_calc .osago__inner .osago__title h1:after{
+	content: '';
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 120px;
+	background-color: #199bc5;
+	bottom: -15px;
+	left: calc(55% - 120px);
+}
+.osago__form_inner{
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+.osago__form_inner .form_calc{
+	width: 730px;
+	background-color: #fff;
+	position: relative;
+	padding: 35px 40px;
+	z-index: 999;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+.osago__form_inner .form_calc:before{
+	content: '';
+	display: block;
+	position: absolute;
+	background-color: rgba(255, 255, 255, .5);
+	width: 746px;
+	height: 294px;
+	top: -8px;
+	left: -8px;
+	z-index: -1;
+}
+.osago__form_inner .form_calc h3{
+	font-family: 'PTSans Caption Bold';
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.osago__form_inner .form_calc p{
+	font-size: 17px;
+	color: #666666;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+.osago__form_inner .form_calc p label{
+	font-size: 15px;
+	color: #000;
+	margin: 30px 0 10px;
+	width: 100%;
+}
+.osago__form_inner .form_calc p input{
+	width: 430px;
+	border: 1px solid #199bc5;
+	padding: 14px 15px 15px;
+	font-size: 15px;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+.osago__form_inner .form_calc p input::placeholder{
+	color: #000;
+}
+.osago__form_inner .form_calc p button{
+	padding: 15px;
+	text-align: center;
+	background-color: #199bc5;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 4px;
+	width: 210px;
+}
+.osago__form_inner .form_calc a{
+	margin-top: 20px;
+	font-size: 15px;
+	color: #199bc5;
+	position: relative;
+}
+.osago__form_inner .form_calc a:after{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	height: 1px;
+	width: 100%;
+	background-color: #199bc5;
+}
+.unit-osago .owl-carousel .owl-nav button.owl-prev{
+	left: -50px;
+}
+.unit-osago .owl-carousel .owl-nav button.owl-next{
+	right: -50px;
+}
+.unit-osago .owl-carousel .owl-nav button.owl-prev,
+.unit-osago .owl-carousel .owl-nav button.owl-next{
+	outline: none;
+}
+.reason-issue{
+	background-color: #fafafa;
+	padding: 80px 0 35px;
+}
+.reason-issue .reason__inner{
+	padding: 0 65px;
+}
+.reason_title{
+	text-align: center;
+	margin-bottom: 45px;
+}
+.reason_title h2{
+	font-size: 42px;
+	font-family: 'PTSans Caption Bold';
+}
+.reason_title h2 span{
+	color: #199bc5;
+}
+.reason__items{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.reason_mob{
+	display: none;
+}
+.reason__items .item_iss{
+	flex: 0 0 33.3%;
+	padding-right: 40px;
+}
+.reason__items .item_iss .iss{
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 35px;
+}
+.reason__items .item_iss:nth-child(2){
+	padding-right: 0;
+	justify-content: center;
+	text-align: center;
+}
+.reason__items .item_iss:last-child{
+	padding-left: 40px;
+	padding-right: 0;
+}
+.reason__items .item_iss .iss .iss_img{
+	flex: 0 0 17%;
+}
+.reason__items .item_iss .iss h4{
+	font-size: 18px;
+	font-family: 'PTSans Caption Bold';
+	margin-bottom: 15px;
+}
+.reason__items .item_iss .iss p{
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+/* questions-answers */
+
+.quest{
+    padding: 50px 0;
+}
+.quest__inner{
+	background-color: #fcfbfb;
+	padding: 75px 0 50px;
+}
+.quest .questions-answers__inner{
+    padding: 0 65px;
+}
+
+.quest .section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.quest .card{
+    margin-bottom: 25px;
+}
+
+.quest .card-body{
+    color: #666;
+    font-family: 'PTSans Caption Regular';
+    font-size: 16px;
+    line-height: 23px;
+    padding: 20px 20px 20px 36px;
+}
+.quest .btn{
+	display: flex;
+	align-items: flex-start;
+}
+.quest .btn.collapsed .card-header__title,
+.quest .btn.collapsed{
+    color: #199bc5;
+    font-family: 'PTSans Caption Bold';
+    font-size: 18px;
+    line-height: 30px;
+}
+.quest .btn.collapsed .card-header__title{
+	position: relative;
+	text-decoration: underline;
+}
+.quest .btn .card-header__title,
+.quest .btn{
+    color: #000;
+    font-family: 'PTSans Caption Bold';
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.quest .btn .ico{
+	font-size: 25px;
+}
+.quest .btn{
+    color: #199bc5;
+    font-family: 'PTSans Caption Bold';
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.quest .btn .card-header__title{
+    padding-left: 10px;   
+}
+
+.policy__inner{
+	padding: 80px 0 40px;
+}
+.policy__inner .policy_title{
+	text-align: center;
+}
+.policy__inner .policy_title h2{
+	font-family: 'PTSans Caption Bold';
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+.policy__inner .policy_title p{
+	color: #333333;
+	font-size: 20px;
+}
+.policy_items{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 55px;
+}
+.policy_mob{
+	display: none;
+}
+.policy_items .item{
+	flex: 0 0 33.3%;
+	text-align: center;
+	padding: 0 30px;
+}
+.policy_items .item .p_num{
+	width: 55px;
+	height: 55px;
+	margin: 0 auto;
+	display: flex;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	background-color: #33cc66;
+	position: relative;
+}
+.policy_items .item .p_num:before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 295px;
+	height: 1px;
+	background-color: #33cc66;
+	left: 95px;
+}
+.policy_items .item:last-child .p_num:before{
+	display: none;
+}
+.policy_items .item .p_num p{
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+}
+.policy_items .item:nth-child(2) .p_text{
+	padding: 0 10px;
+}
+.policy_items .item .p_text{
+	margin-top: 20px;
+}
+.policy_items .item .p_text h5{
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.policy_items .item .p_text p{
+	font-size: 15px;
+	color: #666666;
+	line-height: 1.4;
+}
+.policy_link{
+	text-align: center;
+	margin-top: 55px;
+}
+.policy_link a{
+	width: 250px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #33cc66;
+	color: #fff;
+	font-size: 15px;
+	padding: 18px 0;
+}
+.osago__page{
+	background-color: #fff;
+}
+.osago__page .feed-title:after{
+	display: none;
+}
+.osago__page .products__item-title{
+	font-size: 16px;
+}
+.osago__page .products__inner{
+	padding-bottom: 0;
+}
+.osago__page .products__desc{
+	display: flex;
+}
+.osago__page .products__mob{
+	display: none;
+}
+.worth-insurance{
+	padding: 95px 0 75px;
+}
+.worth__inner .worth_title{
+	text-align: center;
+}
+.worth__inner .worth_title h2{
+	font-family: 'PTSans Caption Bold';
+  font-size: 42px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.worth__inner .worth_title h2:after{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -16px;
+	left: calc(54% - 90px);
+	width: 90px;
+	height: 3px;
+	background-color: #199bc5;
+}
+.worth__inner .worth_title p{
+	font-size: 20px;
+	color: #333333;
+	line-height: 1.4;
+}
+.worth__inner .worth_items{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+	background-color: #fdfdfd;
+	border: 1px solid #ededed;
+	margin: 25px 30px 0 30px;
+}
+.worth__inner .worth_items .w_item{
+	display: flex;
+	align-items: center;
+}
+.worth__inner .worth_items .w_item h5{
+	font-size: 17px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+.worth__inner .worth_text{
+	text-align: center;
+	margin-top: 35px;
+}
+.worth__inner .worth_text p{
+	font-size: 15px;
+	color: #333333;
+	line-height: 1.3;
+}
+.worth__inner .worth_text a{
+	margin-top: 25px;
+	width: 290px;
+	font-size: 15px;
+	padding: 18px 0;
+	background-color: #199bc5;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.buy__inner{
+	padding: 0 65px;
+}
+.buy__inner .buy_title h2{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.buy__inner .buy_text p{
+	color: #333333;
+	line-height: 1.4;
+	padding-bottom: 30px;
+}
+.buy__inner .buy_text h5{
+	font-size: 18px;
+	font-weight: 600;
+}
+.buy__inner .buy_text h5 a{
+	color: #33cc66;
+	text-decoration: underline;
+}
+.buy__inner .buy_block{
+	padding: 35px 40px;
+	background-color: #f6fafc;
+	border-radius: 6px;
+	border: 1px solid #33cc66;
+	margin-top: 40px;
+}
+.buy__inner .buy_block .b_title{
+	margin-bottom: 25px;
+}
+.buy__inner .buy_block .b_title h3{
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.buy__inner .buy_block .b_title p{
+	font-size: 15px;
+	color: #333333;
+}
+.buy__inner .buy_block .b_links{
+	display: flex;
+	align-items: center;
+}
+.buy__inner .buy_block .b_links .links{
+	margin-right: 20px;
+}
+.buy__inner .buy_block .b_links .links a{
+	font-size: 15px;
+	border: 1px solid #33cc66;
+	width: 170px;
+	border-radius: 30px;
+	padding: 18px 0;
+	text-align: center;
+	font-weight: 600;
+	color: #33cc66;
+}
+.buy__inner .buy_block .b_links .links a:first-child{
+	background-color: #33cc66;
+	color: #fff;
+	margin-right: 5px;
+}
+.buy__inner .buy_block .b_links p{
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+.buy__inner .buy_block .b_links p a{
+	color: #33cc66;
+}
+.buy__models{
+	padding: 60px 65px;
+	background-color: #fcfbfb;
+	margin-top: 70px;
+}
+.buy__models .m_title h3{
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.buy__models .m_item{
+	display: flex;
+	margin-bottom: 20px;
+}
+.buy__models .m_item:last-child{
+	margin-bottom: 0;
+}
+.buy__models .m_item .item{
+	flex: 0 0 25%;
+	font-size: 15px;
+	color: #333;
+}
+.osago__page_calc .osago__title h1 span{
+	color: #199bc5;
+}
+
+select{
+	-webkit-appearance: none !important;
+	appearance: none !important;
+	background-color: #fff;
+	background-image: url(../images/card/select_icon.png);
+	background-repeat: no-repeat;
+	background-position: calc(100% - 20px) center;
+}

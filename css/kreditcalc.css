@@ -1,0 +1,788 @@
+.kredit .consumer_loan {
+    background-image: url(../images/kreditCalc__bg.png);
+}
+.kredit .consumer_text h4::after {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.kredit-calc-sides {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.form-group {
+    padding-bottom: 25px;
+}
+.kredit_order1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.kredit_order1 > div {
+    width: 50%;
+}
+.kredit_order1 .kredit_form_percent {
+    padding: 15px;
+    border: 1px solid #ece9e9;
+    width: 100%;
+    border-radius: 4px;
+}
+.form-price {
+    display: flex;
+    align-items: center;
+}
+.kredit-calc__left-side .kredit_form_price {
+    padding: 15px;
+    border: 1px solid #ece9e9;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    width: 85%;
+    margin-bottom: 0 !important;
+}
+.kredit_form_control {
+    width: 15%;
+}
+.kredit .kredit_select_label {
+    font-family: 'PT Sans', sans-serif;
+}
+.form-group .kredit_form_text {
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.kredit_form_control .kredit_form_currency {
+    width: 100%;
+    border-left: none;
+    padding: 18.55555555px 15px 18.55555555px 35px;
+}
+.kredit_select_text{
+    display: flex !important;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-family: "PTSans Caption Regular";
+}
+.kredit_form-payments{
+    background: #f3f5f5;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    font-family: "PTSans Caption Regular";
+    gap: 5px;
+    border: 1px solid #ece9e9;
+}
+.kredit_form-label {
+    padding: 15px;
+    width: 50%;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.kredit_form-label.active {
+    background-color: #199bc5;
+    color: white;
+}
+.kredir_form-inp{
+    display: none;
+}
+.kredit_form-payments .kredir_form-inp:checked+.kredit_form-label {
+    background: #199bc5;
+    color: white;
+    font-family: "PTSans Caption Bold";
+}
+.kredit-calc__left-side{
+    width: 50%;
+}
+.kredit-calc__right-side{
+    width: 50%;
+}
+.kredit-calc__right-side__top{
+    margin-bottom: 34px;
+}
+.kredit-calc__payment-colors{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.kredit-calc__payment-color__green {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.kredit-calc__payment-color__green span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #33cc66;
+}
+.kredit-calc__payment-color__yellow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.kredit-calc__payment-color__yellow span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #ffd92c;
+}
+.kredit-calc__range{
+    position: relative;
+    height: 17px;
+}
+
+.kredit-calc__range .kredit-calc__range-green {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #33cc66;
+    border-radius: 8.5px;
+    z-index: 2;
+}
+
+.kredit-calc__range .kredit-calc__range-yellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd92c;
+    border-radius: 8.5px;
+    z-index: 1;
+}
+.kredit-calc__right-side__middle{
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.kredit-calc__middle-title{
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.kredit-calc__middle-payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.kredit-calc__middle-text{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.kredit-calc__middle-price{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.kredit-calc__right-side__bottom{
+    font-family: 'PT Sans', sans-serif;
+}
+.kredit-calc__bottom-all-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-top: 1px solid rgb(0, 0, 0, 0.02);
+    padding-top: 20px;
+}
+.kredit-calc__bottom-text{
+    font-size: 19px;
+}
+.kredit-calc__middle-linear {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.02;
+    width: 2px;
+    height: 336px;
+}
+
+
+.kredit-graf {
+    background: #f9fafa;
+    font-family: 'PT Sans', sans-serif;
+    display: none;
+}
+
+.kredit-graf.show{
+    display: block;
+}
+
+.kredit-graf__table {
+    padding:  60px 55px 70px 55px;
+}
+.kredit-graf__table-title{
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.kredit-graf__table-info{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin: 30px 0 25px 0;
+}
+.kredit-graf__info-item{
+
+}
+.kredit-graf__info-span{
+    font-size: 17px;
+    color: #666666;
+}
+.kredit-graf__input-info{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.kredit-graf .table tbody tr:nth-child(4){
+    border-bottom: 1px solid #dee2e6;
+}
+.kredit-graf .table tbody tr:nth-child(n+5){
+    display: none;
+}
+
+
+.table{
+
+}
+.table td{
+    padding: 20px 0 20px 14px;
+    border-left: 1px solid #dee2e6;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.table tr:last-child td{
+    border-bottom: 1px solid #dee2e6;
+}
+.table tr td:first-child{
+    padding: 14px 0 14px 14px;
+}
+.table td:last-child {
+    border-right: 1px solid #dee2e6;
+}
+.table-green{
+    background: #33cc66;
+}
+.table tr.table-green:hover {
+    background: #33cc66;
+}
+.table-green td {
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.table .table-green td:first-child {
+    padding: 20px 0 20px 14px;
+}
+.table tr:hover {
+    background: white;
+}
+.table tr td:first-child {
+    width: 40%;
+}
+.table tr td:last-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+.table-numb{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.table-numb span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+.table-numb.table-full-price {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.table-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-thr tr td:nth-child(2){
+    width: 14%;
+}
+.table-thr tr td:nth-child(3){
+    width: 17%;
+}
+.table-thr tr td:nth-child(4){
+    width: 16%;
+}
+.table-thr tr:last-child td {
+    padding: 20px 0 20px 14px;
+}
+.table__show-full-table-btn {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    padding: 15px 0;
+    width: 16%;
+    border-radius: 35px;
+    border: 1px solid #33cc66;
+    color: #33cc66;
+    font-size: 16px;
+    color: rgb(51, 204, 102);
+    font-weight: bold;
+}
+.table__show-full-table-btn:hover {
+    color: white;
+    background-color: #33cc66;
+}
+.kredit_sort {
+    font-family: 'PT Sans', sans-serif;
+    background-color: white !important;
+    padding: 60px 0 80px 0 !important;
+}
+.kredit_sort .kredit_sort-title {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.quest-answers-block{
+    padding: 60px 45px 70px 45px;
+    background: #fcfbfb;
+    font-family: 'PT Sans', sans-serif;
+}
+.quest-answers__title{
+    font-family: 'PT Sans', sans-serif;
+        font-size: 42px;
+        line-height: 40px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 34px;
+}
+.quest-answers__items{
+
+}
+.quest-answers__item{
+
+}
+.quest-answers__item__btn{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.quest-answers__texts{
+    padding: 24px 0 34px 45px;
+}
+.quest-answers__p-info{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+.quest-answers__list-title{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+}
+.quest-answers__lists{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 24px;
+}
+.quest-answers__list-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quest-answers__list-item__span{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    font-weight: bold;
+    color: #666666;
+}
+.quest-answers__list-item__span span{
+    font-weight: 400;
+}
+.quest-answers-link{
+        font-size: 18px;
+        color: rgb(51, 204, 102);
+        font-weight: bold;
+}
+.quest-answers-link:last-child{
+    margin-top: 30px;
+}
+.quest-answers-link span {
+    border-bottom: 1px solid rgb(51, 204, 102);
+}
+.quest-answers-link:first-child {
+    padding-bottom: 30px;
+}
+.quest-answers__detail {
+    padding: 70px 45px 60px 45px;
+}
+.quest-answers__detail {
+    font-family: 'PT Sans', sans-serif;
+}
+.quest-answers__details-item{
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.quest-answers__details-item:last-child {
+    margin-top: 55px;
+}
+.quest-answers__subtitle{
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+.quest-answers__text{
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        line-height: 24px;
+
+}
+.quest-answers__detail-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.quest-answers__detail-li{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.quest-answers__all-banks-kredit{
+    padding: 60px 45px 70px 45px;
+    background-image: url(../images/all-banks-kredit__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 9px 54px 37px rgba(34, 60, 80, 0.05);
+    -moz-box-shadow: 0px 9px 54px 37px rgba(34, 60, 80, 0.05);
+    box-shadow: 0px 9px 54px 37px rgba(34, 60, 80, 0.05);
+    margin-bottom: 60px;
+}
+.quest-answers__banks-links{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 22px 70px;
+    margin: 35px 0 25px 0;
+}
+.quest-answers__banks-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 22px;
+}
+.quest-answers__bank-link{
+        font-size: 15px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(102, 102, 102);
+}
+.quest-answers__banks-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(25, 155, 197);
+}
+.quest-answers__banks-btn span {
+    border-bottom: 1px solid rgb(25, 155, 197);
+}
+.breadcrumbs {
+    padding: 0 55px;
+    font-family: 'PT Sans', sans-serif;
+}
+.kredit .quest-answers .breadcrumbs {
+    font-family: 'PT Sans', sans-serif !important;
+}
+.kredit .quest-answers .breadcrumbs ul li {
+    font-size: 14px;
+    color: #666666;
+}
+.kredit .quest-answers .breadcrumbs ul li a {
+    color: #000000;
+}
+
+.most_offers_item .most_offers_btns{
+    flex-direction: row;
+}
+
+@media (max-width: 1140px) {
+    .kredit_form_control .kredit_form_currency {
+        padding: 18.55555555px 14px;
+    }
+    .quest-answers__title {
+        font-size: 34px;
+    }
+}
+@media (max-width:850px) {
+    .kredit-calc__middle-text {
+        font-size: 14px;
+    }
+    .kredit-calc__middle-price {
+        font-size: 14px;
+    }
+    .kredit-calc__bottom-all-price {
+        font-size: 18px;
+    }
+    .kredit_form-label {
+        font-size: 12px;
+    }
+    .kredit .kredit_form_text {
+        font-size: 16px;
+    }
+    .kredit_select_label {
+        font-size: 16px;
+    }
+    .kredit_form_price {
+        width: 80%;
+    }
+    .kredit_form_control {
+        width: 20%;
+    }
+    .table__show-full-table-btn {
+        width: 30%;
+    }
+    .kredit-calc-sides {
+        gap: 10px;
+    }
+    .table tr td:first-child {
+        width: 30%;
+    }
+    .table-thr tr td:nth-child(2) {
+        width: 16.5555555555%;
+    }
+    .table-thr tr td:nth-child(3) {
+        width: 19%;
+    }
+    .table-thr tr td:nth-child(4) {
+        width: 19.5555555%;
+    }
+}
+
+@media (max-width:720px) {
+    .kredit-calc-sides {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .kredit-calc__middle-linear {
+        height: 3px;
+        width: 100%;
+    }
+    .kredit-calc__left-side {
+        width: 100%;
+    }
+    .kredit-calc__right-side {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .kredit-calc__middle-text, .kredit-calc__middle-price {
+        font-size: 16px;
+    }
+    .kredit_form-label {
+        font-size: 16px;
+    }
+    .kredit-calc__bottom-all-price {
+        font-size: 22px;
+    }
+    .kredit_form_price {
+        width: 85%;
+    }
+    .kredit_form_control {
+        width: 15%;
+    }
+    .consumer_text p br{
+        display: none;
+    }
+    .quest-answers__details-item {
+        gap: 20px;
+    }
+    .kredit_sort {
+        padding: 40px 0 !important;
+    }
+    .quest-answers__title {
+        font-size: 32px;
+    }
+    .quest-answers__subtitle {
+        font-size: 26px;
+    }
+    .quest-answers__banks-links {
+        gap: 22px 50px;
+    }
+    .quest-answers__all-banks-kredit {
+        padding: 40px 30px 45px 45px;
+    }
+    .quest-answers__detail {
+        padding: 40px 45px 45px 45px;
+    }
+    .quest-answers__list-item svg {
+        overflow: visible;
+    }
+}
+
+@media (max-width:500px) {
+    .kredit_form-label {
+        font-size: 14px;
+    }
+    .kredit .consumer_text p {
+        font-size: 14px;
+    }
+    .kredit-graf__table {
+        padding: 40px 10px 40px 10px;
+    }
+    .kredit-graf__table-info {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .table-numb {
+        font-size: 14px;
+    }
+    .table-numb span {
+        font-size: 11px;
+    }
+    .table td {
+        font-size: 11px;
+    }
+    .table tr td:last-child {
+        font-size: 11px;
+    }
+    .table tr td:first-child {
+        width: 27%;
+        padding: 20px 0 20px 10px;
+    }
+    .table-thr tr td:nth-child(2) {
+        width: 17%;
+    }
+    .table-thr tr td:nth-child(3) {
+        width: 20%;
+    }
+    .table-thr tr td:nth-child(4) {
+        width: 19.5555555%;
+    }
+    .table-thr tr:last-child td {
+        padding: 20px 0 20px 5px;
+    }
+    .table td {
+        padding: 20px 0 20px 5px;
+    }
+    .table__show-full-table-btn {
+        width: 60%;
+        margin: 10px 0;
+    }
+    .kredit .consumer_action {
+        padding: 20px 15px
+    }
+    .quest-answers__texts {
+        padding: 25px 0 25px 0px;
+    }
+    .quest-answers__list-item svg {
+        overflow: visible;
+    }
+    .quest-answers__detail {
+        padding: 40px 25px 40px 25px;
+    }
+    .quest-answers__all-banks-kredit {
+        padding: 40px 25px 40px 25px;
+        margin-bottom: 40px;
+    }
+    .breadcrumbs {
+        padding: 0 25px;
+    }
+}
+@media (max-width: 450px) {
+    .kredit .consumer_text h4::after {
+        top: 55px;
+    }
+}
+@media (max-width: 415px) {
+    .kredit .consumer_text h4::after {
+        top: 90px;
+    }
+}
+@media (max-width: 390px) {
+    .kredit_form_price {
+        width: 80%;
+    }
+    .kredit_form-label {
+        width: 100%;
+    }
+    .kredit_form_control {
+        width: 20%;
+    }
+    .kredit .kredit_form_currency {
+        margin-bottom: 0;
+    }
+    .form-group {
+        padding-bottom: 15px;
+    }
+    .kredit input[type="range"] {
+        margin-bottom: 0;
+    }
+    .kredit_order1 {
+        gap: 10px;
+    }
+    .kredit_form-payments {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .quest-answers__title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .quest-answers-block {
+        padding: 40px 25px 40px 25px;
+    }
+    .quest-answers__p-info {
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+        line-height: 16px;
+    }
+    .quest-answers__subtitle {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .quest-answers__details-item:last-child {
+        margin-top: 35px;
+    }
+}

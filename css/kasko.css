@@ -1,0 +1,944 @@
+.inner{
+    padding: 0 55px;
+}
+.kasko .owl-carousel img{
+    width: auto;
+    display: inline;
+}
+.kasko .online-insurance__breadcrumb{
+    padding: 0;
+}
+.kasko .main_screen{
+    padding-top: 65px;
+    background-image: url('../images/kasko_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain 735px;
+}
+.main_screen__title{
+    font-family: 'PTSans Caption Bold';
+    font-size: 42px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.main_screen__title span{
+    color: #199bc5;
+}
+.main_screen__title:after{
+    content: '';
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: #199bc5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -25px;
+}
+.kasko .main_screen .main_screen__subtitle{
+    font-family: 'PTSans Caption Regular';
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 55px;
+}
+
+.kasko .kasko_calculator .calculator_block{
+    background-color: #fff;
+    padding: 45px 50px 20px 50px;
+    box-shadow: 0 0 73px rgba(0,0,0,.15);
+    position: relative;
+    min-height: 540px;
+}
+.kasko .kasko_calculator .calculator_block::before{
+    content: '';
+    display: block;
+    height: calc(100% + 16px);
+    width: calc(100% + 16px);
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(0, 0, 0);
+    border: 8px solid #000;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.03;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}
+.kasko .kasko_calculator .calculator_block .calculator_header{
+    margin-bottom: 25px;
+}
+.kasko .kasko_calculator .calculator_block > div{
+    position: relative;
+    z-index: 15;
+}
+
+.kasko .kasko_calculator .calculator_block .calculator_title{
+    font-family: 'PTSans Caption Bold';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.kasko .kasko_calculator .calculator_block .calculator_title span{
+    color: #199bc5;
+}
+
+.kasko .kasko_calculator .calculator_block .calculator_progress{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.kasko .kasko_calculator .calculator_block .calculator_progress .progress_item{
+    flex: 0 0 auto;
+}
+
+.kasko .kasko_calculator .calculator_block .calculator_progress .progress_item .progress_name{
+    font-family: 'PTSans Caption Bold';
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 10px;
+}
+.kasko .kasko_calculator .calculator_block .calculator_progress .progress_item .progress_mark{
+    height: 21px;
+    width: 21px;
+    background-color: #e0e4e9;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-left: -5px;
+}
+.kasko .kasko_calculator .calculator_block .calculator_progress .progress_item.etap4 .progress_mark{
+    margin-left: auto;
+}
+
+.kasko .kasko_calculator .calculator_block .calculator_progress .progress_item.active .progress_name{
+    color: #199bc5;
+}
+.kasko .kasko_calculator .calculator_block .calculator_progress .progress_item.active .progress_mark{
+    background-color: #199bc5;
+}
+
+.kasko .kasko_calculator .calculator_block .calculator_progress .progress_timeline{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 2px;
+    background-color: #d9d9d9;
+    transform: translateY(-11px);
+    z-index: -1;
+}
+.kasko .kasko_calculator .calculator_block .calculator_progress .progress_timeline .progress_fill{
+    height: 100%;
+    background-color: #199bc5;
+}
+.kasko .kasko_calculator .calculator_body .calculator_results{
+    margin-bottom: 35px;
+}
+.kasko .kasko_calculator .calculator_body .calculator_results ul{
+    list-style: none;
+    display: flex;
+}
+.kasko .kasko_calculator .calculator_body .calculator_results ul li{
+    margin-right: 10px;
+}
+.kasko .kasko_calculator .calculator_body .calculator_results ul li span{
+    display: inline-block;
+    margin-left: 10px;
+    transform: translateY(-1px);
+    font-family: 'PTSans Caption Bold';
+    text-shadow: 0 0 40px rgba(0,0,0,.15);
+}
+
+.kasko .kasko_calculator .calculator_body .step_question{
+    font-family: 'PTSans Caption Regular';
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 25px;
+}
+.kasko .kasko_calculator .calculator_body .step_item{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+.kasko .kasko_calculator .calculator_body .step_item .action .show_more{
+    font-size: 14px;
+    color: #666666;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-top: 1px solid #e6edf3;
+    width: 100%;
+    font-family: 'PTSans Caption Bold';
+}
+.kasko .kasko_calculator .calculator_body .step_item.active{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step7 label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step7 label input[type=text]{
+    font-size: 20px;
+    font-family: 'PTSans Caption Bold';
+    padding: 7px 15px;
+    background-color: #fafafa;
+    border: 1px solid #e3e3e3;
+    max-width: 112px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    line-height: 1;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step7 label input[type=text]:focus{
+    color: #199bc5;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step7 .step_question{
+    margin-bottom: 11px;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .step_list{
+    display: none;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .step_list.active{
+    display: block;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .step_list .step_title{
+    font-size: 16px;
+    color: #222222;
+    font-family: 'PTSans Caption Bold';
+    margin-bottom: 15px;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 input[type=range]{
+    width: 100%;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 label{
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 10px;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .answer_item{
+    display: flex;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .answer_item label{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #666666;
+    margin-right: 13px;
+    position: relative;
+    padding: 5px 10px;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .answer_item input[type=radio]:checked ~ span{
+    position: absolute;
+    background-color: #e4eef9;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 8px;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 input[type=text]{
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'PTSans Caption Bold';
+    color: #222222;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .contacts input{
+    border-bottom: 1px solid #e0e4e9;
+    padding: 15px 20px;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .contacts input,
+.kasko .kasko_calculator .calculator_body .step_item.step13 .contacts input::placeholder{
+    color: #666666;
+    font-family: 'PTSans Caption Regular';
+    border-radius: 0;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .contacts input{
+    color: #000;
+}
+.kasko .kasko_calculator .calculator_body .step_item.step13 .action{
+    padding-top: 25px;
+    text-align: center;
+    margin-top: 55px;
+    border-top: 1px solid #e6edf3;
+    color: #666666;
+    text-transform: uppercase;
+    font-family: 'PTSans Caption Bold';
+}
+.kasko .kasko_calculator .calculator_body .step_item .btn_confirm{
+    font-size: 14px;
+    font-family: 'PTSans Caption Bold';
+    color: #fff;
+    padding: 12px 30px;
+    background-color: #199bc5;
+    border-radius: 25px;
+}
+.kasko .kasko_calculator .calculator_body .step_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.kasko .kasko_calculator .calculator_body .step_list label{
+    cursor: pointer;
+}
+.kasko .kasko_calculator .calculator_body .step_list label input[type=radio]{
+    display: none;
+}
+.kasko .kasko_calculator .calculator_body .step_list label input[type=range]{
+    height: 3px;
+}
+.kasko .kasko_calculator .calculator_body .step_list  .list_item{
+    color: #666666;
+    font-family: 'PTSans Caption Bold';
+    font-size: 16px;
+    margin-right: 30px;
+}
+.kasko .kasko_calculator .calculator_body .automobile_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.kasko .kasko_calculator .calculator_body .automobile_list .list_block{
+    flex: 0 0 auto;
+    width: 23%;
+}
+.kasko .kasko_calculator .calculator_body .automobile_list .list_block .list_item{
+    margin-bottom: 20px;
+}
+.kasko .kasko_calculator .calculator_body .automobile_list .list_block .list_header{
+    font-family: 'PTSans Caption Bold';
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.kasko .kasko_calculator .calculator_body .automobile_list .list_block .list_items{
+    display: flex;
+    flex-direction: column;
+}
+.kasko .kasko_calculator .calculator_body .automobile_list .list_block .list_items label{
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666666;
+    font-family: 'PTSans Caption Regular';
+}
+.kasko .kasko_calculator .calculator_body .automobile_list .list_block .list_items label:last-child{
+    margin-bottom: 0;
+}
+.kasko .kasko_calculator .calculator_body .automobile_list .list_block .list_items label input{
+    display: none;
+}
+
+.kasko .companies{
+    padding: 100px 0 70px 0;
+}
+.kasko .no-js .owl-carousel,.kasko .owl-carousel.owl-loaded{
+    border: none;
+    position: relative;
+}
+.kasko .companies_block{
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.kasko .companies_block .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    align-items: center;
+    z-index: -1;
+}
+.kasko .companies_block .owl-nav .owl-next,
+.kasko .companies_block .owl-nav .owl-prev{
+    outline: none;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+   
+}
+.kasko .companies_block .owl-nav .owl-prev{
+    transform: translateX(-70px);
+}
+.kasko .companies_block .owl-nav .owl-next{
+    transform: translateX(70px);
+}
+
+.kasko .reasons{
+    padding: 95px 0 105px 0;
+    background-color: #fafafa;
+}
+.kasko .reasons .section-title span{
+    color: #33cc66;
+}
+.kasko .reasons .reason_center img{
+    width: 100%;
+}
+.kasko .reasons .col-md-4 .reason_item{
+    display: flex;
+    margin-bottom: 30px;
+}
+.kasko .reasons .col-md-4 .reason_item .reason_image{
+    margin-right: 15px;
+}
+.kasko .reasons .col-md-4:last-child .reason_item{
+    padding-left: 40px;
+}
+.kasko .reasons .col-md-4 .reason_item .reason_title{
+    font-family: 'PTSans Caption Bold';
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.kasko .reasons .col-md-4 .reason_item .reason_subtitle{
+    font-size: 15px;
+    color: #666666;
+    line-height: 24px;
+}
+
+.kasko .questions-answers{
+    padding: 0;
+}
+.kasko .questions-answers .container{
+    padding: 50px 0;
+    background-color: #fcfbfb;
+}
+
+.kasko .straxovanie2{
+    background-color: #fff;
+}
+
+
+
+
+.kasko .rating{
+    padding: 100px 0;
+}
+.kasko .rating .rating_block{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #e8e8e8;
+}
+.kasko .rating .rating_block .rating_item{
+    flex: 0 0 auto;
+    width: 50%;
+    border-right: 1px solid #e8e8e8;
+}
+.kasko .rating .rating_block .rating_item:last-child{
+    border-right: 0;
+}
+.kasko .rating .rating_block .rating_item .rating_header{
+    background-color: #fafafa;
+    padding: 20px 30px 10px 30px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.kasko .rating .rating_block .rating_item .rating_header .rating_name{
+    font-family: 'PTSans Caption Bold';
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.kasko .rating .rating_block .rating_item .rating_header .rating_info{
+    display: flex;
+    font-size: 15px;
+    color: #666666;
+}
+.kasko .rating .rating_block .rating_item .rating_header .rating_info .company_name{
+    flex: 0 0 auto;
+    width: 68%;
+}
+.kasko .rating .rating_block .rating_item .rating_header .rating_info .company_rating_type{
+    flex: 0 0 auto;
+    width: 32%;
+}
+.kasko .rating .rating_block .rating_item .rating_body{
+    padding: 20px 30px 40px 30px;
+}
+.kasko .rating .rating_block .rating_item .rating_body ol{
+    counter-reset: item;
+    list-style-type: none;
+}
+.kasko .rating .rating_block .rating_item .rating_body ol li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'PTSans Caption Regular';
+}
+.kasko .rating .rating_block .rating_item .rating_body ol li .company_name{
+    flex: 0 0 auto;
+    width: calc(68% - 40px);
+    font-size: 16px;
+    color: #666666;
+}
+.kasko .rating .rating_block .rating_item .rating_body ol li .company_rating{
+    flex: 0 0 auto;
+    width: 32%;
+    font-size: 15px;
+    color: #000;
+}
+.kasko .rating .rating_block .rating_item .rating_body ol li:before{
+    content: counter(item) "  "; 
+    counter-increment: item;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #199bc5;
+    color: #fff;
+    margin-right: 15px;
+}
+.kasko .reasons .reasons_block.mobile{
+    display: none;
+}
+
+
+.kasko .how_much{
+    padding: 75px 0;
+}
+.kasko .how_much .main_screen__title::after{
+    background-color: #33cc66;
+}
+.kasko .how_much .main_screen__subtitle{
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+.kasko .how_much .how_much_block{
+    border: 1px solid #ededed;
+    background-color: #fdfdfd;
+    padding: 30px 35px;
+    margin-bottom: 35px;
+}
+.kasko .how_much .how_much_block .col-md-3:nth-child(-n+4) .how_much_item{
+    margin-bottom: 25px;
+}
+.kasko .how_much .how_much_block .col-md-3:nth-child(-n+5) .how_much_item{
+    margin-bottom: 25px;
+}
+.kasko .how_much .how_much_block .how_much_item{
+    display: flex;
+    align-items: center;
+}
+.kasko .how_much .how_much_block .how_much_item .how_much_image{
+    margin-right: 15px;
+}
+.kasko .how_much .how_much_block .how_much_item .how_much_name{
+    font-size: 17px;
+    font-family: 'PTSans Caption Bold';
+}
+.kasko .how_much_action{
+    margin-bottom: 75px;
+}
+.kasko .how_much_action p{
+    margin-bottom: 30px;
+}
+.kasko .how_much_action .action_btn{
+    font-size: 15px;
+    font-family: 'PTSans Caption Bold';
+    color: #fff;
+    background-color: #33cc66;
+    padding: 20px 40px;
+    display: inline-block;
+}
+.kasko .how_much_action .action_btn:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+
+
+.kasko .how_to_buy{
+    margin-bottom: 40px;
+}
+
+.kasko .how_to_buy .section_title{
+    font-family: 'PTSans Caption Bold';
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.kasko .how_to_buy .how_to_buy_text p{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 35px;
+}
+.kasko .how_to_buy .how_to_buy_text p:last-child{
+    margin-bottom: 0;
+    font-family: 'PTSans Caption Bold';
+    font-size: 18px;
+}
+.kasko .how_to_buy .how_to_buy_text p:last-child a{
+    text-decoration: underline;
+}
+
+
+
+.kasko .have_questions{
+    padding: 40px 35px;
+    background-color: #f6fafc;
+    border: 2px solid #199bc5;
+    border-radius: 8px;
+}
+.kasko .have_questions .block_title{
+    font-family: 'PTSans Caption Bold';
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.kasko .have_questions .block_subtitle{
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+.kasko .have_questions .action_block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.kasko .have_questions .action_block .action_item{
+    margin-right: 8px;
+}
+.kasko .have_questions .action_block .action_item:last-child{
+    margin-left: 20px;
+}
+.kasko .have_questions .action_block .action_item .btn{
+    display: inline-block;
+    padding: 17px  50px;
+    border-radius: 50px;
+    border: 1px solid #199bc5;
+    font-family: 'PTSans Caption Bold';
+    color: #199bc5;
+}
+.kasko .have_questions .action_block .action_item .btn.btn_blue{
+    background-color: #199bc5;
+    color: #fff;
+}
+.kasko .have_questions .action_block .action_item .btn:hover{
+    background-color: #199bc5;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+.kasko .have_questions .action_block .action_item .btn.btn_blue:hover{
+    background-color: #fff;
+    color: #199bc5;
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+.kasko .have_questions .action_block .action_item .call_back{
+    font-family: 'PTSans Caption Bold';
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+
+
+.kasko .popular_models{
+    margin-bottom: 40px;
+}
+.kasko .popular_models .container{
+    background-color: #fcfbfb;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.kasko .popular_models .block_title{
+    font-family: 'PTSans Caption Bold';
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.kasko .popular_models .popular_item{
+    margin-bottom: 25px;
+}
+.kasko .popular_models .col-md-3:nth-last-child(-n+4) .popular_item{
+    margin-bottom: 0;
+}
+.kasko .popular_models .popular_item a{
+    font-size: 15px;
+    color: #666666;
+    font-family: 'PTSans Caption Regular';
+}
+
+
+#confirm_sms .modal-dialog{
+    max-width: 435px;
+}
+#confirm_sms .modal-dialog .modal-body{
+    padding: 45px 40px;
+    box-shadow: 0 0 73px rgba(0,0,0,.15);
+    position: relative;
+}
+#confirm_sms .modal-dialog .modal-body:after{
+    content: '';
+    display: block;
+    height: calc(100% + 16px);
+    width: calc(100% + 16px);
+    background-color: #f7f7f7;
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    z-index: -1;
+    opacity: .4;
+    border-radius: 8px;
+}
+#confirm_sms .modal-dialog .modal-body .modal_title{
+    font-size: 24px;
+    color: #222222;
+    font-family: 'PTSans Caption Bold';
+    margin-bottom: 20px;
+}
+#confirm_sms .modal-dialog .modal-body .confirm_item{
+    margin-bottom: 20px;
+}
+#confirm_sms .modal-dialog .modal-body label{
+    font-size: 15px;
+    color: #999999;
+}
+#confirm_sms .modal-dialog .modal-body input{
+    color: #666666;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #e0e4e9;
+    box-shadow: none;
+}
+#confirm_sms .modal-dialog .modal-body .action{
+    display: flex;
+}
+#confirm_sms .modal-dialog .modal-body .action button{
+    font-size: 14px;
+    color: #fff;
+    background-color: #199bc5;
+    border-radius: 50px;
+    padding: 12px 50px;
+}
+
+#confirm_sms .modal-dialog .modal-body .resend{
+    font-size: 12px;
+    color: #999999;
+}
+@media (max-width: 1400px){
+    .kasko .companies_block .owl-nav .owl-prev{
+        transform: translateX(-30px);
+    }
+    .kasko .companies_block .owl-nav .owl-next{
+        transform: translateX(30px);
+    }
+}
+@media (max-width: 769px){
+    .inner{
+        padding: 0 20px;
+    }
+    .kasko .companies_block .owl-nav .owl-next, .kasko .companies_block .owl-nav .owl-prev{
+        display: none;
+    }
+    .kasko .reasons{
+        padding: 60px 0;
+    }
+    .kasko .reasons .col-md-4:nth-child(2){
+        display: none;
+    }
+    .kasko .reasons .col-6:first-child{
+        padding-right: 15px;
+    }
+    .kasko .reasons .col-6:last-child{
+        padding-left: 15px;
+    }
+    .kasko .reasons .reason_item br{
+        display: none;
+    }
+    .kasko .rating{
+        padding: 65px 0;
+    }
+    .kasko .rating .rating_block{
+        border: none;
+    }
+    .kasko .rating .rating_block .rating_item{
+        width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #e8e8e8 !important;
+    }
+    .kasko .have_questions .action_block .action_item{
+        margin-bottom: 10px;
+    }
+    .kasko .have_questions .action_block .action_item:last-child{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px){
+    .kasko .main_screen .main_screen__title{
+        font-size: 26px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .kasko .kasko_calculator .calculator_block{
+        padding: 22px 24px;
+        border-radius: 20px;
+    }
+    .kasko .kasko_calculator .calculator_block::before{
+        border-radius: 20px;
+    }
+    .kasko .kasko_calculator .calculator_block .calculator_title{
+        font-size: 22px;
+        margin-right: 25%;
+    }
+    .kasko .kasko_calculator .calculator_block .calculator_progress .progress_item .progress_name{
+        display: none;
+    }
+    .kasko .kasko_calculator .calculator_block .calculator_progress{
+        counter-reset: item;
+    }
+    .kasko .kasko_calculator .calculator_block .calculator_progress .progress_item:before{
+        content: counter(item) "  "; 
+        counter-increment: item;
+        font-family: 'PTSans Caption Bold';
+        font-size: 14px;
+        margin-left: 2px;
+    }
+    .kasko .kasko_calculator .calculator_block .calculator_progress .progress_item.active:before{
+        color: #199bc5;
+    }
+    
+    .kasko .kasko_calculator .calculator_body .step_question{
+        font-size: 14px;
+        max-width: 75%;
+    }
+    .kasko .kasko_calculator .calculator_body .calculator_results ul{
+        flex-wrap: wrap;
+    }
+    .kasko .kasko_calculator .calculator_body .calculator_results ul li{
+        margin-bottom: 15px;
+    }
+    .kasko .kasko_calculator .calculator_body .automobile_list{
+        max-height: 315px;
+        overflow: hidden;
+    }
+    .kasko .kasko_calculator .calculator_body .automobile_list .list_block{
+        width: 100%;
+    }
+    .kasko .kasko_calculator .calculator_body .automobile_list .list_block{
+        margin-bottom: 10px;
+    }
+    .kasko .kasko_calculator .calculator_body .automobile_list .list_block .list_header{
+        margin-bottom: 6px;
+    }
+    .kasko .kasko_calculator .calculator_body .step_list .list_item{
+        margin-bottom: 15px;
+    }
+    .kasko .kasko_calculator .calculator_body .step_item.step13 .step_list .step_ques_item{
+        margin-bottom: 30px;
+    }
+    .kasko .kasko_calculator .calculator_body .step_item.step13 .mb-3{
+        margin-bottom: 0 !important;
+    }
+    .kasko .kasko_calculator .calculator_body .step_item.step13 .answer_item label{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .inner{
+        padding: 0 15px !important;
+    }
+    .kasko .owl-carousel .owl-item img{
+        width: auto;
+    }
+    .kasko .companies_block .owl-nav{
+        z-index: 10;
+    }
+    .kasko .companies_block .owl-nav .owl-next, .kasko .companies_block .owl-nav .owl-prev{
+        display: block;
+        transform: translate(0);
+    }
+
+    .kasko .rating{
+        padding: 45px 0;
+    }
+    .kasko .rating .inner{
+        padding: 0 !important;
+    }
+    .kasko .rating .rating_block .rating_item .rating_header,
+    .kasko .rating .rating_block .rating_item .rating_body{
+        padding: 20px 15px;
+    }
+    .kasko .rating .rating_block .rating_item .rating_header .rating_name{
+        font-size: 16px;
+    }
+    .kasko .rating .rating_block .rating_item .rating_header .rating_info .company_name,
+    .kasko .rating .rating_block .rating_item .rating_header .rating_info .company_rating_type{
+        width: 50%;
+    }
+    .kasko .rating .rating_block .rating_item .rating_body ol li .company_name{
+        width: calc(55% - 40px);
+        font-size: 14px;
+    }
+    .kasko .rating .rating_block .rating_item .rating_body ol li .company_name br{
+        display: none;
+    }
+    .kasko .rating .rating_block .rating_item .rating_body ol li .company_rating{
+        width: 45%;
+        text-align: center;
+        font-size: 14px;
+    }
+    .kasko .rating .rating_block .rating_item .rating_body ol li:before{
+        margin-right: 7px;
+    }
+    .kasko .rating .rating_block .rating_item{
+        margin-bottom: 10px;
+    }
+
+    .kasko .reasons .reasons_block{
+        display: none;
+    }
+    .kasko .reasons .reasons_block.mobile{
+        display: block;
+    }
+    .kasko .reasons .reasons_block.mobile .owl-item img{
+        display: inline;
+    }
+    .kasko .reasons .reasons_block.mobile .reason_image{
+        margin-bottom: 15px;
+    }
+    .kasko .reasons .reasons_block.mobile .reason_title{
+        font-family: 'PTSans Caption Bold';
+        font-size: 18px;
+        margin: 0 30px 20px 30px;
+    }
+    .kasko .reasons .reasons_block.mobile .reason_subtitle{
+        font-size: 15px;
+        color: #666666;
+        margin-bottom: 35px;
+    }
+    .kasko .reasons .reasons_block.mobile .owl-dots{
+        display: flex;
+        justify-content: center;
+    }
+    .kasko .reasons .reasons_block.mobile .owl-dot{
+        height: 10px;
+        width: 10px;
+        background-color: #e0e0de;
+        border-radius: 50%;
+        margin: 0 5px;
+        outline: none;
+    }
+    .kasko .reasons .reasons_block.mobile .owl-dot.active{
+        background-color: #33cc66;
+    }
+    .kasko .have_questions{
+        padding: 20px;
+    }
+    .kasko .have_questions .action_block .action_item{
+        width: 100%;
+        flex: 0 0 auto;
+        text-align: center;
+    }
+    .kasko .have_questions .action_block .action_item .btn{
+        padding: 17px 0;
+        width: 100%;
+    }
+    .kasko .how_to_buy .section_title,.main_screen__title{
+        font-size: 24px;
+    }
+    .kasko .popular_models .container{
+        padding: 20px 15px !important;
+    }
+    .products__items .products__itemsbox{
+        flex: 0 0 100% !important;
+    }
+}
